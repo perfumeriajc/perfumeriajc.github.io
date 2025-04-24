@@ -3,7 +3,15 @@
       "title": "PURR KATY PERRY 100 ML PARA MUJER",
       "price": 112000,
       "image": "https://d1b50uin55dq3m.cloudfront.net/eyJidWNrZXQiOiJ3YTEweC52MiIsImtleSI6IjAyN2Q3ZTM0LTI3ODAtNDA5MC1iNDllLWI4YjQ0Nzg2NDYxOS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEwODAsImhlaWdodCI6MTA4MCwiZml0IjoiY29udGFpbiJ9LCJyb3RhdGUiOm51bGx9fQ==",
-      "category": "adv",
+      "category": "Femenino",
+      "fragrance": {
+        "family": "Floral Frutal",
+        "notes": {
+          "top": ["Durazno (melocotón)", "Manzana roja", "Gardenia", "Bambú"],
+          "middle": ["Jazmín", "Fresia", "Rosa"],
+          "base": ["Vainilla", "Coco", "Orquídea", "Almizcle", "Sándalo", "Ámbar"]
+        }
+      },
       "link": "product-details.html",
       "Des": "Purr de Katy Perry es una fragancia de la familia olfativa Floral Frutal para Mujeres.Las Notas de Salida son durazno (melocotón), manzana roja, gardenia y bambú; las Notas de Corazón son jazmín, fresia y rosa; las Notas de Fondo son vainilla, coco, orquídea, almizcle, sándalo y ámbar."
     },
@@ -12,7 +20,15 @@
       "price": 120000,
       "oldPrice": 32,
       "image": "https://d1b50uin55dq3m.cloudfront.net/eyJidWNrZXQiOiJ3YTEweC52MiIsImtleSI6ImZlMTQxNGM2LWE5YzctNDU0NS05ODk0LWYxZTYwYTI0YmYzMS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEwODAsImhlaWdodCI6MTA4MCwiZml0IjoiY29udGFpbiJ9LCJyb3RhdGUiOm51bGx9fQ==",
-      "category": "str",
+      "category": "Femenino",
+      "fragrance": {
+        "family": "Oriental Floral",
+        "notes": {
+          "top": ["Ciruela", "Azafrán", "Iris"],
+          "middle": ["Raíz de lirio", "Jazmín sambac", "Rosa búlgara"],
+          "base": ["Vetiver", "Papiro", "Liquidámbar"]
+        }
+      },
       "link": "product-details.html",
       "Des": "Decadence de Marc Jacobs es una fragancia floral ambarina para mujeres. Decadence se lanzó en 2015. Decadence fue creada por Annie Buzantian y Ann Gottlieb. Las Notas de Salida son ciruela, azafrán y iris; las Notas de Corazón son raíz de lirio, jazmín sambac y rosa búlgara; las Notas de Fondo son vetiver, papiro y liquidámbar."
     },
@@ -21,7 +37,15 @@
       "price": 96000,
       "oldPrice": 32,
       "image": "https://d1b50uin55dq3m.cloudfront.net/eyJidWNrZXQiOiJ3YTEweC52MiIsImtleSI6ImUzNDcyMGY1LTkyYTUtNGMxOC05Njc0LTMyY2I0MmY2ZGJlOS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEwODAsImhlaWdodCI6MTA4MCwiZml0IjoiY29udGFpbiJ9LCJyb3RhdGUiOm51bGx9fQ==",
-      "category": "str",
+      "category": "Femenino",
+      "fragrance": {
+        "family": "Oriental Floral",
+        "notes": {
+          "top": ["Ciruela", "Chabacano", "Sal marina"],
+          "middle": ["Notas florales", "Flor de jengibre"],
+          "base": ["Vainilla", "Haba tonka", "Ámbar", "Arena"]
+        }
+      },
       "link": "product-details.html",
       "Des": "Olympea Legend de Paco Rabanne es una fragancia floral ambarina para mujeres. Olympea Legend se lanzó en 2019. La Nariz detrás de esta fragrancia es Loc Dong. Las Notas de Salida son ciruela, chabacano y sal marina; las Notas de Corazón son notas florales y flor de jengibre; las Notas de Fondo son vainilla, haba tonka, ámbar y arena."
     },
@@ -30,7 +54,15 @@
       "price": 340000,
       "oldPrice": 32,
       "image": "https://lmd.com.co/cdn/shop/files/Perfume_Haya_Lattafa.webp?v=1727221065",
-      "category": "str",
+      "category": "Femenino",
+      "fragrance": {
+        "family": "Floral Frutal",
+        "notes": {
+          "top": ["Champaña", "Fresa", "Rosa", "Naranja tangerina", "Naranja sanguina"],
+          "middle": ["Gardenia", "Jazmín", "Orquídea de vainilla"],
+          "base": ["Ámbar", "Sándalo", "Castaña"]
+        }
+      },
       "link": "product-details.html",
       "Des": "Haya de Lattafa Perfumes es una fragancia de la familia olfativa para Mujeres. Esta fragrancia es nueva. Haya se lanzó en 2022. Las Notas de Salida son champaña, fresa, rosa, naranja tangerina y naranja sanguina; las Notas de Corazón son gardenia, jazmín y orquídea de vainilla; las Notas de Fondo son ámbar, sándalo y castaña."
     },
@@ -39,7 +71,15 @@
       "price": 240000,
       "oldPrice": 32,
       "image": "https://d1b50uin55dq3m.cloudfront.net/eyJidWNrZXQiOiJ3YTEweC52MiIsImtleSI6ImQwMDUzZWY1LTQ5YWYtNGViOS1hYzQwLTQ3OWIxNTY3NTllMC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEwODAsImhlaWdodCI6MTA4MCwiZml0IjoiY29udGFpbiJ9LCJyb3RhdGUiOm51bGx9fQ==",
-      "category": "str",
+      "category": "Femenino",
+      "fragrance": {
+        "family": "Ámbar amaderado",
+        "notes": {
+          "top": ["Vainilla", "Incienso", "Pomelo"],
+          "middle": ["Ambreta (malva almizclera)", "Salvia"],
+          "base": ["Incienso", "Haba tonka"]
+        }
+      },
       "link": "product-details.html",
       "Des": "El mundo según Arthur de Penhaligon's es una fragancia ámbar especiada para mujeres y hombres. El mundo según Arthur se lanzó en 2021. Las Notas de Salida son vainilla, incienso y pomelo; las Notas de Corazón son ambreta (malva almizclera) y salvia; las Notas de Fondo son incienso y haba tonka."
     },    
