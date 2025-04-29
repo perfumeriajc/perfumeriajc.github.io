@@ -373,7 +373,14 @@
     "oldPrice": "0",
     "image": "https://d1b50uin55dq3m.cloudfront.net/eyJidWNrZXQiOiJ3YTEweC52MiIsImtleSI6IjM2ZWFlMDJmLWFiZWUtNGIwMS04MzhhLTY1NjIzYmEzOWE3Ny5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6ImNvdmVyIn0sInJvdGF0ZSI6bnVsbH19",
     "category": "Femenino",
-    "fragrance": "",
+    "fragrance": {
+      "family": "Floral Frutal",
+      "notes": {
+        "top": ["Fresa", "Frambuesa", "Lichi", "Ciruela"],
+        "middle": ["Rosa", "Magnolia"],
+        "base": ["Vainilla", "Ámbar"]
+      }
+    },
     "link": "product-details.html?id=21",
     "Des": "Esta fragancia abre con una salida frutal de fresa, frambuesa, lichi y ciruela. En las notas de corazón encontramos rosa y magnolia que le dan un toque suave, agradable y versátil a la fragancia. En las notas de fondo tenemos la clásica combinación gourmand de vainilla y ámbar.Es una fragancia del nuevo concepto árabe llamado AHLI, esta colección de perfumes viene en concentración Eau de Parfum, dándote una duración mínima de 6-8 horas aproximadamente."
 },
@@ -384,7 +391,14 @@
     "oldPrice": "0",
     "image": "https://d1b50uin55dq3m.cloudfront.net/eyJidWNrZXQiOiJ3YTEweC52MiIsImtleSI6IjQwNWEyYjBlLTAwZmMtNDIxOC05Y2NlLWZlNGQzY2I2MWU1Mi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjUwMCwiaGVpZ2h0Ijo1MDAsImZpdCI6ImNvdmVyIn0sInJvdGF0ZSI6bnVsbH19",
     "category": "Femenino",
-    "fragrance": "",
+    "fragrance": {
+      "family": "Oriental",
+      "notes": {
+        "top": ["Rosa", "Frambuesa", "Bergamota"],
+        "middle": ["Ámbar", "Vainilla", "Madera de oud"],
+        "base": ["Sándalo", "Pachulí"]
+      }
+    },
     "link": "product-details.html?id=22",
     "Des": "PERFUME AL HARAMAIN AMBER OUD ROUGE ROMPE TODAS LAS REGLAS DE LOS PERFUMES Y REINVENTA SU FAMILIA OLFATIVA. LA DULZURA DE LA VAINILLA DA PASO A LA AFRODISIACA PERSONALIDAD DEE LAS NOTAS DULCES. MIENTRAS LAS ESPECTACULARES AMBER Y EL VIBRANTE VAINILLA LE DAN UN TOQUE MODERNO A LA FORMULA FINAL."
 },
@@ -395,7 +409,14 @@
     "oldPrice": "0",
     "image": "https://d1b50uin55dq3m.cloudfront.net/eyJidWNrZXQiOiJ3YTEweC52MiIsImtleSI6ImZhZDk2OTFmLWFkMDktNDRmNy1iMWJmLTY3Yjg5ZjlkZmJmMC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjUwMCwiaGVpZ2h0Ijo1MDAsImZpdCI6ImNvdmVyIn0sInJvdGF0ZSI6bnVsbH19",
     "category": "Femenino",
-    "fragrance": "",
+    "fragrance": {
+      "family": "Floral",
+      "notes": {
+        "top": ["Bergamota", "Limón (lima ácida)", "Lavanda", "Rosa"],
+        "middle": ["Grosellas negras", "Jazmín", "Lirio de los valles (muguete)", "Raíz de lirio"],
+        "base": ["Sándalo", "Ámbar"]
+      }
+    },
     "link": "product-details.html?id=23",
     "Des": "L'Aventure Blanche de Al Haramain Perfumes es una fragancia de la familia olfativa Floral para Mujeres. L'Aventure Blanche se lanzó en 2017. Las Notas de Salida son bergamota, limón (lima ácida), lavanda y rosa; las Notas de Corazón son grosellas negras, jazmín, lirio de los valles (muguete) y raíz de lirio; las Notas de Fondo son sándalo y ámbar."
 },
@@ -406,7 +427,14 @@
     "oldPrice": "0",
     "image": "https://d1b50uin55dq3m.cloudfront.net/eyJidWNrZXQiOiJ3YTEweC52MiIsImtleSI6ImNiYjM1ZTVmLWRiOTYtNGIyOC05Y2Y3LWZmMzJmYmQwNGVhOC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjUwMCwiaGVpZ2h0Ijo1MDAsImZpdCI6ImNvdmVyIn0sInJvdGF0ZSI6bnVsbH19",
     "category": "Femenino",
-    "fragrance": "",
+    "fragrance": {
+      "family": "Ámbar Floral",
+      "notes": {
+        "top": ["Jazmín sambac (sampaguita)"],
+        "middle": ["Cachemira"],
+        "base": ["Ámbar"]
+      }
+    },
     "link": "product-details.html?id=24",
     "Des": "Alien de Mugler es una fragancia de la familia olfativa Amber Woody para mujeres. Alien se lanzó en 2005. Alien fue creado por Dominique Ropion y Laurent Bruyere. La Nota de Salida es jazmín sambac; la Nota de Corazón es Cachemira; la Nota de Fondo es ámbar."
 },
@@ -417,7 +445,14 @@
     "oldPrice": "0",
     "image": "https://d1b50uin55dq3m.cloudfront.net/eyJidWNrZXQiOiJ3YTEweC52MiIsImtleSI6ImQxZTViM2IwLWRhMGMtNDc4Yy1hOGY1LTNiZjFmMTAxMTdiYS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjUwMCwiaGVpZ2h0Ijo1MDAsImZpdCI6ImNvdmVyIn0sInJvdGF0ZSI6bnVsbH19",
     "category": "Femenino",
-    "fragrance": "",
+    "fragrance": {
+      "family": "Floral Frutal",
+      "notes": {
+        "top": ["Bergamota", "Limón (lima ácida)", "Mandarina"],
+        "middle": ["Rosa", "Jazmín"],
+        "base": ["Sándalo", "Almizcle"]
+      }
+    },
     "link": "product-details.html?id=25",
     "Des": "Perfume Ana Al Awwal de Nusuk, Colonia Ana Al Awwal de Nusuk. Es una fragancia unisex pensada para que la disfruten tanto hombres como mujeres. Este perfume es un aroma afrutado fresco con un lado suave y dulce. Una personalidad tranquila con una textura aireada que es perfecta para el uso diario. Esta refrescante mezcla te brinda horas de un ligero aroma al aire libre. Es una mezcla de notas frutales, notas verdes y notas de madera. Un aroma de alta calidad y larga duración con una presentación limpia y fresca"
 },
@@ -428,7 +463,14 @@
     "oldPrice": "0",
     "image": "https://d1b50uin55dq3m.cloudfront.net/eyJidWNrZXQiOiJ3YTEweC52MiIsImtleSI6ImI5OTdjYWU4LWRiM2ItNDcwNC04Y2JmLWMzMzg4OWZmNjM2NC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjUwMCwiaGVpZ2h0Ijo1MDAsImZpdCI6ImNvdmVyIn0sInJvdGF0ZSI6bnVsbH19",
     "category": "Femenino",
-    "fragrance": "",
+    "fragrance": {
+      "family": "Oriental Floral",
+      "notes": {
+        "top": ["Mandarina", "Azafrán", "Tomillo"],
+        "middle": ["Azucena", "Orquídea", "Ylang-ylang"],
+        "base": ["Haba tonka", "Vainilla", "Palo de rosa de Brasil", "Musgo de roble"]
+      }
+    },
     "link": "product-details.html?id=26",
     "Des": "La fragancia Ande ou Demon fue Lanzada en 2006 y es perfecta para aquellas mujeres que disfrutan los aromas orientales y los utilizan como arma de seducción, a través de una fragancia sutil y delicada. Reflejando Notas de salida: mandarina, azafrán y tomillo.\nNotas de corazón: azucena, orquídea y ylang-ylang.\nNotas de fondo: haba tonka, vainilla, palo de rosa de brasil y musgo de roble."
 },
@@ -439,7 +481,14 @@
     "oldPrice": "0",
     "image": "https://d1b50uin55dq3m.cloudfront.net/eyJidWNrZXQiOiJ3YTEweC52MiIsImtleSI6IjRjNzBkZGMwLTYxNWEtNDE1MC04NTQ2LWEwZWE5NzFmNDlhMi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjUwMCwiaGVpZ2h0Ijo1MDAsImZpdCI6ImNvdmVyIn0sInJvdGF0ZSI6bnVsbH19",
     "category": "Femenino",
-    "fragrance": "",
+    "fragrance": {
+      "family": "Floral Frutal Gourmand",
+      "notes": {
+        "top": ["Lavanda", "Pera", "Bergamota"],
+        "middle": ["Crema batida", "Praliné", "Coco", "Orquídea de vainilla"],
+        "base": ["Almizcle", "Notas amaderadas"]
+      }
+    },
     "link": "product-details.html?id=27",
     "Des": "Cloud de Ariana Grande es una fragancia de la familia olfativa Floral Frutal Gourmand para Mujeres\nSe lanzó en 2018\nSecado: maderas rubias cremosas de almizcle sensual\nLa Nariz detrás de esta fragancia es Clement Gavarry\nLas Notas de salida son lavanda, pera y bergamota; las notas de corazón son crema batida, praliné, coco y orquídea de vainilla; las notas de fondo son almizcle y notas amaderada"
 },
@@ -450,7 +499,14 @@
     "oldPrice": "0",
     "image": "https://d1b50uin55dq3m.cloudfront.net/eyJidWNrZXQiOiJ3YTEweC52MiIsImtleSI6IjBhYWE3Y2M5LTA1YWEtNGQ1MS1iZjhkLWE5YWQzY2E3MTRlMS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjUwMCwiaGVpZ2h0Ijo1MDAsImZpdCI6ImNvdmVyIn0sInJvdGF0ZSI6bnVsbH19",
     "category": "Femenino",
-    "fragrance": "",
+    "fragrance": {
+      "family": "Floral Frutal Gourmand",
+      "notes": {
+        "top": ["Mora", "Bergamota italiana", "Pera"],
+        "middle": ["Jazmín sambac (sampaguita)", "Frangipani (plumeria, plumaria, atapaima)", "Madreselva"],
+        "base": ["Vainilla", "Malvavisco"]
+      }
+    },
     "link": "product-details.html?id=28",
     "Des": "Año de lanzamiento: 2016. Notas altas: Mora, bergamota italiana, pera. Notas medias: Jazmín Sambac, Frangipani, Madreselva. Fragancias de base: Vainilla, malvavisco. Casa de diseño: Ariana Grande. Nombre del aroma: Dulce como caramelos. Género: Mujer. Categoría: Perfume. Subtipo: Spray EDP. Tamaño: 3.4 onzas Código de barras: 812256021780. Ariana Grande Ladies Sweet Like Candy EDP Spray 3.4 oz"
 },
@@ -461,7 +517,14 @@
     "oldPrice": "0",
     "image": "https://d1b50uin55dq3m.cloudfront.net/eyJidWNrZXQiOiJ3YTEweC52MiIsImtleSI6IjU5Mzg2MDgyLTQ4NzAtNDVkZi04ZDRjLTQ3MTFjYzAyNjU1OC5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjUwMCwiaGVpZ2h0Ijo1MDAsImZpdCI6ImNvdmVyIn0sInJvdGF0ZSI6bnVsbH19",
     "category": "Femenino",
-    "fragrance": "",
+    "fragrance": {
+      "family": "Floral Frutal",
+      "notes": {
+        "top": ["Pera", "Frambuesa"],
+        "middle": ["Coco", "Rosa"],
+        "base": ["Almizcle"]
+      }
+    },
     "link": "product-details.html?id=29",
     "Des": "Las ráfagas se abren con jugosas notas de pera blanca brillante y frambuesa silvestre que suavizan con un corazón de coco cremoso y delicados pétalos de rosa rosa. El almizcle aterciopelado divino infunde el clásico Ari sass, mientras que el azúcar macaroon añade feminidad lúdica. Lleno de actitud, lleno de dulzura."
 },
@@ -472,7 +535,14 @@
     "oldPrice": "0",
     "image": "https://d1b50uin55dq3m.cloudfront.net/eyJidWNrZXQiOiJ3YTEweC52MiIsImtleSI6IjVkN2U2YzgxLWI3YzMtNGE5My1iMDg2LTgzMmJkYzE5MzAwNS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjUwMCwiaGVpZ2h0Ijo1MDAsImZpdCI6ImNvdmVyIn0sInJvdGF0ZSI6bnVsbH19",
     "category": "Femenino",
-    "fragrance": "",
+    "fragrance": {
+      "family": "Ámbar Floral",
+      "notes": {
+        "top": ["Jazmín", "Azafrán"],
+        "middle": ["Ámbar gris"],
+        "base": ["Cedro"]
+      }
+    },
     "link": "product-details.html?id=30",
     "Des": "Baccarat Rouge 540 nació de la colaboración entre la Maison Francis Kurkdjian y la cristalería de Baccarat, cuyo 250 aniversario celebra este «eau de parfum». La fragancia amaderada desprende una alquimia poética, una firma olfativa gráfica condensada al extremo. Las facetas aéreas del jazmín y el brillo del azafrán transportan las notas minerales del ámbar gris y las tonalidades amaderadas del cedro recién cortado. Luminoso y distintivo, Baccarat Rouge 540 «eau de parfum» se posa sobre la piel como un soplo foral ambarino."
 },
@@ -483,7 +553,14 @@
     "oldPrice": "0",
     "image": "https://d1b50uin55dq3m.cloudfront.net/eyJidWNrZXQiOiJ3YTEweC52MiIsImtleSI6ImE2OGIwYTQ5LTJlNTktNDc1OC1hYjIwLWE1OGY3MWIyNTFhZS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjUwMCwiaGVpZ2h0Ijo1MDAsImZpdCI6ImNvdmVyIn0sInJvdGF0ZSI6bnVsbH19",
     "category": "Femenino",
-    "fragrance": "",
+    "fragrance": {
+      "family": "Floral",
+      "notes": {
+        "top": ["Frutas"],
+        "middle": ["Incienso", "Rosa turca"],
+        "base": ["Sándalo", "Vainilla"]
+      }
+    },
     "link": "product-details.html?id=31",
     "Des": "Niche Femme de Bharara es una fragancia de la familia olfativa Floral para Mujeres. Niche Femme se lanzó en 2021. La Nota de Salida es frutas; las Notas de Corazón son incienso y rosa turca; las Notas de Fondo son sándalo y vainilla."
 },
@@ -494,7 +571,14 @@
     "oldPrice": "0",
     "image": "https://d1b50uin55dq3m.cloudfront.net/eyJidWNrZXQiOiJ3YTEweC52MiIsImtleSI6ImFlYzdkMTgwLWM1MmUtNGQ3YS1iN2I5LWQyM2ZmMzBiYWYwZC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjUwMCwiaGVpZ2h0Ijo1MDAsImZpdCI6ImNvdmVyIn0sInJvdGF0ZSI6bnVsbH19",
     "category": "Femenino",
-    "fragrance": "",
+    "fragrance": {
+      "family": "Ámbar Floral",
+      "notes": {
+        "top": ["Pera", "Pimienta rosa", "Flor de azahar"],
+        "middle": ["Café", "Jazmín", "Almendra amarga", "Regaliz"],
+        "base": ["Vainilla", "Pachulí", "Madera de cachemira", "Cedro"]
+      }
+    },
     "link": "product-details.html?id=32",
     "Des": "Black Opium de Yves Saint Laurent es una fragancia que pertenece a la familia olfativa ambarina vainilla. Las notas de salida de este perfume son pera, pimienta rosa y flor de azahar; las notas de corazón son café, jazmín, almendra amarga y regaliz; y las notas de fondo son vainilla, pachulí, madera de cachemira y cedro."
 },
@@ -505,7 +589,14 @@
     "oldPrice": "0",
     "image": "https://d1b50uin55dq3m.cloudfront.net/eyJidWNrZXQiOiJ3YTEweC52MiIsImtleSI6IjE1ZDYzZmU2LTcxOGUtNGFiYi1iM2M5LTdkNjM3YzI3ZjAxYi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjUwMCwiaGVpZ2h0Ijo1MDAsImZpdCI6ImNvdmVyIn0sInJvdGF0ZSI6bnVsbH19",
     "category": "Femenino",
-    "fragrance": "",
+    "fragrance": {
+      "family": "Floral Frutal",
+      "notes": {
+        "top": ["Flor de tamarindo", "Frutos rojos"],
+        "middle": ["Rosa", "Haba tonka"],
+        "base": ["Vainilla negra"]
+      }
+    },
     "link": "product-details.html?id=33",
     "Des": "Black XS for Her es para la Mujer actual y moderna, que lo vive todo apasionadamente y que se deja llevar tanto por la furia como por la pasión. Un aroma floral amaderado y afrutado con notas de flor de tamarindo y frutos silvestres, un corazón de rosa eléboro que le da un giro afrodisíaco y un fondo de vainilla negra que le convierte en una fragancia apasionada."
 },
@@ -516,7 +607,14 @@
     "oldPrice": "0",
     "image": "https://d1b50uin55dq3m.cloudfront.net/eyJidWNrZXQiOiJ3YTEweC52MiIsImtleSI6IjdmY2ZjZjBmLTJhZDAtNGIzYi1iMjY0LTI4ODllYjMzZDdkZC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjUwMCwiaGVpZ2h0Ijo1MDAsImZpdCI6ImNvdmVyIn0sInJvdGF0ZSI6bnVsbH19",
     "category": "Femenino",
-    "fragrance": "",
+    "fragrance": {
+      "family": "Floral",
+      "notes": {
+        "top": ["Salvia francesa"],
+        "middle": ["Peonía blanca", "Nardo"],
+        "base": ["Almizcle"]
+      }
+    },
     "link": "product-details.html?id=34",
     "Des": "Misteriosa e irresistible, Bombshell Seduction es una extensión de la fragancia más famosa’ en EE. UU.* Inspirándose en la belleza de nuestra cinta característica, nuestros perfumistas han diseñado Bombshell Seduction para evocar el tacto fresco del satén sobre la piel desnuda. La nota de salida de esta fragancia es la salvia francesa que proporciona una sensación aérea y refrescante. Un embriagador dúo de flores blancas conforma el resplandeciente corazón floral: la característica peonía blanca y el cremoso nardo. El almizcle aterciopelado añade un toque de calidez que recuerda a la piel, una misteriosa nota de fondo para esta belleza purísima."
 },
@@ -527,7 +625,14 @@
     "oldPrice": "0",
     "image": "https://d1b50uin55dq3m.cloudfront.net/eyJidWNrZXQiOiJ3YTEweC52MiIsImtleSI6IjhlZTFjM2I0LTViY2QtNDQ4ZC1hMDY3LTVhNTc3NjViZjhhYy5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjUwMCwiaGVpZ2h0Ijo1MDAsImZpdCI6ImNvdmVyIn0sInJvdGF0ZSI6bnVsbH19",
     "category": "Femenino",
-    "fragrance": "",
+    "fragrance": {
+      "family": "Floral Frutal",
+      "notes": {
+        "top": ["Piña", "Mandarina", "Maracuyá", "Fresa"],
+        "middle": ["Peonía", "Lirio de los valles (muguete)", "Jazmín", "Orquídea"],
+        "base": ["Madera", "Almizcle", "Musgo"]
+      }
+    },
     "link": "product-details.html?id=35",
     "Des": "Sé encantadora como un ángel de Victoria's Secret. El eau de parfum para mujer Victoria's Secret Bombshell esconde en sí un cóctel de frutas jugosas, románticas flores y una pizca de notas cálidas. El delicado frasco rosa iluminará tu día y, gracias a la alegre composición aromática, te sentirás irresistiblemente femenina composición aromática floral-frutal\npara mujeres enérgicas\nideal para los meses de primavera y verano Composición de la fragancia\nLas notas de salida de la composición aromática se componen de jugosa piña, mandarinas, maracuyá y las dulces fresas. Después salen a escena las bayas rojas y las notas florales de la peonía, lirios de los valles, jazmín y orquídea. La cálida madera, el almizcle y el musgo se ocupan del impresionante cierre de esta fragancia.\nHistoria detrás de la fragancia\nVictoria's Secret, cuyo símbolo es un color rosa intenso y unas modelos bellísi"
 },
@@ -538,7 +643,14 @@
     "oldPrice": "0",
     "image": "https://d1b50uin55dq3m.cloudfront.net/eyJidWNrZXQiOiJ3YTEweC52MiIsImtleSI6Ijg0ZDY5M2UwLTZmNzAtNDIyMy1iZDZkLTAzZmQ4ZjA2NTQyNi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjUwMCwiaGVpZ2h0Ijo1MDAsImZpdCI6ImNvdmVyIn0sInJvdGF0ZSI6bnVsbH19",
     "category": "Femenino",
-    "fragrance": "",
+    "fragrance": {
+      "family": "Ámbar Amaderada",
+      "notes": {
+        "top": ["hojas de violeta", "moras azules", "casis (grosellero negro)", "tomillo"],
+        "middle": ["cedro", "jazmín", "canela"],
+        "base": ["musgo de roble", "gamuza", "pachulí", "ámbar", "vainilla", "caramelo"]
+      }
+    },
     "link": "product-details.html?id=36",
     "Des": "Bleecker Street de Bond No 9 es una fragancia de la familia olfativa Ámbar Amaderada para Hombres y Mujeres. Bleecker Street se lanzó en 2005. La Nariz detrás de esta fragrancia es David Apel. Las Notas de Salida son hojas de violeta, moras azules, casis (grosellero negro) y tomillo; las Notas de Corazón son cedro, jazmín y canela; las Notas de Fondo son musgo de roble, gamuza, pachulí, ámbar, vainilla y caramelo."
 },
@@ -549,21 +661,37 @@
     "oldPrice": "0",
     "image": "https://d1b50uin55dq3m.cloudfront.net/eyJidWNrZXQiOiJ3YTEweC52MiIsImtleSI6ImYzZjgyYWZjLWY2NjgtNDJiZi04MmZkLTY5MWNjOTEyNTMxNC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjUwMCwiaGVpZ2h0Ijo1MDAsImZpdCI6ImNvdmVyIn0sInJvdGF0ZSI6bnVsbH19",
     "category": "Femenino",
-    "fragrance": "",
+    "fragrance": {
+      "family": "Floral Frutal",
+      "notes": {
+        "top": ["yuzu", "granada"],
+        "middle": ["peonía", "magnolia", "flor de loto"],
+        "base": ["almizcle", "ámbar"]
+      }
+
+    },
     "link": "product-details.html?id=37",
     "Des": "Inspirado en una mezcla de las Fragancias florales favoritas de Donatella Versace, Bright Crystal es una mezcla fresca y sensual de refrescante yuzu y granada mezclados con relajantes flores de peonía, magnolia y flor de loto, calentadas con notas de almizcle y ámbar."
 },
 {
-    "id": "38",
-    "title": "BURBERRY FOR WOMEN 100 ML MUJER",
-    "price": "95000",
-    "oldPrice": "0",
-    "image": "https://d1b50uin55dq3m.cloudfront.net/eyJidWNrZXQiOiJ3YTEweC52MiIsImtleSI6ImExNmU1YmQ4LTU4MzgtNDcwYi1hYjIzLTM0MWZkM2RmNTA4NC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjUwMCwiaGVpZ2h0Ijo1MDAsImZpdCI6ImNvdmVyIn0sInJvdGF0ZSI6bnVsbH19",
-    "category": "Femenino",
-    "fragrance": "",
-    "link": "product-details.html?id=38",
-    "Des": "BURBERRY ROMPE TODAS LAS REGLAS DE LOS PERFUMES Y REINVENTA SU FAMILIA OLFACTIVA, LA DULZURA DE LA MANZANA VERDE DA PASO A LA AFRODISIACA PERSONALIDAD DE LAS INTENSA GROSELLAS NEGRAS, MIENTRAS EL MUSGO Y EL VIBRANTE CEDROLE DAN UN TOQUE MODERNO ALA FORMULA FINAL."
+  "id": "38",
+  "title": "BURBERRY FOR WOMEN 100 ML MUJER",
+  "price": "95000",
+  "oldPrice": "0",
+  "image": "https://d1b50uin55dq3m.cloudfront.net/eyJidWNrZXQiOiJ3YTEweC52MiIsImtleSI6ImExNmU1YmQ4LTU4MzgtNDcwYi1hYjIzLTM0MWZkM2RmNTA4NC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjUwMCwiaGVpZ2h0Ijo1MDAsImZpdCI6ImNvdmVyIn0sInJvdGF0ZSI6bnVsbH19",
+  "category": "Femenino",
+  "fragrance": {
+    "family": "Floral Frutal",
+    "notes": {
+      "top": ["durazno (melocotón)", "chabacano", "pera", "grosellas negras", "manzana verde"],
+      "middle": ["sándalo", "jazmín", "musgo"],
+      "base": ["vainilla", "cedro", "almizcle"]
+    }
+  },
+  "link": "product-details.html?id=38",
+  "Des": "Burberry for Women es una fragancia clásica y sofisticada lanzada en 1995, creada por el perfumista Michel Almairac. Pertenece a la familia olfativa Floral Frutal y se caracteriza por una apertura jugosa y fresca con notas de durazno, chabacano, pera, grosellas negras y manzana verde. El corazón revela un toque cálido y elegante de sándalo, jazmín y musgo, mientras que el fondo aporta profundidad y suavidad con vainilla, cedro y almizcle. Esta combinación crea un aroma atemporal, ideal para el uso diario y ocasiones especiales."
 },
+
 {
     "id": "39",
     "title": "BVULGARY OMNIA CRISTALLINE 65 ML PARA MUJER",
@@ -571,7 +699,14 @@
     "oldPrice": "0",
     "image": "https://d1b50uin55dq3m.cloudfront.net/eyJidWNrZXQiOiJ3YTEweC52MiIsImtleSI6IjIzNGY2ODMxLTIwM2YtNDllZS05MmE0LTQ4OTc4NjhlY2RiOC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjUwMCwiaGVpZ2h0Ijo1MDAsImZpdCI6ImNvdmVyIn0sInJvdGF0ZSI6bnVsbH19",
     "category": "Femenino",
-    "fragrance": "",
+    "fragrance": {
+      "family": "Floral Acuática",
+      "notes": {
+        "top": ["bambú", "pera Nashi"],
+        "middle": ["flor de loto", "té", "casia"],
+        "base": ["almizcle", "madera de gaiac", "musgo de roble"]
+      }
+    },
     "link": "product-details.html?id=39",
     "Des": "Creado a partir de la deslumbrante claridad y la pureza del cristal, Omnia Crystalline es un Eau de Toilette luminoso que captura la transparencia de las flores de loto, el frescor afrutado del nashi y la cremosidad de la madera de balsa"
 },
@@ -582,7 +717,14 @@
     "oldPrice": "0",
     "image": "https://d1b50uin55dq3m.cloudfront.net/eyJidWNrZXQiOiJ3YTEweC52MiIsImtleSI6ImIzMDIzNjY1LTg3NWEtNGZhMC05MTQ1LWE5NWI3M2RjNGQxNi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjUwMCwiaGVpZ2h0Ijo1MDAsImZpdCI6ImNvdmVyIn0sInJvdGF0ZSI6bnVsbH19",
     "category": "Femenino",
-    "fragrance": "",
+    "fragrance": {
+      "family": "Floral Frutal",
+      "notes": {
+        "top": ["durazno blanco (melocotón blanco)", "mandarina siciliana"],
+        "middle": ["ylang-ylang", "jazmín"],
+        "base": ["benjuí", "cedro"]
+      }
+    },
     "link": "product-details.html?id=40",
     "Des": "Omnia Golden Citrine de Bvlgari es una fragancia de la familia olfativa Ámbar Floral para Mujeres. Esta fragancia es nueva. Omnia Golden Citrine se lanzó en 2020. La Nariz detrás de esta fragancia es Alberto Morillas. Las Notas de Salida son durazno blanco (melocotón blanco) y mandarina siciliana; las Notas de Corazón son ylang-ylang y jazmín; las Notas de Fondo son benjuí y cedro"
 },
@@ -593,7 +735,14 @@
     "oldPrice": "0",
     "image": "https://d1b50uin55dq3m.cloudfront.net/eyJidWNrZXQiOiJ3YTEweC52MiIsImtleSI6ImNkMjUzYmUxLWMzN2UtNDkxNi05YjQ1LTBkYTlmOGFhMzkzYy5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjUwMCwiaGVpZ2h0Ijo1MDAsImZpdCI6ImNvdmVyIn0sInJvdGF0ZSI6bnVsbH19",
     "category": "Femenino",
-    "fragrance": "",
+    "fragrance": {
+      "family": "Floral",
+      "notes": {
+        "top": ["bergamota", "granada", "limón"],
+        "middle": ["rosa", "jazmín", "azahar"],
+        "base": ["praliné", "pachulí", "madera"]
+      }
+    },
     "link": "product-details.html?id=41",
     "Des": "CH Carolina Herrera se abre con notas de bergamota, granada y limón, que nos guían hacia un corazón de rosas y jazmín con azahar. Un persistente praliné y una base de pachulí con un suave toque amaderado de fondo para crear una esencia indiscutiblemente femenina."
 },
@@ -604,7 +753,14 @@
     "oldPrice": "0",
     "image": "https://d1b50uin55dq3m.cloudfront.net/eyJidWNrZXQiOiJ3YTEweC52MiIsImtleSI6IjBhZjNhMWJkLWI4OTUtNGJiYi1hNzFmLTlkYzc3YjFjNGUzYi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjUwMCwiaGVpZ2h0Ijo1MDAsImZpdCI6ImNvdmVyIn0sInJvdGF0ZSI6bnVsbH19",
     "category": "Femenino",
-    "fragrance": "",
+    "fragrance": {
+      "family": "Floral Acuática",
+      "notes": {
+        "top": ["mandarina", "limón", "bergamota"],
+        "middle": ["jazmín", "azahar", "peonía"],
+        "base": ["almizcle", "madera de cedro"]
+      }
+    },
     "link": "product-details.html?id=42",
     "Des": "Nuevos perfumes originales para mujeres CH Under The Sea, se inspira en el hechizo de una sirena y las maravillas del oceano, salado y burbujeante, este perfume pertenece a la familia floral y es ideal para usar de dia y de noche."
 },
@@ -615,7 +771,14 @@
     "oldPrice": "0",
     "image": "https://d1b50uin55dq3m.cloudfront.net/eyJidWNrZXQiOiJ3YTEweC52MiIsImtleSI6IjY4ZWM3MzdlLTdjODAtNDczOC1hY2M2LWJmNGFjY2JlNzYxMS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjUwMCwiaGVpZ2h0Ijo1MDAsImZpdCI6ImNvdmVyIn0sInJvdGF0ZSI6bnVsbH19",
     "category": "Femenino",
-    "fragrance": "",
+    "fragrance": {
+      "family": "Cítrica Aromática",
+      "notes": {
+        "top": ["limón", "cedro"],
+        "middle": ["jazmín", "cidra"],
+        "base": ["madera de teca"]
+      }
+    },
     "link": "product-details.html?id=43",
     "Des": "Su color lo delata: Chance Eau Fraîche tiene notas de limón que lo convierten en un perfume sumamente fresco. Esta es una fragancia ideal para la temporada calurosa de primavera-verano, pues tiene ese efecto que siempre buscamos de recién salida del baño gracias a las notas picantes de la cidra. Aunadas a notas suaves del sofisticado jazmín, que le ponen el toque floral adictivo a la fragancia, y la presencia fuerte de la madera de teca, este es un perfume de mujer que se hace notar."
 },
@@ -626,7 +789,14 @@
     "oldPrice": "0",
     "image": "https://d1b50uin55dq3m.cloudfront.net/eyJidWNrZXQiOiJ3YTEweC52MiIsImtleSI6IjA0NmFhMDgzLTg3MzktNDY4Zi04ZjkzLTIyN2M4MjkzNDQyNi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjUwMCwiaGVpZ2h0Ijo1MDAsImZpdCI6ImNvdmVyIn0sInJvdGF0ZSI6bnVsbH19",
     "category": "Femenino",
-    "fragrance": "",
+    "fragrance": {
+      "family": "Floral",
+      "notes": {
+        "top": ["bergamota", "limón", "naranja"],
+        "middle": ["rosa", "jazmín", "ylang-ylang"],
+        "base": ["sándalo", "vainilla", "almizcle"]
+      }
+    },
     "link": "product-details.html?id=44",
     "Des": "N°5 L’EAU es el N°5 de hoy. Un floral fresco vibrante que pone como emblema la modernidad, que convierte el frescor en su leitmotiv. Nº5 L’EAU como oda a la sencillez. Nº5 L'EAU es como una declaración, hasta en su empaque minimalista. En su estuche de cartón repujado se dibuja la silueta icónica del perfume. En su interior, una segunda caja protege el frasco transparente cristalino. Ningún elemento del tapón, ningún mecanismo perturba esta imagen nítida. Como si la sencillez máxima del frasco desapareciera ante el contenido, para darle libertad de imaginación a quien elija este perfume."
 },
@@ -637,7 +807,14 @@
     "oldPrice": "0",
     "image": "https://d1b50uin55dq3m.cloudfront.net/eyJidWNrZXQiOiJ3YTEweC52MiIsImtleSI6IjYzYTQ5NDJhLTEyZjUtNGJlNC05MDg0LWY0YTNkZWU1ODhhNC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjUwMCwiaGVpZ2h0Ijo1MDAsImZpdCI6ImNvdmVyIn0sInJvdGF0ZSI6bnVsbH19",
     "category": "Femenino",
-    "fragrance": "",
+    "fragrance": {
+      "family": "Floral",
+      "notes": {
+        "top": ["peonía", "lichi", "fresia"],
+        "middle": ["rosa", "magnolia", "lirio de los valles"],
+        "base": ["ámbar", "madera de cedro"]
+      }
+    },
     "link": "product-details.html?id=45",
     "Des": "El aroma toma la rosa clásica, la traduce ingeniosamente en un perfume vibrante, íntimo y sensual. Chloé Eau de Parfum comienza con una combinación de notas florales empolvadas, toques de peonía y lichi y fresia primaveral.Las notas de cabeza aireadas y coquetas se desvanecen para revelar el lado más rico y sensual de la rosa. El carácter distintivo de esta rosa única se acompaña de magnolia y lirio de los valles, así como sutiles insinuaciones de ámbar cálido y elegante madera de cedro."
 },
@@ -648,7 +825,14 @@
     "oldPrice": "0",
     "image": "https://d1b50uin55dq3m.cloudfront.net/eyJidWNrZXQiOiJ3YTEweC52MiIsImtleSI6ImE3NDkyNGY2LTM0Y2QtNDUyZC05OGM4LWIwNGViYTA2YWQ0Ny5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjUwMCwiaGVpZ2h0Ijo1MDAsImZpdCI6ImNvdmVyIn0sInJvdGF0ZSI6bnVsbH19",
     "category": "Femenino",
-    "fragrance": "",
+    "fragrance": {
+      "family": "Oriental Floral",
+      "notes": {
+        "top": ["flor de azahar del naranjo", "anís estrellado", "rosa", "mandarina", "pera", "bergamota"],
+        "middle": ["ylang-ylang", "jengibre", "orquídea", "iris", "nardos", "ciruela"],
+        "base": ["vainilla", "ámbar", "almizcle", "canela", "sándalo"]
+      }
+    },
     "link": "product-details.html?id=46",
     "Des": "Classique, un símbolo de seducción y sensualidad extrema. El icónico frasco en forma de torso con su corsé, la pieza más emblemática del vestuario de Jean Paul Gaultier.Una fragancia femenina multifacética para mujeres con carácter. Un recuerdo de la infancia que se convirtió en una femme fatale. Este Eau de Toilette ofrece la irresistible suavidad de la flor de azahar combinada con la potencia afrodisíaca del jengibre. El aroma del polvo de arroz, recuerdo de su infancia, reinterpretado con el poder de una sensual caricia de vainilla."
 },
@@ -659,7 +843,14 @@
     "oldPrice": "0",
     "image": "https://d1b50uin55dq3m.cloudfront.net/eyJidWNrZXQiOiJ3YTEweC52MiIsImtleSI6IjRkZDJiYzY1LTUzYzMtNDRkOC05NWU4LWU5YmViZmU0MjljZi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjUwMCwiaGVpZ2h0Ijo1MDAsImZpdCI6ImNvdmVyIn0sInJvdGF0ZSI6bnVsbH19",
     "category": "Femenino",
-    "fragrance": "",
+    "fragrance": {
+      "family": "Floral Frutal",
+      "notes": {
+        "top": ["naranja", "pomelo", "bergamota", "melocotón"],
+        "middle": ["rosa", "geranio", "jazmín", "lichi"],
+        "base": ["pachulí", "vainilla", "almizcle", "vetiver"]
+      }
+    },
     "link": "product-details.html?id=47",
     "Des": " Club De Nuit Woman es una fragancia de la familia olfativa Floral Frutal para Mujeres. Las Notas de Salida son naranja, pomelo, bergamota y melocotón; las Notas de Corazón son rosa, geranio, jazmín y litchi; las Notas de Fondo son pachulí, vainilla, almizcle y vetiver"
 },
@@ -670,7 +861,14 @@
     "oldPrice": "0",
     "image": "https://d1b50uin55dq3m.cloudfront.net/eyJidWNrZXQiOiJ3YTEweC52MiIsImtleSI6IjUwMTlkZDVlLWQyMWQtNGEyMC05NzcyLWYzMzIxZmMyODZjYi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjUwMCwiaGVpZ2h0Ijo1MDAsImZpdCI6ImNvdmVyIn0sInJvdGF0ZSI6bnVsbH19",
     "category": "Femenino",
-    "fragrance": "",
+    "fragrance": {
+      "family": "Oriental Floral",
+      "notes": {
+        "top": ["naranja", "mandarina", "bergamota"],
+        "middle": ["jazmín", "rosa", "flor de azahar del naranjo"],
+        "base": ["vainilla", "almizcle", "vetiver"]
+      }
+    },
     "link": "product-details.html?id=48",
     "Des": "COCO MADEMOISELLE Eau de Parfum es un perfume ambarino, una fragancia viva y voluptuosa. En la salida, las notas de naranja, vivas y frescas, despiertan los sentidos. El corazón claro y sensual revela acordes transparentes de jazmín y de rosa."
 },
@@ -681,7 +879,14 @@
     "oldPrice": "0",
     "image": "https://d1b50uin55dq3m.cloudfront.net/eyJidWNrZXQiOiJ3YTEweC52MiIsImtleSI6ImI5NWQ2MjE3LTkwZDktNDcwMy05ZTlhLWQ4ZDA3NjMyZWQwZS5qcGVnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo1MDAsImhlaWdodCI6NTAwLCJmaXQiOiJjb3ZlciJ9LCJyb3RhdGUiOm51bGx9fQ==",
     "category": "Femenino",
-    "fragrance": "",
+    "fragrance": {
+      "family": "Floral",
+      "notes": {
+        "top": ["narciso", "iris"],
+        "middle": ["arroz", "magnolia"],
+        "base": ["almizcle", "sándalo"]
+      }
+    },
     "link": "product-details.html?id=49",
     "Des": "Love In White, una oda a la sofisticada artesanía y la pasión de Creed por los mejores ingredientes del mundo, combina esencias seleccionadas a mano de los cinco continentes, una fragante declaración de unidad y paz global. El aroma es pura libertad: una mezcla floral fresca basada en el iris florentino, los narcisos franceses y el arroz tonkin en polvo y tenue. Love In White fue honrado el día de su lanzamiento con un homenaje: el Empire State Building de la ciudad de Nueva York iluminado por luces blancas puras"
 },
@@ -692,7 +897,14 @@
     "oldPrice": "0",
     "image": "https://d1b50uin55dq3m.cloudfront.net/eyJidWNrZXQiOiJ3YTEweC52MiIsImtleSI6IjdiOTI0ZWI0LTQxZmQtNGEyMi04ZTAzLTk2ZmZmN2I0YThmYy5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjUwMCwiaGVpZ2h0Ijo1MDAsImZpdCI6ImNvdmVyIn0sInJvdGF0ZSI6bnVsbH19",
     "category": "Femenino",
-    "fragrance": "",
+    "fragrance": {
+      "family": "Amaderada Aromática",
+      "notes": {
+        "top": ["bayas de enebro", "cilantro", "jengibre", "romero", "mandarina", "bergamota"],
+        "middle": ["sándalo", "lavanda", "flor de azahar del naranjo", "geranio"],
+        "base": ["haba tonka", "almizcle", "cedro", "musgo de roble"]
+      }
+    },
     "link": "product-details.html?id=50",
     "Des": "Original Santal de Creed es una fragancia de la familia olfativa Ámbar Amaderada para Hombres y Mujeres. Original Santal se lanzó en 2005. Original Santal fue creada por Olivier Creed, Erwin Creed y Pierre Bourdon. Las Notas de Salida son bayas de enebro, cilantro, jengibre, romero, mandarina y bergamota; las Notas de Corazón son sándalo, lavanda, flor de azahar del naranjo y geranio; las Notas de Fondo son haba tonka, almizcle, cedro y musgo de roble."
 },
@@ -703,7 +915,14 @@
     "oldPrice": "0",
     "image": "https://d1b50uin55dq3m.cloudfront.net/eyJidWNrZXQiOiJ3YTEweC52MiIsImtleSI6Ijg0N2Y4ODc3LTE4ZjQtNDlhNi1hNDMwLTBiOWE0NmMxMDYyNy5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjUwMCwiaGVpZ2h0Ijo1MDAsImZpdCI6ImNvdmVyIn0sInJvdGF0ZSI6bnVsbH19",
     "category": "Femenino",
-    "fragrance": "",
+    "fragrance": {
+      "family": "Floral Frutal",
+      "notes": {
+        "top": ["pomelo", "limón", "notas verdes", "bergamota"],
+        "middle": ["flores blancas", "jazmín", "albaricoque", "melocotón"],
+        "base": ["ámbar gris", "almizcle", "cedro"]
+      }
+    },
     "link": "product-details.html?id=51",
     "Des": "Spring Flower 2023 de Creed es una fragancia Floral Frutal para mujer. Esta es una nueva fragancia. Spring Flower 2023 se lanzó en 2023. Las Notas de Salida son pomelo, limón, notas verdes y bergamota; las Notas de Corazón son flores blancas, jazmín, albaricoque y melocotón; las Notas de Fondo son ámbar gris, almizcle y cedro."
 },
@@ -714,7 +933,14 @@
     "oldPrice": "0",
     "image": "https://d1b50uin55dq3m.cloudfront.net/eyJidWNrZXQiOiJ3YTEweC52MiIsImtleSI6IjJiMzM4YjFhLTRmODEtNGYxNS1iY2U5LTM0MjRiZjkxZDA2Ny5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjUwMCwiaGVpZ2h0Ijo1MDAsImZpdCI6ImNvdmVyIn0sInJvdGF0ZSI6bnVsbH19",
     "category": "Femenino",
-    "fragrance": "",
+    "fragrance": {
+      "family": "Floral Frutal",
+      "notes": {
+        "top": ["mandarina", "toronja"],
+        "middle": ["flor de manzano", "violeta", "jazmín"],
+        "base": ["almizcle", "cedro"]
+      }
+    },
     "link": "product-details.html?id=52",
     "Des": "Daisy Eau So Fresh de Marc Jacobs pertenece a la familia olfativa Floral Frutal y se inicia con notas de salida, llamativas y vibrantes de frutas como la pera, la frambuesa y la toronja que se combinan con notas verdes. En el corazón, un jardín de flores realmente sutil, delicado y femenino que combina jazmín, rosa, violeta, lichi y flor de manzano. Las notas de fondo combinan la sensualidad del cedro de Virginia con y el toque vibrante de ciruela. Daisy Eau So Fresh de Marc Jacobs pertenece a la familia olfativa Floral Frutal y se inicia con notas de salida, llamativas y vibrantes de frutas como la pera, la frambuesa y la toronja que se combinan con notas verdes. En el corazón, un jardín de flores realmente sutil, delicado y femenino que combina jazmín, rosa, violeta, lichi y flor de manzano. Las notas de fondo combinan la sensualidad del cedro de Virginia con y el toque vibrante de ciruela. Una encarnación enérgica de la Daisy original, esta fragancia de Marc Jacobs excita los sentidos con una elegancia brillante y un encanto caprichoso. Como la mujer que lo usa, Daisy Eau So Fresh nos inspira a ser atrevidas y femeninas, dulces e impredecibles."
 },

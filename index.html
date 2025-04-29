@@ -223,58 +223,10 @@ https://templatemo.com/tm-589-lugx-gaming
             <a href="femenino.html">Masculino</a>
           </div>
         </div>
-        <div class="col-lg-3 col-md-6">
-          <div class="item">
-            <div class="thumb">
-              <a href="product-details.html"><img src="assets/images/trending-01.jpg" alt=""></a>
-              <span class="price"><em>$28</em>$20</span>
-            </div>
-            <div class="down-content">
-              <span class="category">Action</span>
-              <h4>Assasin Creed</h4>
-              <a href="product-details.html"><i class="fa fa-femeninoping-bag"></i></a>
-            </div>
-          </div>
+        <div id="bestseller-container" class="row">
+          <!-- Los productos se cargarán aquí dinámicamente -->
         </div>
-        <div class="col-lg-3 col-md-6">
-          <div class="item">
-            <div class="thumb">
-              <a href="product-details.html"><img src="assets/images/trending-02.jpg" alt=""></a>
-              <span class="price">$44</span>
-            </div>
-            <div class="down-content">
-              <span class="category">Action</span>
-              <h4>Assasin Creed</h4>
-              <a href="product-details.html"><i class="fa fa-femeninoping-bag"></i></a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6">
-          <div class="item">
-            <div class="thumb">
-              <a href="product-details.html"><img src="assets/images/trending-03.jpg" alt=""></a>
-              <span class="price"><em>$64</em>$44</span>
-            </div>
-            <div class="down-content">
-              <span class="category">Action</span>
-              <h4>Assasin Creed</h4>
-              <a href="product-details.html"><i class="fa fa-femeninoping-bag"></i></a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6">
-          <div class="item">
-            <div class="thumb">
-              <a href="product-details.html"><img src="assets/images/trending-04.jpg" alt=""></a>
-              <span class="price">$32</span>
-            </div>
-            <div class="down-content">
-              <span class="category">Action</span>
-              <h4>Assasin Creed</h4>
-              <a href="product-details.html"><i class="fa fa-femeninoping-bag"></i></a>
-            </div>
-          </div>
-        </div>
+
       </div>
     </div>
   </div>
@@ -285,49 +237,12 @@ https://templatemo.com/tm-589-lugx-gaming
         <div class="col-lg-12 text-center">
           <div class="section-heading">
             <h6>Categorias</h6>
-            <h2>Top Categories</h2>
           </div>
         </div>
-        <div class="col-lg col-sm-6 col-xs-12">
-          <div class="item">
-            <h4>Action</h4>
-            <div class="thumb">
-              <a href="product-details.html"><img src="assets/images/categories-01.jpg" alt=""></a>
-            </div>
-          </div>
+        <div id="categoria-container" class="row">
+          <!-- Aquí se insertarán dinámicamente las categorías -->
         </div>
-        <div class="col-lg col-sm-6 col-xs-12">
-          <div class="item">
-            <h4>Floral Frutal</h4>
-            <div class="thumb">
-              <a href="product-details.html"><img src="assets/images/categories-05.jpg" alt=""></a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg col-sm-6 col-xs-12">
-          <div class="item">
-            <h4>Oriental Floral</h4>
-            <div class="thumb">
-              <a href="product-details.html"><img src="assets/images/categories-03.jpg" alt=""></a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg col-sm-6 col-xs-12">
-          <div class="item">
-            <h4>Ámbar amaderado</h4>
-            <div class="thumb">
-              <a href="product-details.html"><img src="assets/images/categories-04.jpg" alt=""></a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg col-sm-6 col-xs-12">
-          <div class="item">
-            <h4>Action</h4>
-            <div class="thumb">
-              <a href="product-details.html"><img src="assets/images/categories-05.jpg" alt=""></a>
-            </div>
-          </div>
-        </div>
+
       </div>
     </div>
   </div>
@@ -348,6 +263,77 @@ https://templatemo.com/tm-589-lugx-gaming
   <script src="assets/js/owl-carousel.js"></script>
   <script src="assets/js/counter.js"></script>
   <script src="assets/js/custom.js"></script>
+  <script>
+    Promise.all([
+  fetch('assets/data/products.json').then(res => res.json()), // Cargar productos
+  fetch('assets/data/bestsellers.json').then(res => res.json()) // Cargar los IDs de los bestsellers
+])
+.then(([productos, bestSellerIds]) => {
+  const bestSellers = productos.filter(p => bestSellerIds.includes(p.id)); // Filtrar los productos bestsellers
+  
+  const container = document.getElementById("bestseller-container"); // Obtener el contenedor donde se mostrarán los productos
+    // Limitar a los primeros 4 productos
+  const firstFourBestSellers = bestSellers.slice(0, 4);
+
+
+// Limpiar el contenedor antes de agregar los nuevos productos
+ container.innerHTML = '';
+
+// Iterar sobre los primeros 4 productos y crear un div por cada uno
+firstFourBestSellers.forEach(producto => {
+    const item = document.createElement("div");
+    item.classList.add("col-lg-3", "col-md-6"); // Mantener las clases de la estructura original
+
+    // Insertar el HTML del producto con los datos dinámicos
+    item.innerHTML = `
+      <div class="item">
+        <div class="thumb">
+          <a href="${producto.link}"><img src="${producto.image}" alt="${producto.title}"></a>
+        </div>
+        <div class="down-content">
+          <span class="category">${producto.category}</span> <!-- Suponiendo que tienes una categoría -->
+          <h4>${producto.title}</h4>
+          <a href="${producto.link}"><i class="fa fa-femeninoping-bag"></i></a>
+        </div>
+      </div>
+    `;
+    
+    // Añadir el nuevo item al contenedor
+    container.appendChild(item);
+  });
+})
+.catch(error => console.error("Error cargando los productos:", error)); // Manejo de errores en caso de que falle la carga
+
+
+fetch('assets/data/categories.json')
+  .then(res => res.json())
+  .then(categorias => {
+    // Limitar a las primeras 4 categorías
+    const primerasCategorias = categorias.slice(0, 4);
+
+    const container = document.getElementById("categoria-container"); // Asegúrate de tener este contenedor en tu HTML
+    container.innerHTML = ''; // Limpiar antes de insertar
+
+    primerasCategorias.forEach(categoria => {
+      const div = document.createElement("div");
+      div.classList.add("col-lg", "col-sm-6", "col-xs-12");
+
+      div.innerHTML = `
+        <div class="item">
+          <h4>${categoria.name}</h4>
+          <div class="thumb">
+              <img src="${categoria.image}" alt="${categoria.name}">
+            </a>
+          </div>
+        </div>
+      `;
+
+      container.appendChild(div);
+    });
+  })
+  .catch(error => console.error("Error cargando las categorías:", error));
+
+  </script>
 
   </body>
 </html>

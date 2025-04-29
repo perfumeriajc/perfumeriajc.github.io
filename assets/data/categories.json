@@ -1,0 +1,83 @@
+[
+    {
+        "id": 1,
+        "name": "Floral Frutal",
+        "image": "assets/images/categories/Floral-Frutal.png"
+    },
+    {
+        "id": 2,
+        "name": "Floral"
+    },
+    {
+        "id": 3,
+        "name": "Oriental"
+    },
+    {
+        "id": 4,
+        "name": "Amaderado"
+    },
+    {
+        "id": 5,
+        "name": "Cítrico"
+    },
+    {
+        "id": 6,
+        "name": "Aromático"
+    },
+    {
+        "id": 7,
+        "name": "Fougère"
+    },
+    {
+        "id": 8,
+        "name": "Gourmand"
+    },
+    {
+        "id": 9,
+        "name": "Frutal"
+    },
+    {
+        "id": 10,
+        "name": "Chypre"
+    },
+    {
+        "id": 11,
+        "name": "Cítrico Aromático"
+    },
+    {
+        "id": 12,
+        "name": "Amaderado Aromático"
+    },
+    {
+        "id": 13,
+        "name": "Amaderado Especiado"
+    },
+    {
+        "id": 14,
+        "name": "Amaderado Floral"
+    },
+    {
+        "id": 15,
+        "name": "Amaderado Frutal"
+    },
+    {
+        "id": 16,
+        "name": "Amaderado Gourmand"
+    },
+    {
+        "id": 17,
+        "name": "Amaderado Verde"
+    },
+    {
+        "id": 18,
+        "name": "Amaderado Aquático"
+    },
+    {
+        "id": 19,
+        "name": "Amaderado Ambarado"
+    },
+    {
+        "id": 20,
+        "name": "Amaderado Almiscarado"
+    }
+]

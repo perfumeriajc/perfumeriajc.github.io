@@ -152,7 +152,7 @@ https://templatemo.com/tm-589-lugx-gaming
   <script src="assets/js/owl-carousel.js"></script>
   <script src="assets/js/counter.js"></script>
   <script src="assets/js/custom.js"></script>
-  <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+  <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
 
 <script>
   const container = document.querySelector('.trending-box');
@@ -163,44 +163,44 @@ https://templatemo.com/tm-589-lugx-gaming
   let products = [];
 
   function renderProducts(page) {
-    container.classList.remove('loaded');
-    container.innerHTML = '';
+  container.classList.remove('loaded');
+  container.innerHTML = '';
 
-    const start = (page - 1) * itemsPerPage;
-    const end = start + itemsPerPage;
-    const pageItems = products.slice(start, end);
+  const start = (page - 1) * itemsPerPage;
+  const end = start + itemsPerPage;
+  const pageItems = products.slice(start, end);
 
-    pageItems.forEach(product => {
-      const item = `
-        <div class="col-lg-3 col-md-6 align-self-center mb-30 trending-items ${product.category}">
-          <div class="item">
-            <div class="thumb">
-              <a href="${product.link}"><img src="${product.image}" alt=""></a>
-              <span class="price">$${product.price}</span>
-            </div>
-            <div class="down-content">
-              <span class="category">Perfume</span>
-              <h4>${product.title}</h4>
-            </div>
+  pageItems.forEach(product => {
+    const item = `
+      <div class="col-lg-3 col-md-6 align-self-center mb-30 trending-items ${product.fragrance.family}">
+        <div class="item">
+          <div class="thumb">
+            <a href="${product.link}"><img src="${product.image}" alt=""></a>
+            <span class="price">$${product.price}</span>
           </div>
-        </div>`;
-      container.insertAdjacentHTML('beforeend', item);
-    });
+          <div class="down-content">
+            <span class="category">${product.category}</span>
+            <h4>${product.title}</h4>
+          </div>
+        </div>
+      </div>`;
+    container.insertAdjacentHTML('beforeend', item);
+  });
 
-    // Esperar a que se carguen imágenes Y elementos DOM antes de organizar
-    setTimeout(() => {
-      if (iso) {
-        iso.reloadItems();
-        iso.arrange();
-      } else {
-        iso = new Isotope(container, {
-          itemSelector: '.trending-items',
-          layoutMode: 'fitRows'
-        });
-      }
-      container.classList.add('loaded');
-    }, 100); // Pequeño delay para asegurar el DOM esté listo
-  }
+  // Esperar a que las imágenes se carguen
+  imagesLoaded(container, () => {
+    if (iso) {
+      iso.reloadItems();
+      iso.arrange();
+    } else {
+      iso = new Isotope(container, {
+        itemSelector: '.trending-items',
+        layoutMode: 'fitRows'
+      });
+    }
+    container.classList.add('loaded');
+  });
+}
 
   function renderPagination() {
     const totalPages = Math.ceil(products.length / itemsPerPage);
