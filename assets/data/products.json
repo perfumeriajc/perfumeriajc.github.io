@@ -118,8 +118,17 @@
       "price": 280000,
       "oldPrice": 32,
       "image": "https://d1b50uin55dq3m.cloudfront.net/eyJidWNrZXQiOiJ3YTEweC52MiIsImtleSI6ImIzMWEyNDNhLTUwNzktNGM1Yy05NDQ2LWJiNjlmZTk5NTAzNS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEwODAsImhlaWdodCI6MTA4MCwiZml0IjoiY29udGFpbiJ9LCJyb3RhdGUiOm51bGx9fQ==",
-      "category": "str",
-      "link": "product-details.html"
+      "category": "Femenino",
+      "fragrance": {
+        "family": "Floral Frutal",
+        "notes": {
+          "top": ["Bergamota", "Lichi", "Ruibarbo"],
+          "middle": ["Peonía", "Lirio salvaje", "Rosa"],
+          "base": ["Vainilla", "Almizcle blanco", "Cachemira"]
+        }
+      },
+      "link": "product-details.html",
+      "Des": "DELILAH EAU DE PARFUM DE MAISON ALHAMBRA, DELICIOSA FRAGANCIA DE MUJER, 3.4 FL, OZ. La fragancia de Dalilah transmite un mensaje que te conecta con tus habilidades, tu creatividad, tu inspiracion y tu fuerza. Es una de las vibraciones mas altas entre las esencias.Un bonito parfum floral rosa y puramente femenino que calentara tu corazon y te hara sentir como la realeza. Notas principales: bergamota, lichi y ruibarbo. Notas de fondo: vainilla, almizcle blanco y cachemira. Notas medias: peonia, lirio salvaje y rosa."
     },
     {
       "id": 8,
@@ -127,8 +136,17 @@
       "price": 100000,
       "oldPrice": 32,
       "image": "https://d1b50uin55dq3m.cloudfront.net/eyJidWNrZXQiOiJ3YTEweC52MiIsImtleSI6IjZkNWM0NTliLWJkODMtNDM2YS1hYTU1LWE3OTM3NmJkOGE2Ny5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6ImNvdmVyIn0sInJvdGF0ZSI6bnVsbH19",
-      "category": "str",
-      "link": "product-details.html"
+      "category": "Femenino",
+      "fragrance": {
+        "family": "Floral Frutal",
+        "notes": {
+          "top": ["Jengibre", "Mandarina", "Pera"],
+          "middle": ["Jazmín", "Rosa", "Peonía"],
+          "base": ["Sándalo", "Almizcle", "Vainilla"]
+        }
+      },
+      "link": "product-details.html",
+      "Des":"Layton de Parfums de Marly es una fragancia de la familia olfativa Ámbar Floral para Hombres y Mujeres. Layton se lanzó en 2016. La Nariz detrás de esta fragrancia es Hamid Merati-Kashani. Las Notas de Salida son manzana, lavanda, bergamota y mandarina; las Notas de Corazón son geranio, violeta y jazmín; las Notas de Fondo son vainilla, cardamomo, sándalo, pimienta, madera de gaiac y pachulí."
     },
     {
       "id": 9,
@@ -136,8 +154,17 @@
       "price": 94000,
       "oldPrice": 32,
       "image": "https://d1b50uin55dq3m.cloudfront.net/eyJidWNrZXQiOiJ3YTEweC52MiIsImtleSI6ImFmNjFjYzg2LTUyYjctNDc2My05MTBmLTJkNjAyNzczYzM1My5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6ImNvdmVyIn0sInJvdGF0ZSI6bnVsbH19",
-      "category": "str",
-      "link": "product-details.html"
+      "category": "Femenino",
+      "fragrance": {
+        "family": "Floral Frutal",
+        "notes": {
+          "top": ["Rosa", "Champán", "Frambuesa"],
+          "middle": ["Jazmín", "Peonía", "Flor de azahar del naranjo"],
+          "base": ["Vainilla", "Almizcle", "Sándalo"]
+        }
+      },
+      "link": "product-details.html",
+      "Des":"212 heroes for her lleva el rompecabezas frasco de skateboard de la fragancia 212 heroes original a nuevas alturas espectactulares con una versión sofisticada en oro rosa, fabricada de forma innovadora en vidrio y cromo: un símbolo de juventud, feminidad moderna y autoexpresión.the 212 heroes por su fórmula es mareosa como un kickflip con su yuxtaposición de ingredientes energéticos y efervescentes, y su género olfativo floral frutal-madera. como 212 heroes, es 100% vegano certificado y libre de crueldad."
     },
     {
       "id": 10,
@@ -145,8 +172,18 @@
       "price": 94000,
       "oldPrice": 32,
       "image": "https://d1b50uin55dq3m.cloudfront.net/eyJidWNrZXQiOiJ3YTEweC52MiIsImtleSI6IjVjYzZjMmU5LTlkZmQtNGY2Mi05YjBiLWMyNjQ1YWEyZTViOC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6ImNvdmVyIn0sInJvdGF0ZSI6bnVsbH19",
-      "category": "str",
-      "link": "product-details.html"
+      "category": "Femenino",
+      "fragrance": {
+        "family": "Floral Frutal",
+        "notes": {
+          "top": ["Rosa", "Champán", "Frambuesa"],
+          "middle": ["Jazmín", "Peonía", "Flor de azahar del naranjo"],
+          "base": ["Vainilla", "Almizcle", "Sándalo"]
+        }
+      },
+      "link": "product-details.html",
+      "Des":"212 heroes for her es un floral picante con un carácter optimista y sensual que combina el tomate crujiente, un dulce acuerdo de tiramisú y el sofisticado Queenwood."
+
     },
     {
       "id": 11,
@@ -154,8 +191,17 @@
       "price": 94000,
       "oldPrice": 32,
       "image": "https://d1b50uin55dq3m.cloudfront.net/eyJidWNrZXQiOiJ3YTEweC52MiIsImtleSI6ImY5NmRmZWUzLWE4MTAtNDFkYi05ZDY2LTg2ZDY1NGYzOTNhNi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6ImNvdmVyIn0sInJvdGF0ZSI6bnVsbH19",
-      "category": "str",
-      "link": "product-details.html"
+      "category": "Femenino",
+      "fragrance": {
+        "family": "Floral Frutal",
+        "notes": {
+          "top": ["Rosa", "Champán", "Frambuesa"],
+          "middle": ["Jazmín", "Peonía", "Flor de azahar del naranjo"],
+          "base": ["Vainilla", "Almizcle", "Sándalo"]
+        }
+      },
+      "link": "product-details.html",
+      "Des":"El 212 Vip 80 ml de Carolina Herrera es una exquisita fragancia que se inspira en la mujer cosmopolita, misteriosa y sensual. 212 Vip tiene como nota base la vainilla, que le da ese toque dulce, acompañado con notas de ron, maracuyá, gardenia, almizcle y haba tonga. Fragancia de notas florales y festivas. Es un perfume ideal para usar a diario en cualquier época del año.La Nariz detrás de esta fragancia es Alberto Morillas. Las Notas de Salida son flor de azahar del naranjo, mandarina, flor de cactus y bergamota; las Notas de Corazón son camelia blanca, azucena, gardenia, fresia, jazmín, rosa, lirio de los valles (muguete) y peonía; las Notas de Fondo son sándalo y almizcle."
     },
     {
       "id": 12,
@@ -163,8 +209,17 @@
       "price": 94000,
       "oldPrice": 32,
       "image": "https://d1b50uin55dq3m.cloudfront.net/eyJidWNrZXQiOiJ3YTEweC52MiIsImtleSI6IjRjZDQxNjhhLTJlYTgtNGNmYy04MDdiLTc0NTRiZmMzMzU5OS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6ImNvdmVyIn0sInJvdGF0ZSI6bnVsbH19",
-      "category": "str",
-      "link": "product-details.html"
+      "category": "Femenino",
+      "fragrance": {
+        "family": "Floral Frutal",
+        "notes": {
+          "top": ["Flor de azahar del naranjo", "Mandarina", "Flor de cactus", "Bergamota"],
+          "middle": ["Camelia blanca", "Azucena", "Gardenia", "Fresia", "Jazmín", "Rosa", "Lirio de los valles (muguete)", "Peonía"],
+          "base": ["Sándalo", "Almizcle"]
+        }
+      },
+      "link": "product-details.html",
+      "Des":"Perfume 212 de carolina herrera es una fragancia de la familia olfativa almizcle floral amaderado para mujeres. 212 se lanzó en 1997. la nariz detrás de esta fragrancia es alberto morillas. las notas de salida son flor de azahar del naranjo, mandarina, flor de cactus y bergamota; las notas de corazón son camelia blanca, azucena, gardenia, fresia, jazmín, rosa, lirio de los valles (muguete) y peonía; las notas de fondo son sándalo y almizcle."
     },
     {
       "id": 13,
@@ -172,8 +227,18 @@
       "price": 94000,
       "oldPrice": 32,
       "image": "https://d1b50uin55dq3m.cloudfront.net/eyJidWNrZXQiOiJ3YTEweC52MiIsImtleSI6ImFmM2JhM2Y1LTk2MjMtNGNhYi1hM2FmLTRkODE0Zjc0YzUyYi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6ImNvdmVyIn0sInJvdGF0ZSI6bnVsbH19",
-      "category": "str",
-      "link": "product-details.html"
+      "category": "Femenino",
+      "fragrance": {
+        "family": "Oriental Floral",
+        "notes": {
+          "top": ["Rosa", "Mandarina", "Bergamota"],
+          "middle": ["Jazmín", "Peonía", "Flor de azahar del naranjo"],
+          "base": ["Vainilla", "Almizcle", "Sándalo"]
+        }
+      },
+      "link": "product-details.html",
+      "Des": "El Perfume 212 Sexy EDP 100 ml Carolina Herrera es una fragancia para la mujer femenina que quiere irradiar sensualidad en cualquier momento del día. Este producto de belleza contiene en su interior una llamativa fragancia fresca oriental, gustativa y con tonos de musk."
+
     },
     {
       "id": 14,
@@ -181,8 +246,127 @@
       "price": 100000,
       "oldPrice": 32,
       "image": "https://d1b50uin55dq3m.cloudfront.net/eyJidWNrZXQiOiJ3YTEweC52MiIsImtleSI6ImY5OGIyNmQyLTFkN2MtNDkyYS1iODdlLWQ3YTAyYWUwNTUwYS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6ImNvdmVyIn0sInJvdGF0ZSI6bnVsbH19",
-      "category": "str",
-      "link": "product-details.html"
-    }
+      "category": "Femenino",
+      "fragrance": {
+        "family": "Oriental Floral",
+        "notes": {
+          "top": ["Almendra", "Café", "Bergamota", "Limón (lima ácida)"],
+          "middle": ["Jazmín sambac (sampaguita)", "Nardos", "Raíz de lirio", "Rosa de Bulgaria (rosa Damascena)", "Flor de azahar del naranjo"],
+          "base": ["Haba tonka", "Vaina de cacao", "Sándalo", "Vainilla", "Praliné", "Canela", "Cedro", "Madera de cachemira", "Pachulí", "Ámbar", "Almizcle"]
+        }
+      },
+      "link": "product-details.html",
+      "Des":"Good Girl Fantastic Pink de Carolina Herrera es una fragancia de la familia olfativa Oriental Floral para Mujeres. Esta fragrancia es nueva. Perfume Good Girl Fantastic Pink Carolina Herrera se lanzó en 2020. La Nariz detrás de esta fragrancia es Louise Turner. Las Notas de Salida son almendra, café, bergamota y limón (lima ácida); las Notas de Corazón son jazmín sambac (sampaguita), nardos, raíz de lirio, rosa de Bulgaria (rosa Damascena de Bulgaria) y flor de azahar del naranjo; las de Fondo son haba tonka, vaina de cacao, sándalo, vainilla, praliné, canela, cedro, madera de cachemira, pachulí, ámbar y almizcle."
+    },
+    {
+      "id": 15,
+      "title": "ILMIN PARFUMS FEMME 30 ML PARA MUJER PRESENTACION ESTUCHE",
+      "price": 140000,
+      "oldPrice": 32,
+      "image": "https://d1b50uin55dq3m.cloudfront.net/eyJidWNrZXQiOiJ3YTEweC52MiIsImtleSI6ImE0NWEyNzU1LWRjNGUtNDA1Ny1iZTdiLWU1YmY4Mzk0NjNlNy5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6ImNvdmVyIn0sInJvdGF0ZSI6bnVsbH19",
+      "category": "Femenino",
+      "fragrance": {
+        "family": "Ámbar Amaderado",
+        "notes": {
+          "top": ["Maracuyá (fruta de la pasión)", "Rosa", "Nuez moscada", "Canela"],
+          "middle": ["Cedro", "Cipriol (nagarmota)", "Bálsamo de Gurjum", "Madera de gaiac", "Madera de cachemira"],
+          "base": ["Sándalo", "Tabaco", "Almizcle", "Cumarina", "Vainilla", "Ládano"]
+        }
+      },
+      "link": "product-details.html",
+      "Des":"Il Femme de ILMIN Parfums es una fragancia de la familia olfativa Ámbar Amaderada para Hombres y Mujeres. Il Femme se lanzó en 2018. Las Notas de Salida son maracuyá (fruta de la pasión), rosa, nuez moscada y canela; las Notas de Corazón son cedro, cipriol (nagarmota), bálsamo de Gurjum, madera de gaiac y madera de cachemira; las Notas de Fondo son sándalo, tabaco, almizcle, cumarina, vainilla y ládano"
+    },
+    {
+      "id": 16,
+      "title": "9 AM POUR FEMME DE AFNAN 100 ML PARA MUJERES",
+      "price": 110000,
+      "oldPrice": 32,
+      "image": "https://d1b50uin55dq3m.cloudfront.net/eyJidWNrZXQiOiJ3YTEweC52MiIsImtleSI6IjZmN2UyYjQ5LTg0YTAtNDc2My1iNjY1LTY5NjM3MjY3YTgzNy5qcGVnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjozMDAsImhlaWdodCI6MzAwLCJmaXQiOiJjb3ZlciJ9LCJyb3RhdGUiOm51bGx9fQ==",
+      "category": "Femenino",
+      "fragrance": {
+        "family": "Ámbar",
+        "notes": {
+          "top": ["Mandarina", "Toronja (pomelo)", "Bergamota"],
+          "middle": ["Frambuesa", "Grosellas negras"],
+          "base": ["Almizcle", "Ámbar", "Naranja"]
+        }
+      },
+      "link": "product-details.html",
+      "Des":"9am pour Femme de Afnan es una fragancia de la familia olfativa Ámbar para Mujeres. Esta fragrancia es nueva. 9am pour Femme se lanzó en 2022. Las Notas de Salida son mandarina, toronja (pomelo) y bergamota; las Notas de Corazón son frambuesa y grosellas negras; las Notas de Fondo son almizcle, ámbar y naranja."
+    },
+    {
+      "id": 17,
+      "title": "GOOD GIRL WHITE 80 ML PARA MUJER",
+      "price": 100000,
+      "oldPrice": 32,
+      "image": "https://d1b50uin55dq3m.cloudfront.net/eyJidWNrZXQiOiJ3YTEweC52MiIsImtleSI6IjhiMGY1OWI5LWJkYmMtNDk0Ni1iOTc1LTQ1ODI3ZjVkZDg5Ny5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6ImNvdmVyIn0sInJvdGF0ZSI6bnVsbH19",
+      "category": "Femenino",
+      "fragrance": {
+        "family": "Oriental Floral",
+        "notes": {
+          "top": ["Almendra", "Café", "Bergamota", "Limón (lima ácida)"],
+          "middle": ["Jazmín sambac (sampaguita)", "Nardos", "Raíz de lirio", "Rosa de Bulgaria (rosa Damascena)", "Flor de azahar del naranjo"],
+          "base": ["Haba tonka", "Vaina de cacao", "Sándalo", "Vainilla", "Praliné", "Canela", "Cedro", "Madera de cachemira", "Pachulí", "Ámbar", "Almizcle"]
+        }
+      },
+      "link": "product-details.html",
+      "Des":"Las cualidades dulces, asombrosas y seductoras del jazmín le dan a Good Girl un brillo femenino. El lado misterioso de Good Girl se expresa a través de un rico aroma a cacao, un emocionante haba tonka y notas de audaz vitalidad de almendra y café."
+    },
+  
+  {
+    "id": 18,
+    "title": "GOOD GIRL VELVET FATALE 80 ML PARA MUJER",
+    "price": 100000,
+    "oldPrice": 32,
+    "image": "https://d1b50uin55dq3m.cloudfront.net/eyJidWNrZXQiOiJ3YTEweC52MiIsImtleSI6ImUyMmVkZmI3LTdmNGMtNDU1Mi04MTFlLTM1ODBjNDg0YTc0MC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6ImNvdmVyIn0sInJvdGF0ZSI6bnVsbH19",
+    "category": "Femenino",
+    "fragrance": {
+      "family": "Oriental Floral",
+      "notes": {
+        "top": ["Almendra", "Café", "Bergamota", "Limón (lima ácida)"],
+        "middle": ["Jazmín sambac (sampaguita)", "Nardos", "Raíz de lirio", "Rosa de Bulgaria (rosa Damascena)", "Flor de azahar del naranjo"],
+        "base": ["Haba tonka", "Vaina de cacao", "Sándalo", "Vainilla", "Praliné", "Canela", "Cedro", "Madera de cachemira", "Pachulí", "Ámbar", "Almizcle"]
+      }
+    },
+    "link": "product-details.html",
+    "Des":"Good Girl Velvet Fatale de Carolina Herrera es una fragancia de la familia olfativa Ámbar Floral para Mujeres. Good Girl Velvet Fatale se lanzó en 2018. La Nariz detrás de esta fragrancia es Louise Turner. Las Notas de Salida son almendra, café, limón (lima ácida) y bergamota; las Notas de Corazón son nardos, jazmín, rosa de Bulgaria (rosa Damascena de Bulgaria), raíz de lirio y flor de azahar del naranjo; las Notas de Fondo son praliné, cacao, vainilla, haba tonka, pachulí, ámbar, sándalo, almizcle, canela, madera de cachemira y cedro.."
+  },
+  {
+    "id": 19,
+    "title": "OMNIA PINK SAPPHIRE 65 ML PARA MUJER",
+    "price": 100000,
+    "oldPrice": 32,
+    "image": "https://d1b50uin55dq3m.cloudfront.net/eyJidWNrZXQiOiJ3YTEweC52MiIsImtleSI6ImZhY2Y1NGQ0LTM3NjYtNGM0ZS05NTI2LWVjODFmZTc4MDkzZS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6ImNvdmVyIn0sInJvdGF0ZSI6bnVsbH19",
+    "category": "Femenino",
+    "fragrance": {
+      "family": "Floral",
+      "notes": {
+        "top": ["Toronja (pomelo)", "Toronja (pomelo) rosada", "Pimienta rosa"],
+        "middle": ["Frangipani (plumeria, plumaria, atapaima)", "Flor de tiaré", "Durazno (melocotón)", "Rosa"],
+        "base": ["Almizcle", "Violeta", "Vainilla", "Notas amaderadas", "Sándalo", "Raíz de lirio"]
+      }
+    },
+    "link": "product-details.html",
+    "Des":"Omnia Pink Sapphire de Bvlgari es una fragancia de la familia olfativa Floral para Mujeres. Omnia Pink Sapphire se lanzó en 2018. La Nariz detrás de esta fragrancia es Alberto Morillas. Las Notas de Salida son toronja (pomelo), toronja (pomelo) rosada y pimienta rosa; las Notas de Corazón son frangipani (plumeria, plumaria, atapaima), flor de tiaré, durazno (melocotón) y rosa; las Notas de Fondo son almizcle, violeta, vainilla, notas amaderadas, sándalo y raíz de lirio."
+  },  {
+    "id": 20,
+    "title": "ETERMITY MUJER 100 ML",
+    "price": 100000,
+    "oldPrice": 32,
+    "image": "https://d1b50uin55dq3m.cloudfront.net/eyJidWNrZXQiOiJ3YTEweC52MiIsImtleSI6IjRmNDRiYTNmLWMzYzgtNDBmNi04MGFhLWUxNTNkMzY0ZTZjNi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6ImNvdmVyIn0sInJvdGF0ZSI6bnVsbH19",
+    "category": "Femenino",
+    "fragrance": {
+      "family": "Floral",
+      "notes": {
+        "top": ["Notas verdes", "Fresia", "Salvia", "Cítricos", "Mandarina"],
+        "middle": ["Clavel", "Azucena", "Lirio de los valles (muguete)", "Narciso", "Caléndula", "Violeta", "Rosa", "Jazmín"],
+        "base": ["Almizcle", "Heliotropo", "Sándalo", "Ámbar", "Pachulí"]
+      }
+    },
+    "link": "product-details.html",
+    "Des":"Eternity de Calvin Klein es una fragancia de la familia olfativa Floral para Mujeres. Eternity se lanzó en 1988. La Nariz detrás de esta fragrancia es Sophia Grojsman. Las Notas de Salida son notas verdes, fresia, salvia, cítricos y mandarina; las Notas de Corazón son clavel, azucena, lirio de los valles (muguete), narciso, caléndula, violeta, rosa y jazmín; las Notas de Fondo son almizcle, heliotropo, sándalo, ámbar y pachulí."
+  }
+
+
   ]
   
