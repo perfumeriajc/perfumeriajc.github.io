@@ -1,6 +1,8 @@
 [
     {
-      "title": "PURR KATY PERRY 100 ML PARA MUJER",
+      "id": 1,
+      "title": "Purr Katy Perry 100 ML",
+      "title2": "Purr Katy Perry",
       "price": 112000,
       "image": "https://d1b50uin55dq3m.cloudfront.net/eyJidWNrZXQiOiJ3YTEweC52MiIsImtleSI6IjAyN2Q3ZTM0LTI3ODAtNDA5MC1iNDllLWI4YjQ0Nzg2NDYxOS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEwODAsImhlaWdodCI6MTA4MCwiZml0IjoiY29udGFpbiJ9LCJyb3RhdGUiOm51bGx9fQ==",
       "category": "Femenino",
@@ -12,45 +14,51 @@
           "base": ["Vainilla", "Coco", "Orquídea", "Almizcle", "Sándalo", "Ámbar"]
         }
       },
-      "link": "product-details.html",
+      "link": "product-details.html?id=1",
       "Des": "Purr de Katy Perry es una fragancia de la familia olfativa Floral Frutal para Mujeres.Las Notas de Salida son durazno (melocotón), manzana roja, gardenia y bambú; las Notas de Corazón son jazmín, fresia y rosa; las Notas de Fondo son vainilla, coco, orquídea, almizcle, sándalo y ámbar."
     },
     {
-      "title": "MARC JACOBS DECADENCE 100 ML PARA MUJER",
+      "id": 2,
+      "title": "Decadence Marc Jacobs 100 ML",
+      "title2": "Decadence Marc Jacobs",
       "price": 120000,
       "oldPrice": 32,
       "image": "https://d1b50uin55dq3m.cloudfront.net/eyJidWNrZXQiOiJ3YTEweC52MiIsImtleSI6ImZlMTQxNGM2LWE5YzctNDU0NS05ODk0LWYxZTYwYTI0YmYzMS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEwODAsImhlaWdodCI6MTA4MCwiZml0IjoiY29udGFpbiJ9LCJyb3RhdGUiOm51bGx9fQ==",
       "category": "Femenino",
       "fragrance": {
-        "family": "Oriental Floral",
+        "family": "Ámbar Floral",
         "notes": {
           "top": ["Ciruela", "Azafrán", "Iris"],
           "middle": ["Raíz de lirio", "Jazmín sambac", "Rosa búlgara"],
           "base": ["Vetiver", "Papiro", "Liquidámbar"]
         }
       },
-      "link": "product-details.html",
+      "link": "product-details.html?id=2",
       "Des": "Decadence de Marc Jacobs es una fragancia floral ambarina para mujeres. Decadence se lanzó en 2015. Decadence fue creada por Annie Buzantian y Ann Gottlieb. Las Notas de Salida son ciruela, azafrán y iris; las Notas de Corazón son raíz de lirio, jazmín sambac y rosa búlgara; las Notas de Fondo son vetiver, papiro y liquidámbar."
     },
     {
-      "title": "OLYMPEA LEGEND PACO RABANNE 80 ML PARA MUJER",
+      "id": 3,
+      "title": "Olympea Legend Paco Rabanne 80 ML",
+      "title2": "Olympea Legend Paco Rabanne",
       "price": 96000,
       "oldPrice": 32,
       "image": "https://d1b50uin55dq3m.cloudfront.net/eyJidWNrZXQiOiJ3YTEweC52MiIsImtleSI6ImUzNDcyMGY1LTkyYTUtNGMxOC05Njc0LTMyY2I0MmY2ZGJlOS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEwODAsImhlaWdodCI6MTA4MCwiZml0IjoiY29udGFpbiJ9LCJyb3RhdGUiOm51bGx9fQ==",
       "category": "Femenino",
       "fragrance": {
-        "family": "Oriental Floral",
+        "family": "Ámbar Floral",
         "notes": {
           "top": ["Ciruela", "Chabacano", "Sal marina"],
           "middle": ["Notas florales", "Flor de jengibre"],
           "base": ["Vainilla", "Haba tonka", "Ámbar", "Arena"]
         }
       },
-      "link": "product-details.html",
+      "link": "product-details.html?id=3",
       "Des": "Olympea Legend de Paco Rabanne es una fragancia floral ambarina para mujeres. Olympea Legend se lanzó en 2019. La Nariz detrás de esta fragrancia es Loc Dong. Las Notas de Salida son ciruela, chabacano y sal marina; las Notas de Corazón son notas florales y flor de jengibre; las Notas de Fondo son vainilla, haba tonka, ámbar y arena."
     },
     {
-      "title": "LATTAFA HAYA PARA MUJEREDS 100 ML ORIGINAL",
+      "id": 4,
+      "title": "Haya Lattfa 100 ML",
+      "title2": "Haya Lattfa",
       "price": 340000,
       "oldPrice": 32,
       "image": "https://lmd.com.co/cdn/shop/files/Perfume_Haya_Lattafa.webp?v=1727221065",
@@ -63,11 +71,13 @@
           "base": ["Ámbar", "Sándalo", "Castaña"]
         }
       },
-      "link": "product-details.html",
+      "link": "product-details.html?id=4",
       "Des": "Haya de Lattafa Perfumes es una fragancia de la familia olfativa para Mujeres. Esta fragrancia es nueva. Haya se lanzó en 2022. Las Notas de Salida son champaña, fresa, rosa, naranja tangerina y naranja sanguina; las Notas de Corazón son gardenia, jazmín y orquídea de vainilla; las Notas de Fondo son ámbar, sándalo y castaña."
     },
     {
-      "title": "PORTRAITS PEHNALIGONS ARTHUR 100 ML UNISEX PRESENTACION TIPO ORIGINAL",
+      "id": 5,
+      "title": "El mundo según Arthur Penhaligon's 100 ML",
+      "title2": "El mundo según Arthur Penhaligon's",
       "price": 240000,
       "oldPrice": 32,
       "image": "https://d1b50uin55dq3m.cloudfront.net/eyJidWNrZXQiOiJ3YTEweC52MiIsImtleSI6ImQwMDUzZWY1LTQ5YWYtNGViOS1hYzQwLTQ3OWIxNTY3NTllMC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEwODAsImhlaWdodCI6MTA4MCwiZml0IjoiY29udGFpbiJ9LCJyb3RhdGUiOm51bGx9fQ==",
@@ -80,20 +90,31 @@
           "base": ["Incienso", "Haba tonka"]
         }
       },
-      "link": "product-details.html",
+      "link": "product-details.html?id=5",
       "Des": "El mundo según Arthur de Penhaligon's es una fragancia ámbar especiada para mujeres y hombres. El mundo según Arthur se lanzó en 2021. Las Notas de Salida son vainilla, incienso y pomelo; las Notas de Corazón son ambreta (malva almizclera) y salvia; las Notas de Fondo son incienso y haba tonka."
     },    
     {
-      "title": "LAYTON DE PARFUM DE MARLY 125 ML UNISEX",
+      "id": 6,
+      "title": "Layton de Parfums de Marly 125 ML",
+      "title2": "Layton de Parfums de Marly",
       "price": 140000,
       "oldPrice": 32,
       "image": "https://d1b50uin55dq3m.cloudfront.net/eyJidWNrZXQiOiJ3YTEweC52MiIsImtleSI6IjNhY2FhZjBlLTg0MWMtNDZmOC05YWNiLTJmNTVkOTBmYTFlYS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6ImNvdmVyIn0sInJvdGF0ZSI6bnVsbH19",
-      "category": "str",
-      "link": "product-details.html",
+      "category": "Femenino",
+      "fragrance":{
+        "family": "Ámbar Floral",
+        "notes": {
+          "top": ["Manzana", "Lavanda", "Bergamota", "Mandarina"],
+          "middle": ["Geranio", "Violeta", "Jazmín"],
+          "base": ["Vainilla", "Cardamomo", "Sándalo", "Pimienta", "Madera de gaiac", "Pachulí"]
+        }
+      },
+      "link": "product-details.html?id=6",
       "Des": "Layton de Parfums de Marly es una fragancia de la familia olfativa Ámbar Floral para Hombres y Mujeres. Layton se lanzó en 2016. La Nariz detrás de esta fragrancia es Hamid Merati-Kashani. Las Notas de Salida son manzana, lavanda, bergamota y mandarina; las Notas de Corazón son geranio, violeta y jazmín; las Notas de Fondo son vainilla, cardamomo, sándalo, pimienta, madera de gaiac y pachulí"
     },
     {
-      "title": "DELILAH EAU DE PARFUM MAISON ALHAMBRA PARA MUJER 100 ML ORIGINAL",
+      "id": 7,
+      "title": "Delilah Eau de Parfum Maison Alhambra 100 ML Original",
       "price": 280000,
       "oldPrice": 32,
       "image": "https://d1b50uin55dq3m.cloudfront.net/eyJidWNrZXQiOiJ3YTEweC52MiIsImtleSI6ImIzMWEyNDNhLTUwNzktNGM1Yy05NDQ2LWJiNjlmZTk5NTAzNS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEwODAsImhlaWdodCI6MTA4MCwiZml0IjoiY29udGFpbiJ9LCJyb3RhdGUiOm51bGx9fQ==",
@@ -101,6 +122,7 @@
       "link": "product-details.html"
     },
     {
+      "id": 8,
       "title": "212 HEROES FOR HER 80 ML DAMA",
       "price": 100000,
       "oldPrice": 32,
@@ -109,6 +131,7 @@
       "link": "product-details.html"
     },
     {
+      "id": 9,
       "title": "212 VIP 80 ML CAROLINA HERRERA DAMA",
       "price": 94000,
       "oldPrice": 32,
@@ -117,6 +140,7 @@
       "link": "product-details.html"
     },
     {
+      "id": 10,
       "title": "212 VIP ROSE RED 80 ML CAROLINA HERRERA DAMA",
       "price": 94000,
       "oldPrice": 32,
@@ -125,6 +149,7 @@
       "link": "product-details.html"
     },
     {
+      "id": 11,
       "title": "212 VIP WINS 80 ML CAROLINA HERRERA MUJER",
       "price": 94000,
       "oldPrice": 32,
@@ -133,6 +158,7 @@
       "link": "product-details.html"
     },
     {
+      "id": 12,
       "title": "212 WOMEN CAROLINA HERRERA 100 ML DAMA",
       "price": 94000,
       "oldPrice": 32,
@@ -141,6 +167,7 @@
       "link": "product-details.html"
     },
     {
+      "id": 13,
       "title": "212 SEXY 100 ML CAROLINA HERRERA DAMA",
       "price": 94000,
       "oldPrice": 32,
@@ -149,6 +176,7 @@
       "link": "product-details.html"
     },
     {
+      "id": 14,
       "title": "FANTASTIC PINK 80 ML CAROLINA HERRERA DAMA",
       "price": 100000,
       "oldPrice": 32,

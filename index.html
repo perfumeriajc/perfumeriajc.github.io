@@ -57,11 +57,29 @@ https://templatemo.com/tm-589-lugx-gaming
                     <!-- ***** Menu Start ***** -->
                     <ul class="nav">
                       <li><a href="index.html" class="active">Inicio</a></li>
-                      <li><a href="categories.html">Categorias</a></li>
-                      <li><a href="femenino.html">Mujeres</a></li>
-                      <li><a href="product-details.html">Hombres</a></li>
-                      <li><a href="contact.html">Contactanos</a></li>
-                    </ul>   
+                      <li><a href="categories.html">Categorías</a></li>
+                      
+                      <li class="has-submenu">
+                        <a href="femenino.html">Mujeres</a>
+                        <ul class="sub-menu">
+                          <li><a href="perfumes-mujer.html">Perfumes</a></li>
+                          <li><a href="ropa-mujer.html">Ropa</a></li>
+                          <li><a href="accesorios-mujer.html">Accesorios</a></li>
+                        </ul>
+                      </li>
+                      
+                      <li class="has-submenu">
+                        <a href="masculino.html">Hombres</a>
+                        <ul class="sub-menu">
+                          <li><a href="perfumes-hombre.html">Perfumes</a></li>
+                          <li><a href="ropa-hombre.html">Ropa</a></li>
+                          <li><a href="accesorios-hombre.html">Accesorios</a></li>
+                        </ul>
+                      </li>
+                      
+                      <li><a href="contact.html">Contáctanos</a></li>
+                    </ul>
+                    
                     <a class='menu-trigger'>
                         <span>Menu</span>
                     </a>
@@ -72,33 +90,83 @@ https://templatemo.com/tm-589-lugx-gaming
     </div>
   </header>
   <!-- ***** Header Area End ***** -->
-
   <div class="main-banner">
     <div class="container">
-      <div class="row">
-        <div class="col-lg-6 align-self-center">
-          <div class="caption header-text">
-            <h6>Bienvenida a JC Perfumería</h6>
-            <h2>Fragancias que dejan huella</h2>
-            <p>Descubre perfumes exclusivos inspirados en la elegancia, la sofisticación y la esencia única de cada persona. Vive la experiencia de un aroma inolvidable.</p>
-            <div class="search-input">
-              <form id="search" action="#">
-                <input type="text" placeholder="Buscar fragancia..." id="searchText" name="searchKeyword" />
-                <button role="button">Buscar ahora</button>
-              </form>
+        <div id="dia-madres-carousel" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-6 align-self-center">
+                    <div class="caption header-text">
+                      <h6>¡Celebra el Día de las Madres!</h6>
+                      <h2>Regala un Aroma Inolvidable</h2>
+                      <p>Este mes de mayo, sorprende a mamá con una fragancia única. ¡Compra ahora y disfruta de ofertas especiales por el Día de las Madres!</p>
+                      <div class="main-button">
+                        <a href="categories.html">Ver Fragancias</a>
+                        <a href="femenino.html">Ver Ropa para Mamá</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6">
+                    <img src="assets/images/dia-madres-productos-1.jpg" alt="Productos Día de las Madres" style="width:100%;">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-6 align-self-center">
+                    <div class="caption header-text">
+                      <h6>Perfumes para Mamá</h6>
+                      <h2>Descubre las Fragancias Exclusivas</h2>
+                      <p>Encuentra la fragancia que más le guste a mamá y hazla sentir especial.</p>
+                      <div class="main-button">
+                        <a href="perfumes.html">Ver Perfumes</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6">
+                    <img src="assets/images/dia-madres-productos-2.jpg" alt="Perfumes para mamá" style="width:100%;">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-6 align-self-center">
+                    <div class="caption header-text">
+                      <h6>¡Ropa para Mamá!</h6>
+                      <h2>Renueva su Estilo con las Mejores Prendas</h2>
+                      <p>Viste a mamá con las mejores prendas y siéntete orgulloso de su estilo.</p>
+                      <div class="main-button">
+                        <a href="femenino.html">Ver Ropa para Mamá</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6">
+                    <img src="assets/images/dia-madres-productos-3.jpg" alt="Ropa para mamá" style="width:100%;">
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col-lg-4 offset-lg-2">
-          <div class="right-image">
-            <img src="https://www.sephora.com/productimages/product/p464315-av-18-zoom.jpg" alt="Perfume destacado">
-            <span class="price">$22</span>
-            <span class="offer">-40%</span>
-          </div>
-        </div>
+          <!-- Controles del carrusel -->
+          <button class="carousel-control-prev" type="button" data-bs-target="#dia-madres-carousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#dia-madres-carousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
       </div>
     </div>
   </div>
+ 
+  
   
   <div class="features">
     <div class="container">

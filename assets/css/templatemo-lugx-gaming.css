@@ -661,6 +661,25 @@ Banner Style
   background-repeat: no-repeat;
   background-size: cover;
   padding: 225px 0px;
+  height: 700px; /* Ajusta este valor según tu diseño */
+  overflow: hidden;
+}
+
+.carousel-item {
+  height: 100%;
+}
+
+.carousel-item img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover; /* Muy importante para que la imagen no se deforme */
+}
+
+/* Ajustar los controles (prev / next) al centro vertical */
+.carousel-control-prev, .carousel-control-next {
+  width: 5%;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .main-banner .caption h6 {
@@ -773,6 +792,39 @@ Banner Style
   line-height: 100px;
 }
 
+.nav li {
+  position: relative;
+  padding: 0px 20px !important;
+}
+
+.nav .sub-menu {
+  display: none;
+  position: absolute;
+  background-color: rgba(65, 98, 51, 0);
+  padding: 10px 0;
+  list-style: none;
+  top: 100%;
+  left: 0;
+  min-width: 180px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  z-index: 1000;
+}
+
+.nav .sub-menu li {
+  padding: 8px 20px 2px !important;
+}
+
+.nav .sub-menu li a {
+  color: #333;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.nav li:hover > .sub-menu {
+  display: block;
+}
+
+
 
 
 /* 
@@ -865,6 +917,17 @@ Trending Style
 
 .trending .item .down-content {
   padding: 25px;
+}
+
+
+.down-content {
+  height: 100px; /* o el alto que veas que queda bonito */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  overflow: hidden;
 }
 
 .trending .item .down-content span.category {
