@@ -21,13 +21,22 @@
     <link rel="stylesheet"href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
     <style>
       .trending-box {
-        opacity: 0;
-        transition: opacity 0.4s ease;
+        opacity: 1;
+        transition: opacity 0.4s ease-in-out;
       }
+
+      .trending-box.loading {
+        opacity: 0;
+        pointer-events: none;
+      }
+
       .trending-box.loaded {
         opacity: 1;
+        pointer-events: auto;
       }
+
     </style>
+
 <!--
 
 TemplateMo 589 lugx gaming
@@ -112,6 +121,7 @@ https://templatemo.com/tm-589-lugx-gaming
       <div id="product-list" class="row trending-box">
 
       </div>
+
       <div class="row">
         <div class="col-lg-12">
           <ul class="pagination">
@@ -142,54 +152,89 @@ https://templatemo.com/tm-589-lugx-gaming
   <script src="assets/js/owl-carousel.js"></script>
   <script src="assets/js/counter.js"></script>
   <script src="assets/js/custom.js"></script>
+  <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
 
-  <script>
-    document.addEventListener('DOMContentLoaded', () => {
-      const container = document.querySelector('.trending-box');
-      let iso;
-  
-      fetch('assets/data/products.json')
-        .then(response => response.json())
-        .then(data => {
-          container.innerHTML = '';
-          data.forEach(product => {
-            const item = `
-              <div class="col-lg-3 col-md-6 align-self-center mb-30 trending-items ${product.category}">
-                <div class="item">
-                  <div class="thumb">
-                    <a href="${product.link}"><img src="${product.image}" alt=""></a>
-                    <span class="price">$${product.price}</span>
-                  </div>
-                  <div class="down-content">
-                    <span class="category">Perfume</span>
-                    <h4>${product.title}</h4>
-                  </div>
-                </div>
-              </div>`;
-            container.insertAdjacentHTML('beforeend', item);
-          });
-  
-          setTimeout(() => {
-            if (iso) {
-              iso.reloadItems();
-              iso.arrange();
-            } else {
-              iso = new Isotope(container, {
-                itemSelector: '.trending-items',
-                layoutMode: 'fitRows'
-              });
-            }
-  
-            // Mostrar contenido una vez cargado
-            container.classList.add('loaded');
-          }, 500);
-        });
+<script>
+  const container = document.querySelector('.trending-box');
+  const pagination = document.querySelector('.pagination');
+  const itemsPerPage = 16;
+  let currentPage = 1;
+  let iso;
+  let products = [];
+
+  function renderProducts(page) {
+    container.classList.remove('loaded');
+    container.innerHTML = '';
+
+    const start = (page - 1) * itemsPerPage;
+    const end = start + itemsPerPage;
+    const pageItems = products.slice(start, end);
+
+    pageItems.forEach(product => {
+      const item = `
+        <div class="col-lg-3 col-md-6 align-self-center mb-30 trending-items ${product.category}">
+          <div class="item">
+            <div class="thumb">
+              <a href="${product.link}"><img src="${product.image}" alt=""></a>
+              <span class="price">$${product.price}</span>
+            </div>
+            <div class="down-content">
+              <span class="category">Perfume</span>
+              <h4>${product.title}</h4>
+            </div>
+          </div>
+        </div>`;
+      container.insertAdjacentHTML('beforeend', item);
     });
-  </script>
-  
-  
 
-  
+    // Esperar a que se carguen imágenes Y elementos DOM antes de organizar
+    setTimeout(() => {
+      if (iso) {
+        iso.reloadItems();
+        iso.arrange();
+      } else {
+        iso = new Isotope(container, {
+          itemSelector: '.trending-items',
+          layoutMode: 'fitRows'
+        });
+      }
+      container.classList.add('loaded');
+    }, 100); // Pequeño delay para asegurar el DOM esté listo
+  }
+
+  function renderPagination() {
+    const totalPages = Math.ceil(products.length / itemsPerPage);
+    let html = `<li><a href="#" data-page="${currentPage - 1}" ${currentPage === 1 ? 'class="disabled"' : ''}>&lt;</a></li>`;
+    for (let i = 1; i <= totalPages; i++) {
+      html += `<li><a href="#" data-page="${i}" ${i === currentPage ? 'class="is_active"' : ''}>${i}</a></li>`;
+    }
+    html += `<li><a href="#" data-page="${currentPage + 1}" ${currentPage === totalPages ? 'class="disabled"' : ''}>&gt;</a></li>`;
+    pagination.innerHTML = html;
+  }
+
+  pagination.addEventListener('click', (e) => {
+    if (e.target.tagName === 'A') {
+      e.preventDefault();
+      const page = parseInt(e.target.dataset.page);
+      const totalPages = Math.ceil(products.length / itemsPerPage);
+      if (!isNaN(page) && page >= 1 && page <= totalPages) {
+        currentPage = page;
+        renderProducts(currentPage);
+        renderPagination();
+      }
+    }
+  });
+
+  fetch('assets/data/products.json')
+    .then(response => response.json())
+    .then(data => {
+      products = data;
+      renderProducts(currentPage);
+      renderPagination();
+    });
+</script>
+
+
 
   </body>
 </html>

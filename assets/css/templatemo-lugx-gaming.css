@@ -653,6 +653,18 @@ Header Style
 Banner Style
 --------------------------------------------- 
 */
+body::after {
+  content: "JCPerfumeria: 3144327663"; /* o tu nombre/marca */
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  opacity: 0.1;
+  font-size: 20px;
+  font-weight: bold;
+  pointer-events: none;
+  z-index: 9999;
+  color: #000;
+}
 
 .main-banner {
   background-image: url(../images/banner-bg.jpg);
@@ -661,7 +673,7 @@ Banner Style
   background-repeat: no-repeat;
   background-size: cover;
   padding: 225px 0px;
-  height: 700px; /* Ajusta este valor según tu diseño */
+
   overflow: hidden;
 }
 
