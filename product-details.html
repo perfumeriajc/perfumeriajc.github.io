@@ -55,11 +55,11 @@ https://templatemo.com/tm-589-lugx-gaming
                     <!-- ***** Logo End ***** -->
                     <!-- ***** Menu Start ***** -->
                     <ul class="nav">
-                      <li><a href="index.html">Home</a></li>
-                      <li><a href="shop.html">Our Shop</a></li>
-                      <li><a href="product-details.html" class="active">Product Details</a></li>
-                      <li><a href="contact.html">Contact Us</a></li>
-                      <li><a href="#">Sign In</a></li>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="categories.html">Categorias</a></li>
+                        <li><a href="femenino.html" >Mujeres</a></li>
+                        <li><a href="masculino.html" >Hombres</a></li>
+                        <li><a href="contact.html">Contactanos</a></li>
                   </ul>   
                     <a class='menu-trigger'>
                         <span>Menu</span>
@@ -93,7 +93,7 @@ https://templatemo.com/tm-589-lugx-gaming
         </div>
         <div class="col-lg-6 align-self-center">
           <h4>Call of Duty®: Modern Warfare® II</h4>
-          <span class="price"><em>$28</em> $22</span>
+          <span class="price"> $22</span>
           <p>LUGX Gaming Template is based on the latest Bootstrap 5 CSS framework. This template is provided by TemplateMo and it is suitable for your gaming shop ecommerce websites. Feel free to use this for any purpose. Thank you.</p>
           <form id="qty" action="#">
             <input type="qty" class="form-control" id="1" aria-describedby="quantity" placeholder="1">
@@ -139,7 +139,7 @@ https://templatemo.com/tm-589-lugx-gaming
           document.querySelector('.left-image img').src = product.image;
           document.querySelector('.left-image img').alt = product.title;
           document.querySelector('h4').textContent = product.title;
-          document.querySelector('.price').innerHTML = `<em>$${product.originalPrice}</em> $${product.price}`;
+          document.querySelector('.price').innerHTML = ` $${product.price}`;
           document.querySelector('p').textContent = product.Des;
           document.getElementById('name').textContent = product.title;
           const fragranceNotes = product.fragrance?.notes;

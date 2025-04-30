@@ -76,8 +76,8 @@ https://templatemo.com/tm-589-lugx-gaming
                     <ul class="nav">
                       <li><a href="index.html">Inicio</a></li>
                       <li><a href="categories.html">Categorias</a></li>
-                      <li><a href="femenino.html" class="active">Mujeres</a></li>
-                      <li><a href="masculino.html">Hombres</a></li>
+                      <li><a href="femenino.html" >Mujeres</a></li>
+                      <li><a href="masculino.html" class="active">Hombres</a></li>
                       <li><a href="contact.html">Contactanos</a></li>
                     </ul>  
                     <a class='menu-trigger'>
@@ -170,24 +170,27 @@ https://templatemo.com/tm-589-lugx-gaming
   const end = start + itemsPerPage;
   const pageItems = products.slice(start, end);
 
-  pageItems.forEach(product => {
-    if (product.category === 'Femenino') {
-      const item = `
-        <div class="col-lg-3 col-md-6 align-self-center mb-30 trending-items ${product.fragrance.family}">
-          <div class="item">
-            <div class="thumb">
-              <a href="${product.link}"><img src="${product.image}" alt=""></a>
-              <span class="price">$${product.price}</span>
-            </div>
-            <div class="down-content">
-              <span class="category">${product.category}</span>
-              <h4>${product.title}</h4>
-            </div>
+  // Filtrar los productos por categoría
+  const filteredProducts = products.filter(product => product.category === 'Masculino');
+  const filteredPageItems = filteredProducts.slice(start, end);
+  filteredPageItems.forEach(product => {
+    const item = `
+      <div class="col-lg-3 col-md-6 align-self-center mb-30 trending-items ${product.fragrance.family}">
+        <div class="item">
+          <div class="thumb">
+            <a href="${product.link}"><img src="${product.image}" alt=""></a>
+            <span class="price">$${product.price}</span>
           </div>
-        </div>`;
-      container.insertAdjacentHTML('beforeend', item);
-    }
+          <div class="down-content">
+            <span class="category">${product.category}</span>
+            <h4>${product.title}</h4>
+          </div>
+        </div>
+      </div>`;
+    container.insertAdjacentHTML('beforeend', item);
   });
+
+
 
   // Esperar a que las imágenes se carguen
   imagesLoaded(container, () => {
@@ -205,7 +208,7 @@ https://templatemo.com/tm-589-lugx-gaming
 }
 
   function renderPagination() {
-    const totalPages = Math.ceil(products.filter(product => product.category === 'Femenino').length / itemsPerPage);
+    const totalPages = Math.ceil(products.filter(product => product.category === 'Masculino').length / itemsPerPage);
     let html = `<li><a href="#" data-page="${currentPage - 1}" ${currentPage === 1 ? 'class="disabled"' : ''}>&lt;</a></li>`;
     for (let i = 1; i <= totalPages; i++) {
       html += `<li><a href="#" data-page="${i}" ${i === currentPage ? 'class="is_active"' : ''}>${i}</a></li>`;
@@ -218,12 +221,18 @@ https://templatemo.com/tm-589-lugx-gaming
     if (e.target.tagName === 'A') {
       e.preventDefault();
       const page = parseInt(e.target.dataset.page);
-      const totalPages = Math.ceil(products.filter(product => product.category === 'Femenino').length / itemsPerPage);
+      const totalPages = Math.ceil(products.filter(product => product.category === 'Masculino').length / itemsPerPage);
+      
       if (!isNaN(page) && page >= 1 && page <= totalPages) {
         currentPage = page;
         renderProducts(currentPage);
         renderPagination();
       }
+      //subir el scroll al hacer click en la paginacion
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      });
     }
   });
 
