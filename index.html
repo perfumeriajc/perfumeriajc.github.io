@@ -51,15 +51,15 @@ https://templatemo.com/tm-589-lugx-gaming
                 <nav class="main-nav">
                     <!-- ***** Logo Start ***** -->
                     <a href="index.html" class="logo">
-                        <img src="assets/images/logo.png" alt="" style="width: 158px;">
+                        <img src="assets/images/logo.png" alt="" style="width: 208px;">
                     </a>
                     <!-- ***** Logo End ***** -->
                     <!-- ***** Menu Start ***** -->
                     <ul class="nav">
                       <li><a href="index.html" class="active">Inicio</a></li>
-                      <li><a href="categories.html">Categorias</a> </li>
-                      <li><a href="femenino.html">Mujeres</a></li>
-                      <li><a href="masculino.html">Hombres</a></li>
+                      <!--<li><a href="categories.html">Categorias</a> </li>-->
+                      <li><a href="femenino.html">Dama</a></li>
+                      <li><a href="masculino.html">Caballero</a></li>
                       <li><a href="contact.html">Contactanos</a></li>
                   </ul>   
                     <a class='menu-trigger'>
@@ -86,37 +86,17 @@ https://templatemo.com/tm-589-lugx-gaming
                     <h2>Regala un Aroma Inolvidable</h2>
                     <p>Este mayo, sorprende a mamá con una fragancia única. ¡Descubre nuestras ediciones especiales para ella!</p>
                     <div class="main-button">
-                      <a href="categories.html">Ver Fragancias</a>
+                      <a href="femenino.html">Ver Fragancias</a>
                     </div>
                   </div>
                 </div>
                 <div class="col-lg-6">
-                  <img src="assets/images/perfume-dia-madres-1.jpg" alt="Perfume Día de las Madres" style="width:100%;">
+                  <img src="assets/images/MADRES.jpeg" alt="Perfume Día de las Madres" style="width:100%;">
                 </div>
               </div>
             </div>
           </div>
   
-          <!-- Slide 2 -->
-          <div class="carousel-item">
-            <div class="container">
-              <div class="row">
-                <div class="col-lg-6 align-self-center">
-                  <div class="caption header-text">
-                    <h6>Fragancias Exclusivas</h6>
-                    <h2>Elige el Perfume Perfecto</h2>
-                    <p>Desde aromas florales hasta orientales, tenemos el perfume ideal para cada estilo.</p>
-                    <div class="main-button">
-                      <a href="perfumes.html">Explorar Perfumes</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-lg-6">
-                  <img src="assets/images/perfume-exclusivo.jpg" alt="Perfumes Exclusivos" style="width:100%;">
-                </div>
-              </div>
-            </div>
-          </div>
   
           <!-- Slide 3 -->
           <div class="carousel-item">
@@ -133,7 +113,7 @@ https://templatemo.com/tm-589-lugx-gaming
                   </div>
                 </div>
                 <div class="col-lg-6">
-                  <img src="assets/images/perfume-coleccion-femenina.jpg" alt="Colección femenina de perfumes" style="width:100%;">
+                  <img src="assets/images/categories/image (1).png" alt="Colección femenina de perfumes" style="width:100%;">
                 </div>
               </div>
             </div>
@@ -152,7 +132,7 @@ https://templatemo.com/tm-589-lugx-gaming
                   </div>
                 </div>
                 <div class="col-lg-6">
-                  <img src="assets/images/perfume-masculino.jpg" alt="Perfume para hombre" style="width:100%;">
+                  <img src="assets/images/categories/image1.png" alt="Perfume para hombre" style="width:100%;">
                 </div>
               </div>
             </div>
@@ -230,7 +210,7 @@ https://templatemo.com/tm-589-lugx-gaming
       </div>
     </div>
   </div>
-
+<!--
   <div class="section categories">
     <div class="container">
       <div class="row">
@@ -240,17 +220,18 @@ https://templatemo.com/tm-589-lugx-gaming
           </div>
         </div>
         <div id="categoria-container" class="row">
-          <!-- Aquí se insertarán dinámicamente las categorías -->
+
         </div>
 
       </div>
     </div>
+  -->
   </div>
  
   <footer>
     <div class="container">
       <div class="col-lg-12">
-        <p>Copyright © 2048 LUGX Gaming Company. All rights reserved. &nbsp;&nbsp; <a rel="nofollow" href="https://templatemo.com" target="_blank">Design: TemplateMo</a></p>
+                <p>Copyright © 2025. &nbsp;&nbsp; <a rel="nofollow" href="" target="_blank">Design: TemplateMo</a></p>
       </div>
     </div>
   </footer>
@@ -305,6 +286,9 @@ firstFourBestSellers.forEach(producto => {
 .catch(error => console.error("Error cargando los productos:", error)); // Manejo de errores en caso de que falle la carga
 
 
+// PONER COMENTARIO en la funcion de carga de categorias para ocultar el error de que no se encuentra el elemento
+
+/*
 fetch('assets/data/categories.json')
   .then(res => res.json())
   .then(categorias => {
@@ -332,7 +316,7 @@ fetch('assets/data/categories.json')
     });
   })
   .catch(error => console.error("Error cargando las categorías:", error));
-
+*/
   </script>
 
   </body>

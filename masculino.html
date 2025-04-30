@@ -69,15 +69,15 @@ https://templatemo.com/tm-589-lugx-gaming
                 <nav class="main-nav">
                     <!-- ***** Logo Start ***** -->
                     <a href="index.html" class="logo">
-                        <img src="assets/images/logo.png" alt="" style="width: 158px;">
+                        <img src="assets/images/logo.png" alt="" style="width: 208px">
                     </a>
                     <!-- ***** Logo End ***** -->
                     <!-- ***** Menu Start ***** -->
                     <ul class="nav">
                       <li><a href="index.html">Inicio</a></li>
-                      <li><a href="categories.html">Categorias</a></li>
-                      <li><a href="femenino.html" >Mujeres</a></li>
-                      <li><a href="masculino.html" class="active">Hombres</a></li>
+                      <!--<li><a href="categories.html">Categorias</a></li>-->
+                      <li><a href="femenino.html" >Dama</a></li>
+                      <li><a href="masculino.html" class="active">Caballero</a></li>
                       <li><a href="contact.html">Contactanos</a></li>
                     </ul>  
                     <a class='menu-trigger'>
@@ -95,30 +95,42 @@ https://templatemo.com/tm-589-lugx-gaming
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
-          <h3>Our Shop</h3>
-          <span class="breadcrumb"><a href="#">Home</a> > Our Shop</span>
+          <h3>Caballero</h3>
+          <span class="breadcrumb"><a href="#">Home</a> > Caballero</span>
         </div>
       </div>
     </div>
   </div>
 
   <div class="section trending">
-    <div class="container">
-      <ul class="trending-filter">
-        <li>
-          <a class="is_active" href="#!" data-filter="*">Show All</a>
-        </li>
-        <li>
-          <a href="#!" data-filter=".adv">Adventure</a>
-        </li>
-        <li>
-          <a href="#!" data-filter=".str">Strategy</a>
-        </li>
-        <li>
-          <a href="#!" data-filter=".rac">Racing</a>
-        </li>
-      </ul>
+
+    <div class="container ">
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-6">
+          <ul class="trending-filter">
+            <li>
+              <a class="is_active" href="#!" data-filter="*">Show All</a>
+            </li>
+
+          </ul>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-6">
+          <div class="right-content search">
+            <div class="caption header-text">
+              <div class="search-input">
+                <form id="search" action="#">
+                  <input type="text" placeholder="Buscar fragancia..." id="searchText" name="searchKeyword" />
+                  <button role="button">Buscar ahora</button>
+                </form>
+              </div>
+            </div>
+          
+          </div>
+        </div>
+      </div>
       <div id="product-list" class="row trending-box">
+        <!-- Los productos se cargarán aquí mediante JavaScript -->
+         
 
       </div>
 
@@ -139,7 +151,7 @@ https://templatemo.com/tm-589-lugx-gaming
   <footer>
     <div class="container">
       <div class="col-lg-12">
-        <p>Copyright © 2048 LUGX Gaming Company. All rights reserved. &nbsp;&nbsp; <a rel="nofollow" href="https://templatemo.com" target="_blank">Design: TemplateMo</a></p>
+                <p>Copyright © 2025. &nbsp;&nbsp; <a rel="nofollow" href="" target="_blank">Design: TemplateMo</a></p>
       </div>
     </div>
   </footer>
@@ -153,95 +165,112 @@ https://templatemo.com/tm-589-lugx-gaming
   <script src="assets/js/counter.js"></script>
   <script src="assets/js/custom.js"></script>
   <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
-
-<script>
-  const container = document.querySelector('.trending-box');
-  const pagination = document.querySelector('.pagination');
-  const itemsPerPage = 16;
-  let currentPage = 1;
-  let iso;
-  let products = [];
-
-  function renderProducts(page) {
-  container.classList.remove('loaded');
-  container.innerHTML = '';
-
-  const start = (page - 1) * itemsPerPage;
-  const end = start + itemsPerPage;
-  const pageItems = products.slice(start, end);
-
-  // Filtrar los productos por categoría
-  const filteredProducts = products.filter(product => product.category === 'Masculino');
-  const filteredPageItems = filteredProducts.slice(start, end);
-  filteredPageItems.forEach(product => {
-    const item = `
-      <div class="col-lg-3 col-md-6 align-self-center mb-30 trending-items ${product.fragrance.family}">
-        <div class="item">
-          <div class="thumb">
-            <a href="${product.link}"><img src="${product.image}" alt=""></a>
-            <span class="price">$${product.price}</span>
-          </div>
-          <div class="down-content">
-            <span class="category">${product.category}</span>
-            <h4>${product.title}</h4>
-          </div>
-        </div>
-      </div>`;
-    container.insertAdjacentHTML('beforeend', item);
-  });
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const container = document.querySelector('.trending-box');
+      const pagination = document.querySelector('.pagination');
 
 
+      const itemsPerPage = 16;
+      let currentPage = 1;
+      let iso;
+      let products = [];
 
-  // Esperar a que las imágenes se carguen
-  imagesLoaded(container, () => {
-    if (iso) {
-      iso.reloadItems();
-      iso.arrange();
-    } else {
-      iso = new Isotope(container, {
-        itemSelector: '.trending-items',
-        layoutMode: 'fitRows'
-      });
-    }
-    container.classList.add('loaded');
-  });
-}
+      let activeCategory = 'Masculino'; // Estado actual de categoría
+      let searchTerm = '';             // Estado actual del buscador
 
-  function renderPagination() {
-    const totalPages = Math.ceil(products.filter(product => product.category === 'Masculino').length / itemsPerPage);
-    let html = `<li><a href="#" data-page="${currentPage - 1}" ${currentPage === 1 ? 'class="disabled"' : ''}>&lt;</a></li>`;
-    for (let i = 1; i <= totalPages; i++) {
-      html += `<li><a href="#" data-page="${i}" ${i === currentPage ? 'class="is_active"' : ''}>${i}</a></li>`;
-    }
-    html += `<li><a href="#" data-page="${currentPage + 1}" ${currentPage === totalPages ? 'class="disabled"' : ''}>&gt;</a></li>`;
-    pagination.innerHTML = html;
-  }
-
-  pagination.addEventListener('click', (e) => {
-    if (e.target.tagName === 'A') {
-      e.preventDefault();
-      const page = parseInt(e.target.dataset.page);
-      const totalPages = Math.ceil(products.filter(product => product.category === 'Masculino').length / itemsPerPage);
-      
-      if (!isNaN(page) && page >= 1 && page <= totalPages) {
-        currentPage = page;
-        renderProducts(currentPage);
-        renderPagination();
+      function getFilteredProducts() {
+        return products.filter(p =>
+          p.category === activeCategory &&
+          p.title.toLowerCase().includes(searchTerm.toLowerCase())
+        );
       }
-      //subir el scroll al hacer click en la paginacion
-      window.scrollTo({
-        top: 0,
-        behavior: 'smooth'
-      });
-    }
-  });
 
-  fetch('assets/data/products.json')
-    .then(response => response.json())
-    .then(data => {
-      products = data;
-      renderProducts(currentPage);
-      renderPagination();
+      function renderProducts(page = 1) {
+        container.innerHTML = '';
+        const filtered = getFilteredProducts();
+
+        const start = (page - 1) * itemsPerPage;
+        const pageItems = filtered.slice(start, start + itemsPerPage);
+
+        pageItems.forEach(product => {
+          const item = `
+            <div class="col-lg-3 col-md-6 align-self-center mb-30 trending-items ${product.fragrance.family}">
+              <div class="item">
+                <div class="thumb">
+                  <a href="${product.link}"><img src="${product.image}" alt=""></a>
+                  <span class="price">$${product.price}</span>
+                </div>
+                <div class="down-content">
+                  <span class="category">${product.category}</span>
+                  <h4>${product.title}</h4>
+                </div>
+              </div>
+            </div>`;
+          container.insertAdjacentHTML('beforeend', item);
+        });
+
+        imagesLoaded(container, () => {
+          if (iso) {
+            iso.reloadItems();
+            iso.arrange();
+          } else {
+            iso = new Isotope(container, {
+              itemSelector: '.trending-items',
+              layoutMode: 'fitRows'
+            });
+          }
+          container.classList.add('loaded');
+        });
+      }
+
+      function renderPagination() {
+        const total = getFilteredProducts().length;
+        const totalPages = Math.ceil(total / itemsPerPage);
+
+        let html = `<li><a href="#" data-page="${currentPage - 1}" ${currentPage === 1 ? 'class="disabled"' : ''}>&lt;</a></li>`;
+        for (let i = 1; i <= totalPages; i++) {
+          html += `<li><a href="#" data-page="${i}" ${i === currentPage ? 'class="is_active"' : ''}>${i}</a></li>`;
+        }
+        html += `<li><a href="#" data-page="${currentPage + 1}" ${currentPage === totalPages ? 'class="disabled"' : ''}>&gt;</a></li>`;
+
+        pagination.innerHTML = html;
+      }
+
+      pagination.addEventListener('click', e => {
+        if (e.target.tagName === 'A') {
+          e.preventDefault();
+          const page = parseInt(e.target.dataset.page);
+          const totalPages = Math.ceil(getFilteredProducts().length / itemsPerPage);
+          if (!isNaN(page) && page >= 1 && page <= totalPages) {
+            currentPage = page;
+            renderProducts(currentPage);
+            renderPagination();
+          }
+        }
+      });
+
+      const searchInput = document.getElementById('searchText');
+
+      if (searchInput) {
+        searchInput.addEventListener('input', (e) => {
+          searchTerm = e.target.value;
+          currentPage = 1;
+          renderProducts(currentPage);
+          renderPagination();
+        });
+      } else {
+        console.error('No se encontró el input con id="searchText"');
+      }
+
+
+      fetch('assets/data/products.json')
+        .then(response => response.json())
+        .then(data => {
+          products = data;
+          renderProducts();
+          renderPagination();
+        });
     });
 </script>
 
