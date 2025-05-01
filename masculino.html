@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
-    <title>Lugx Gaming - Shop Page</title>
+    <title>Perfumeria Divina Gracia</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -69,8 +69,13 @@ https://templatemo.com/tm-589-lugx-gaming
                 <nav class="main-nav">
                     <!-- ***** Logo Start ***** -->
                     <a href="index.html" class="logo">
-                        <img src="assets/images/logo.png" alt="" style="width: 208px">
+                        <img src="assets/images/logo.png" alt="" style="width: 258px">
                     </a>
+                    <div class="header-contact">
+                      <a href="https://wa.me/573144327663" target="_blank">
+                        <i class="fa fa-phone"></i> +57 314 432 7663
+                      </a>
+                    </div>
                     <!-- ***** Logo End ***** -->
                     <!-- ***** Menu Start ***** -->
                     <ul class="nav">
@@ -78,7 +83,7 @@ https://templatemo.com/tm-589-lugx-gaming
                       <!--<li><a href="categories.html">Categorias</a></li>-->
                       <li><a href="femenino.html" >Dama</a></li>
                       <li><a href="masculino.html" class="active">Caballero</a></li>
-                      <li><a href="contact.html">Contactanos</a></li>
+                      <li><a target="_blank" href="https://wa.me/573144327663?text=Hola,%20estoy%20interesado%20en...">Contactanos</a></li>
                     </ul>  
                     <a class='menu-trigger'>
                         <span>Menu</span>
@@ -96,7 +101,7 @@ https://templatemo.com/tm-589-lugx-gaming
       <div class="row">
         <div class="col-lg-12">
           <h3>Caballero</h3>
-          <span class="breadcrumb"><a href="#">Home</a> > Caballero</span>
+          <span class="breadcrumb"><a href="#">Inicio</a> > Caballero</span>
         </div>
       </div>
     </div>
@@ -248,6 +253,11 @@ https://templatemo.com/tm-589-lugx-gaming
             renderPagination();
           }
         }
+        //subie el scroll 
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+          });
       });
 
       const searchInput = document.getElementById('searchText');

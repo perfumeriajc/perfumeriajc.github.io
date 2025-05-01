@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
-    <title>Lugx Gaming femenino HTML5 Template</title>
+    <title>Perfumeria Divina Gracia</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -51,8 +51,14 @@ https://templatemo.com/tm-589-lugx-gaming
                 <nav class="main-nav">
                     <!-- ***** Logo Start ***** -->
                     <a href="index.html" class="logo">
-                        <img src="assets/images/logo.png" alt="" style="width: 208px;">
+                        <img src="assets/images/logo.png" alt="" style="width: 308px;">
                     </a>
+                    <div class="header-contact">
+                      <a href="https://wa.me/573144327663" target="_blank">
+                        <i class="fa fa-phone"></i> +57 314 432 7663
+                      </a>
+                    </div>
+                    
                     <!-- ***** Logo End ***** -->
                     <!-- ***** Menu Start ***** -->
                     <ul class="nav">
@@ -60,7 +66,7 @@ https://templatemo.com/tm-589-lugx-gaming
                       <!--<li><a href="categories.html">Categorias</a> </li>-->
                       <li><a href="femenino.html">Dama</a></li>
                       <li><a href="masculino.html">Caballero</a></li>
-                      <li><a href="contact.html">Contactanos</a></li>
+                      <li><a target="_blank" href="https://wa.me/573144327663?text=Hola,%20estoy%20interesado%20en...">Contactanos</a></li>
                   </ul>   
                     <a class='menu-trigger'>
                         <span>Menu</span>
@@ -86,7 +92,7 @@ https://templatemo.com/tm-589-lugx-gaming
                     <h2>Regala un Aroma Inolvidable</h2>
                     <p>Este mayo, sorprende a mamá con una fragancia única. ¡Descubre nuestras ediciones especiales para ella!</p>
                     <div class="main-button">
-                      <a href="femenino.html">Ver Fragancias</a>
+                      <a href="femenino.html?busqueda=combo">Ver Ofertas</a>
                     </div>
                   </div>
                 </div>
@@ -160,7 +166,7 @@ https://templatemo.com/tm-589-lugx-gaming
         <div class="col-lg-4 col-md-6">
           <div class="item">
             <div class="image">
-              <img src="assets/images/fragancia-exclusiva.png" alt="" style="max-width: 44px;">
+              <img src="assets/images/featured-01.png" alt="" style="max-width: 44px;">
             </div>
             <h4>Fragancias Exclusivas</h4>
             <p>Aromas únicos seleccionados con los más altos estándares de calidad.</p>
@@ -170,7 +176,7 @@ https://templatemo.com/tm-589-lugx-gaming
         <div class="col-lg-4 col-md-6">
           <div class="item">
             <div class="image">
-              <img src="assets/images/regalo-icono.png" alt="" style="max-width: 44px;">
+              <img src="assets/images/featured-02.png" alt="" style="max-width: 44px;">
             </div>
             <h4>Empaque de Regalo</h4>
             <p>Cada fragancia llega en un empaque elegante, ideal para obsequios.</p>
@@ -179,12 +185,33 @@ https://templatemo.com/tm-589-lugx-gaming
         <div class="col-lg-4 col-md-6">
           <div class="item">
             <div class="image">
-              <img src="assets/images/asesoria.png" alt="" style="max-width: 44px;">
+              <img src="assets/images/featured-03.png" alt="" style="max-width: 44px;">
             </div>
             <h4>Asesoría Personalizada</h4>
             <p>¿No sabes cuál elegir? Te ayudamos a encontrar tu aroma ideal.</p>
           </div>
         </div>
+      </div>
+    </div>
+  </div>
+  <div class="section trending">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="section-heading">
+            <h6>Combos Damas</h6>
+            <H2>Elige tu combo ideal.</H2>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="main-button">
+            <a href="femenino.html?busqueda=combo">Ver mas</a>
+          </div>
+        </div>
+        <div id="combos-container" class="row">
+          <!-- Los productos se cargarán aquí dinámicamente -->
+        </div>
+
       </div>
     </div>
   </div>
@@ -199,8 +226,8 @@ https://templatemo.com/tm-589-lugx-gaming
         </div>
         <div class="col-lg-6">
           <div class="main-button">
-            <a href="femenino.html">Femenino</a>
-            <a href="femenino.html">Masculino</a>
+            <a href="femenino.html">Dama</a>
+            <a href="masculino.html">Caballero</a>
           </div>
         </div>
         <div id="bestseller-container" class="row">
@@ -210,6 +237,7 @@ https://templatemo.com/tm-589-lugx-gaming
       </div>
     </div>
   </div>
+
 <!--
   <div class="section categories">
     <div class="container">
@@ -245,23 +273,21 @@ https://templatemo.com/tm-589-lugx-gaming
   <script src="assets/js/counter.js"></script>
   <script src="assets/js/custom.js"></script>
   <script>
-    Promise.all([
-  fetch('assets/data/products.json').then(res => res.json()), // Cargar productos
-  fetch('assets/data/bestsellers.json').then(res => res.json()) // Cargar los IDs de los bestsellers
-])
-.then(([productos, bestSellerIds]) => {
-  const bestSellers = productos.filter(p => bestSellerIds.includes(p.id)); // Filtrar los productos bestsellers
-  
-  const container = document.getElementById("bestseller-container"); // Obtener el contenedor donde se mostrarán los productos
-    // Limitar a los primeros 4 productos
-  const firstFourBestSellers = bestSellers.slice(0, 4);
+      document.addEventListener('DOMContentLoaded', () => {
+      Promise.all([
+        fetch('assets/data/products.json').then(res => res.json()), // Cargar productos
+        fetch('assets/data/bestsellers.json').then(res => res.json()) // Cargar los IDs de los bestsellers
+      ])
+  .then(([productos, bestSellerIds]) => {
+    const bestSellers = productos.filter(p => bestSellerIds.includes(p.id)); // Filtrar los productos bestsellers
+    
+    const container = document.getElementById("bestseller-container"); // Obtener el contenedor donde se mostrarán los productos
 
+  // Limpiar el contenedor antes de agregar los nuevos productos
+  container.innerHTML = '';
 
-// Limpiar el contenedor antes de agregar los nuevos productos
- container.innerHTML = '';
-
-// Iterar sobre los primeros 4 productos y crear un div por cada uno
-firstFourBestSellers.forEach(producto => {
+// todos los mas vendidos
+  bestSellers.forEach(producto => {
     const item = document.createElement("div");
     item.classList.add("col-lg-3", "col-md-6"); // Mantener las clases de la estructura original
 
@@ -274,7 +300,7 @@ firstFourBestSellers.forEach(producto => {
         <div class="down-content">
           <span class="category">${producto.category}</span> <!-- Suponiendo que tienes una categoría -->
           <h4>${producto.title}</h4>
-          <a href="${producto.link}"><i class="fa fa-femeninoping-bag"></i></a>
+          <a href="${producto.link}"><i class="fa fa-shopping-bag"></i></a>
         </div>
       </div>
     `;
@@ -284,7 +310,42 @@ firstFourBestSellers.forEach(producto => {
   });
 })
 .catch(error => console.error("Error cargando los productos:", error)); // Manejo de errores en caso de que falle la carga
+fetch('assets/data/products.json')
+      .then(res => res.json())
+      .then(productos => {
+        // Filtrar productos que sean "Femenino" y contengan "combo" (insensible a mayúsculas)
+        const combos = productos.filter(p =>
+            p.category === 'Femenino' &&
+            p.title.toLowerCase().includes('combo')
+          )
+          .slice(0, 4); // Mostrar solo los primeros 4
 
+        const container = document.getElementById("combos-container");
+        container.innerHTML = ''; // limpiar por si acaso
+
+        combos.forEach(producto => {
+          const item = document.createElement("div");
+          item.classList.add("col-lg-3", "col-md-6", "mb-30");
+
+          item.innerHTML = `
+            <div class="item">
+              <div class="thumb">
+                <a href="${producto.link}"><img src="${producto.image}" alt="${producto.title}"></a>
+              </div>
+              <div class="down-content">
+                <span class="category">${producto.category}</span>
+                <h4>${producto.title}</h4>
+                <span class="price">$${producto.price}</span>
+                <a href="${producto.link}"><i class="fa fa-shopping-bag"></i></a>
+              </div>
+            </div>
+          `;
+
+          container.appendChild(item);
+        });
+      })
+      .catch(err => console.error("Error cargando combos:", err));
+    });
 
 // PONER COMENTARIO en la funcion de carga de categorias para ocultar el error de que no se encuentra el elemento
 
