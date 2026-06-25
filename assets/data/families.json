@@ -1,0 +1,62 @@
+[
+  {
+    "id": "Floral-Frutal",
+    "name": "Floral Frutal",
+    "image": "assets/images/categories/Floral-Frutal.png"
+  },
+  {
+    "id": "Floral",
+    "name": "Floral",
+    "image": "assets/images/categories/Floral.png"
+  },
+  {
+    "id": "Oriental-Floral",
+    "name": "Oriental Floral",
+    "image": "assets/images/categories/Oriental-Floral.png"
+  },
+  {
+    "id": "Ámbar-Floral",
+    "name": "Ámbar Floral",
+    "image": "assets/images/categories/Ámbar-Floral.png"
+  },
+  {
+    "id": "Ámbar-Amaderado",
+    "name": "Ámbar Amaderado",
+    "image": "assets/images/categories/Ámbar-Amaderado.png"
+  },
+  {
+    "id": "Oriental",
+    "name": "Oriental",
+    "image": "assets/images/categories/Oriental.png"
+  },
+  {
+    "id": "Floral-Frutal-Gourmand",
+    "name": "Floral Frutal Gourmand",
+    "image": "assets/images/categories/Floral-Frutal-Gourmand.png"
+  },
+  {
+    "id": "Floral-Acuática",
+    "name": "Floral Acuática",
+    "image": "assets/images/categories/Floral-Acuática.png"
+  },
+  {
+    "id": "Amaderado-Aromático",
+    "name": "Amaderado Aromático",
+    "image": "assets/images/categories/Amaderado-Aromático.png"
+  },
+  {
+    "id": "Ámbar",
+    "name": "Ámbar",
+    "image": "assets/images/categories/Ámbar.png"
+  },
+  {
+    "id": "Cítrico-Aromático",
+    "name": "Cítrico Aromático",
+    "image": "assets/images/categories/Cítrico-Aromático.png"
+  },
+  {
+    "id": "Oriental-Fougère",
+    "name": "Oriental Fougère",
+    "image": "assets/images/categories/Oriental-Fougère.png"
+  }
+]
