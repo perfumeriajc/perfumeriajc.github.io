@@ -1,384 +1,52 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Divina Gracia · Perfumería</title>
+<meta name="description" content="Perfumería Divina Gracia — fragancias para dama y caballero. Arma tu pedido y escríbenos por WhatsApp.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,ital,wght@9..144,0,300;9..144,0,400;9..144,0,500;9..144,1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/tienda.css">
+</head>
+<body data-page="home">
 
-  <head>
-
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-
-    <title>Perfumeria Divina Gracia</title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-
-    <!-- Additional CSS Files -->
-    <link rel="stylesheet" href="assets/css/fontawesome.css">
-    <link rel="stylesheet" href="assets/css/templatemo-lugx-gaming.css">
-    <link rel="stylesheet" href="assets/css/owl.css">
-    <link rel="stylesheet" href="assets/css/animate.css">
-    <link rel="stylesheet"href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
-<!--
-
-TemplateMo 589 lugx gaming
-
-https://templatemo.com/tm-589-lugx-gaming
-
--->
-  </head>
-
-<body>
-
-  <!-- ***** Preloader Start ***** -->
-  <div id="js-preloader" class="js-preloader">
-    <div class="preloader-inner">
-      <span class="dot"></span>
-      <div class="dots">
-        <span></span>
-        <span></span>
-        <span></span>
+  <section class="hero">
+    <div class="orb a"></div><div class="orb b"></div><div class="orb c"></div>
+    <div class="hero-in">
+      <div class="eyebrow">Perfumería Divina Gracia</div>
+      <h1>Tu <em>aroma</em><br>te define</h1>
+      <p>Fragancias seleccionadas para dama y caballero. Descúbrelas, ármalas en tu pedido y escríbenos por WhatsApp.</p>
+      <div class="cta">
+        <a class="solid" href="#mas-vendidos">Ver colección</a>
+        <a class="ghost" href="https://wa.me/573144327663" target="_blank" rel="noopener">Escríbenos</a>
       </div>
     </div>
+    <div class="scrollcue">Desliza</div>
+  </section>
+
+  <div class="wrap">
+    <section class="feat">
+      <div class="lbl">Destacado del mes</div>
+      <div class="feat-grid" id="featGrid"></div>
+    </section>
+
+    <section class="sec" id="mas-vendidos">
+      <div class="sec-head"><div class="eyebrow">Los favoritos</div><h2>Más vendidos</h2></div>
+      <div class="row-scroll" id="bestsellers"></div>
+    </section>
+
+    <section class="sec">
+      <div class="sec-head"><div class="eyebrow">Explora</div><h2>Nuestras colecciones</h2></div>
+      <div class="colecciones">
+        <a class="col-card" href="femenino.html"><div class="lbl"><div class="eyebrow">Para ella</div><h3>Dama</h3><span class="btn-ghost">Ver fragancias</span></div></a>
+        <a class="col-card" href="masculino.html"><div class="lbl"><div class="eyebrow">Para él</div><h3>Caballero</h3><span class="btn-ghost">Ver fragancias</span></div></a>
+      </div>
+    </section>
+
+    <div id="cta-aqui"></div>
   </div>
-  <!-- ***** Preloader End ***** -->
-
-  <!-- ***** Header Area Start ***** -->
-  <header class="header-area header-sticky">
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <nav class="main-nav">
-                    <!-- ***** Logo Start ***** -->
-                    <a href="index.html" class="logo">
-                        <img src="assets/images/logo.png" alt="" style="width: 308px;">
-                    </a>
-                    <div class="header-contact">
-                      <a href="https://wa.me/573144327663" target="_blank">
-                        <i class="fa fa-phone"></i> +57 314 432 7663
-                      </a>
-                    </div>
-                    
-                    <!-- ***** Logo End ***** -->
-                    <!-- ***** Menu Start ***** -->
-                    <ul class="nav">
-                      <li><a href="index.html" class="active">Inicio</a></li>
-                      <!--<li><a href="categories.html">Categorias</a> </li>-->
-                      <li><a href="femenino.html">Dama</a></li>
-                      <li><a href="masculino.html">Caballero</a></li>
-                      <li><a target="_blank" href="https://wa.me/573144327663?text=Hola,%20estoy%20interesado%20en...">Contactanos</a></li>
-                  </ul>   
-                    <a class='menu-trigger'>
-                        <span>Menu</span>
-                    </a>
-                    <!-- ***** Menu End ***** -->
-                </nav>
-            </div>
-        </div>
-    </div>
-  </header>
-  <!-- ***** Header Area End ***** -->
-  <div class="main-banner">
-    <div class="container">
-      <div id="perfume-carousel" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-          <!-- Slide 1 -->
-          <div class="carousel-item active">
-            <div class="container">
-              <div class="row">
-                <div class="col-lg-6 align-self-center">
-                  <div class="caption header-text">
-                    <h6>¡Celebra el Día de las Madres!</h6>
-                    <h2>Regala un Aroma Inolvidable</h2>
-                    <p>Este mayo, sorprende a mamá con una fragancia única. ¡Descubre nuestras ediciones especiales para ella!</p>
-                    <div class="main-button">
-                      <a href="femenino.html?busqueda=combo">Ver Ofertas</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-lg-6">
-                  <img src="assets/images/MADRES.jpeg" alt="Perfume Día de las Madres" style="width:100%;">
-                </div>
-              </div>
-            </div>
-          </div>
-  
-  
-          <!-- Slide 3 -->
-          <div class="carousel-item">
-            <div class="container">
-              <div class="row">
-                <div class="col-lg-6 align-self-center">
-                  <div class="caption header-text">
-                    <h6>Para Ella</h6>
-                    <h2>Fragancias con Encanto</h2>
-                    <p>Hazla sentir especial con notas dulces, frescas o intensas. ¡Elige entre nuestras mejores marcas!</p>
-                    <div class="main-button">
-                      <a href="femenino.html">Ver Colección Femenina</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-lg-6">
-                  <img src="assets/images/categories/image (1).png" alt="Colección femenina de perfumes" style="width:100%;">
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="container">
-              <div class="row">
-                <div class="col-lg-6 align-self-center">
-                  <div class="caption header-text">
-                    <h6>Para Él</h6>
-                    <h2>Estilo y Carácter en Cada Aroma</h2>
-                    <p>Descubre nuestras fragancias masculinas, desde notas amaderadas hasta frescas. Ideal para regalar o darte un gusto.</p>
-                    <div class="main-button">
-                      <a href="masculino.html">Ver Colección Masculina</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-lg-6">
-                  <img src="assets/images/categories/image1.png" alt="Perfume para hombre" style="width:100%;">
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-  
-        <!-- Controles -->
-        <button class="carousel-control-prev" type="button" data-bs-target="#perfume-carousel" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Anterior</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#perfume-carousel" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Siguiente</span>
-        </button>
-      </div>
-    </div>
-  </div>
-  
-  
-  
-  <div class="features">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-4 col-md-6">
-          <div class="item">
-            <div class="image">
-              <img src="assets/images/featured-01.png" alt="" style="max-width: 44px;">
-            </div>
-            <h4>Fragancias Exclusivas</h4>
-            <p>Aromas únicos seleccionados con los más altos estándares de calidad.</p>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6">
-          <div class="item">
-            <div class="image">
-              <img src="assets/images/featured-02.png" alt="" style="max-width: 44px;">
-            </div>
-            <h4>Empaque de Regalo</h4>
-            <p>Cada fragancia llega en un empaque elegante, ideal para obsequios.</p>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <div class="item">
-            <div class="image">
-              <img src="assets/images/featured-03.png" alt="" style="max-width: 44px;">
-            </div>
-            <h4>Asesoría Personalizada</h4>
-            <p>¿No sabes cuál elegir? Te ayudamos a encontrar tu aroma ideal.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="section trending">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6">
-          <div class="section-heading">
-            <h6>Combos Damas</h6>
-            <H2>Elige tu combo ideal.</H2>
-          </div>
-        </div>
-        <div class="col-lg-6">
-          <div class="main-button">
-            <a href="femenino.html?busqueda=combo">Ver mas</a>
-          </div>
-        </div>
-        <div id="combos-container" class="row">
-          <!-- Los productos se cargarán aquí dinámicamente -->
-        </div>
-
-      </div>
-    </div>
-  </div>
-  <div class="section trending">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6">
-          <div class="section-heading">
-            <h6>Más vendidos</h6>
-            <h2>Fragancias en tendencia</h2>
-          </div>
-        </div>
-        <div class="col-lg-6">
-          <div class="main-button">
-            <a href="femenino.html">Dama</a>
-            <a href="masculino.html">Caballero</a>
-          </div>
-        </div>
-        <div id="bestseller-container" class="row">
-          <!-- Los productos se cargarán aquí dinámicamente -->
-        </div>
-
-      </div>
-    </div>
-  </div>
-
-<!--
-  <div class="section categories">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 text-center">
-          <div class="section-heading">
-            <h6>Categorias</h6>
-          </div>
-        </div>
-        <div id="categoria-container" class="row">
-
-        </div>
-
-      </div>
-    </div>
-  -->
-  </div>
- 
-  <footer>
-    <div class="container">
-      <div class="col-lg-12">
-                <p>Copyright © 2025. &nbsp;&nbsp; <a rel="nofollow" href="" target="_blank">Design: TemplateMo</a></p>
-      </div>
-    </div>
-  </footer>
-
-  <!-- Scripts -->
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-  <script src="assets/js/isotope.min.js"></script>
-  <script src="assets/js/owl-carousel.js"></script>
-  <script src="assets/js/counter.js"></script>
-  <script src="assets/js/custom.js"></script>
-  <script>
-      document.addEventListener('DOMContentLoaded', () => {
-      Promise.all([
-        fetch('assets/data/products.json').then(res => res.json()), // Cargar productos
-        fetch('assets/data/bestsellers.json').then(res => res.json()) // Cargar los IDs de los bestsellers
-      ])
-  .then(([productos, bestSellerIds]) => {
-    const bestSellers = productos.filter(p => bestSellerIds.includes(p.id)); // Filtrar los productos bestsellers
-    
-    const container = document.getElementById("bestseller-container"); // Obtener el contenedor donde se mostrarán los productos
-
-  // Limpiar el contenedor antes de agregar los nuevos productos
-  container.innerHTML = '';
-
-// todos los mas vendidos
-  bestSellers.forEach(producto => {
-    const item = document.createElement("div");
-    item.classList.add("col-lg-3", "col-md-6"); // Mantener las clases de la estructura original
-
-    // Insertar el HTML del producto con los datos dinámicos
-    item.innerHTML = `
-      <div class="item">
-        <div class="thumb">
-          <a href="${producto.link}"><img src="${producto.image}" alt="${producto.title}"></a>
-        </div>
-        <div class="down-content">
-          <span class="category">${producto.category}</span> 
-          <h4>${producto.title}</h4>
-          <a href="${producto.link}"><i class="fa fa-shopping-bag"></i></a>
-        </div>
-      </div>
-    `;
-    
-    // Añadir el nuevo item al contenedor
-    container.appendChild(item);
-  });
-})
-.catch(error => console.error("Error cargando los productos:", error)); // Manejo de errores en caso de que falle la carga
-fetch('assets/data/products.json')
-      .then(res => res.json())
-      .then(productos => {
-        // Filtrar productos que sean "Femenino" y contengan "combo" (insensible a mayúsculas)
-        const combos = productos.filter(p =>
-            p.category === 'Femenino' &&
-            p.title.toLowerCase().includes('combo')
-          )
-          .slice(0, 4); // Mostrar solo los primeros 4
-
-        const container = document.getElementById("combos-container");
-        container.innerHTML = ''; // limpiar por si acaso
-
-        combos.forEach(producto => {
-          const item = document.createElement("div");
-          item.classList.add("col-lg-3", "col-md-6", "mb-30");
-
-          item.innerHTML = `
-            <div class="item">
-              <div class="thumb">
-                <a href="${producto.link}"><img src="${producto.image}" alt="${producto.title}"></a>
-              </div>
-              <div class="down-content">
-                <span class="category">${producto.category}</span>
-                <h4>${producto.title}</h4>
-                <span class="price">$${producto.price}</span>
-                <a href="${producto.link}"><i class="fa fa-shopping-bag"></i></a>
-              </div>
-            </div>
-          `;
-
-          container.appendChild(item);
-        });
-      })
-      .catch(err => console.error("Error cargando combos:", err));
-    });
-
-// PONER COMENTARIO en la funcion de carga de categorias para ocultar el error de que no se encuentra el elemento
-
-/*
-fetch('assets/data/categories.json')
-  .then(res => res.json())
-  .then(categorias => {
-    // Limitar a las primeras 4 categorías
-    const primerasCategorias = categorias.slice(0, 4);
-
-    const container = document.getElementById("categoria-container"); // Asegúrate de tener este contenedor en tu HTML
-    container.innerHTML = ''; // Limpiar antes de insertar
-
-    primerasCategorias.forEach(categoria => {
-      const div = document.createElement("div");
-      div.classList.add("col-lg", "col-sm-6", "col-xs-12");
-
-      div.innerHTML = `
-        <div class="item">
-          <h4>${categoria.name}</h4>
-          <div class="thumb">
-              <img src="${categoria.image}" alt="${categoria.name}">
-            </a>
-          </div>
-        </div>
-      `;
-
-      container.appendChild(div);
-    });
-  })
-  .catch(error => console.error("Error cargando las categorías:", error));
-*/
-  </script>
-
-  </body>
+  <script src="https://kit.fontawesome.com/196ff532b4.js" crossorigin="anonymous"></script>
+  <script src="assets/js/tienda.js"></script>
+</body>
 </html>

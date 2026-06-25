@@ -1,290 +1,34 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Caballero · Divina Gracia</title>
+<meta name="description" content="Fragancias para caballero — Perfumería Divina Gracia.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,ital,wght@9..144,0,300;9..144,0,400;9..144,0,500;9..144,1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/tienda.css">
+</head>
+<body data-page="catalogo" data-cat="Masculino">
 
-  <head>
-
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-
-    <title>Perfumeria Divina Gracia</title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-
-    <!-- Additional CSS Files -->
-    <link rel="stylesheet" href="assets/css/fontawesome.css">
-    <link rel="stylesheet" href="assets/css/templatemo-lugx-gaming.css">
-    <link rel="stylesheet" href="assets/css/owl.css">
-    <link rel="stylesheet" href="assets/css/animate.css">
-    <link rel="stylesheet"href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
-    <style>
-      .trending-box {
-        opacity: 1;
-        transition: opacity 0.4s ease-in-out;
-      }
-
-      .trending-box.loading {
-        opacity: 0;
-        pointer-events: none;
-      }
-
-      .trending-box.loaded {
-        opacity: 1;
-        pointer-events: auto;
-      }
-
-    </style>
-
-<!--
-
-TemplateMo 589 lugx gaming
-
-https://templatemo.com/tm-589-lugx-gaming
-
--->
-  </head>
-
-<body>
-
-  <!-- ***** Preloader Start ***** -->
-  <div id="js-preloader" class="js-preloader">
-    <div class="preloader-inner">
-      <span class="dot"></span>
-      <div class="dots">
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
-    </div>
-  </div>
-  <!-- ***** Preloader End ***** -->
-
-  <!-- ***** Header Area Start ***** -->
-  <header class="header-area header-sticky">
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <nav class="main-nav">
-                    <!-- ***** Logo Start ***** -->
-                    <a href="index.html" class="logo">
-                        <img src="assets/images/logo.png" alt="" style="width: 258px">
-                    </a>
-                    <div class="header-contact">
-                      <a href="https://wa.me/573144327663" target="_blank">
-                        <i class="fa fa-phone"></i> +57 314 432 7663
-                      </a>
-                    </div>
-                    <!-- ***** Logo End ***** -->
-                    <!-- ***** Menu Start ***** -->
-                    <ul class="nav">
-                      <li><a href="index.html">Inicio</a></li>
-                      <!--<li><a href="categories.html">Categorias</a></li>-->
-                      <li><a href="femenino.html" >Dama</a></li>
-                      <li><a href="masculino.html" class="active">Caballero</a></li>
-                      <li><a target="_blank" href="https://wa.me/573144327663?text=Hola,%20estoy%20interesado%20en...">Contactanos</a></li>
-                    </ul>  
-                    <a class='menu-trigger'>
-                        <span>Menu</span>
-                    </a>
-                    <!-- ***** Menu End ***** -->
-                </nav>
-            </div>
-        </div>
-    </div>
+  <header class="page-head">
+    <div class="orb a"></div><div class="orb c"></div>
+    <div class="eyebrow">Para él</div>
+    <h1>Fragancias de Caballero</h1>
+    <p>Encuentra tu aroma y arma tu pedido por WhatsApp.</p>
   </header>
-  <!-- ***** Header Area End ***** -->
 
-  <div class="page-heading header-text">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12">
-          <h3>Caballero</h3>
-          <span class="breadcrumb"><a href="#">Inicio</a> > Caballero</span>
-        </div>
-      </div>
+  <div class="wrap" style="padding-top:42px">
+    <div class="bar">
+      <div class="tabs"><a href="femenino.html">Dama</a><a class="on" href="masculino.html">Caballero</a></div>
+      <div class="search"><input type="text" id="buscar" placeholder="Buscar fragancia"></div>
+      <div class="count" id="count"></div>
     </div>
+    <div class="grid" id="grid"></div>
+    <div class="paginacion" id="paginacion"></div>
+    <div id="cta-aqui"></div>
   </div>
-
-  <div class="section trending">
-
-    <div class="container ">
-      <div class="row">
-        <div class="col-lg-6 col-md-6 col-sm-6">
-          <ul class="trending-filter">
-            <li>
-              <a class="is_active" href="#!" data-filter="*">Show All</a>
-            </li>
-
-          </ul>
-        </div>
-        <div class="col-lg-6 col-md-6 col-sm-6">
-          <div class="right-content search">
-            <div class="caption header-text">
-              <div class="search-input">
-                <form id="search" action="#">
-                  <input type="text" placeholder="Buscar fragancia..." id="searchText" name="searchKeyword" />
-                  <button role="button">Buscar ahora</button>
-                </form>
-              </div>
-            </div>
-          
-          </div>
-        </div>
-      </div>
-      <div id="product-list" class="row trending-box">
-        <!-- Los productos se cargarán aquí mediante JavaScript -->
-         
-
-      </div>
-
-      <div class="row">
-        <div class="col-lg-12">
-          <ul class="pagination">
-          <li><a href="#"> &lt; </a></li>
-            <li><a href="#">1</a></li>
-            <li><a class="is_active" href="#">2</a></li>
-            <li><a href="#">3</a></li>
-            <li><a href="#"> &gt; </a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <footer>
-    <div class="container">
-      <div class="col-lg-12">
-                <p>Copyright © 2025. &nbsp;&nbsp; <a rel="nofollow" href="" target="_blank">Design: TemplateMo</a></p>
-      </div>
-    </div>
-  </footer>
-
-  <!-- Scripts -->
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-  <script src="assets/js/isotope.min.js"></script>
-  <script src="assets/js/owl-carousel.js"></script>
-  <script src="assets/js/counter.js"></script>
-  <script src="assets/js/custom.js"></script>
-  <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
-  <script>
-    document.addEventListener('DOMContentLoaded', () => {
-      const container = document.querySelector('.trending-box');
-      const pagination = document.querySelector('.pagination');
-
-
-      const itemsPerPage = 16;
-      let currentPage = 1;
-      let iso;
-      let products = [];
-
-      let activeCategory = 'Masculino'; // Estado actual de categoría
-      let searchTerm = '';             // Estado actual del buscador
-
-      function getFilteredProducts() {
-        return products.filter(p =>
-          p.category === activeCategory &&
-          p.title.toLowerCase().includes(searchTerm.toLowerCase())
-        );
-      }
-
-      function renderProducts(page = 1) {
-        container.innerHTML = '';
-        const filtered = getFilteredProducts();
-
-        const start = (page - 1) * itemsPerPage;
-        const pageItems = filtered.slice(start, start + itemsPerPage);
-
-        pageItems.forEach(product => {
-          const item = `
-            <div class="col-lg-3 col-md-6 align-self-center mb-30 trending-items ${product.fragrance.family}">
-              <div class="item">
-                <div class="thumb">
-                  <a href="${product.link}"><img src="${product.image}" alt=""></a>
-                  <span class="price">$${product.price}</span>
-                </div>
-                <div class="down-content">
-                  <span class="category">${product.category}</span>
-                  <h4>${product.title}</h4>
-                </div>
-              </div>
-            </div>`;
-          container.insertAdjacentHTML('beforeend', item);
-        });
-
-        imagesLoaded(container, () => {
-          if (iso) {
-            iso.reloadItems();
-            iso.arrange();
-          } else {
-            iso = new Isotope(container, {
-              itemSelector: '.trending-items',
-              layoutMode: 'fitRows'
-            });
-          }
-          container.classList.add('loaded');
-        });
-      }
-
-      function renderPagination() {
-        const total = getFilteredProducts().length;
-        const totalPages = Math.ceil(total / itemsPerPage);
-
-        let html = `<li><a href="#" data-page="${currentPage - 1}" ${currentPage === 1 ? 'class="disabled"' : ''}>&lt;</a></li>`;
-        for (let i = 1; i <= totalPages; i++) {
-          html += `<li><a href="#" data-page="${i}" ${i === currentPage ? 'class="is_active"' : ''}>${i}</a></li>`;
-        }
-        html += `<li><a href="#" data-page="${currentPage + 1}" ${currentPage === totalPages ? 'class="disabled"' : ''}>&gt;</a></li>`;
-
-        pagination.innerHTML = html;
-      }
-
-      pagination.addEventListener('click', e => {
-        if (e.target.tagName === 'A') {
-          e.preventDefault();
-          const page = parseInt(e.target.dataset.page);
-          const totalPages = Math.ceil(getFilteredProducts().length / itemsPerPage);
-          if (!isNaN(page) && page >= 1 && page <= totalPages) {
-            currentPage = page;
-            renderProducts(currentPage);
-            renderPagination();
-          }
-        }
-        //subie el scroll 
-        window.scrollTo({
-            top: 0,
-            behavior: 'smooth'
-          });
-      });
-
-      const searchInput = document.getElementById('searchText');
-
-      if (searchInput) {
-        searchInput.addEventListener('input', (e) => {
-          searchTerm = e.target.value;
-          currentPage = 1;
-          renderProducts(currentPage);
-          renderPagination();
-        });
-      } else {
-        console.error('No se encontró el input con id="searchText"');
-      }
-
-
-      fetch('assets/data/products.json')
-        .then(response => response.json())
-        .then(data => {
-          products = data;
-          renderProducts();
-          renderPagination();
-        });
-    });
-</script>
-
-
-
-  </body>
+  <script src="https://kit.fontawesome.com/196ff532b4.js" crossorigin="anonymous"></script>
+  <script src="assets/js/tienda.js"></script>
+</body>
 </html>

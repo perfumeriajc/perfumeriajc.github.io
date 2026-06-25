@@ -7,7 +7,7 @@
     "image": "https://d1b50uin55dq3m.cloudfront.net/eyJidWNrZXQiOiJ3YTEweC52MiIsImtleSI6IjAyN2Q3ZTM0LTI3ODAtNDA5MC1iNDllLWI4YjQ0Nzg2NDYxOS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEwODAsImhlaWdodCI6MTA4MCwiZml0IjoiY29udGFpbiJ9LCJyb3RhdGUiOm51bGx9fQ==",
     "category": "Femenino",
     "fragrance": {
-      "family": "Floral Frutal",
+      "family": "Floral-Frutal",
       "notes": {
         "top": [
           "Durazno (melocotón)",
@@ -42,7 +42,7 @@
     "image": "https://d1b50uin55dq3m.cloudfront.net/eyJidWNrZXQiOiJ3YTEweC52MiIsImtleSI6ImZlMTQxNGM2LWE5YzctNDU0NS05ODk0LWYxZTYwYTI0YmYzMS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEwODAsImhlaWdodCI6MTA4MCwiZml0IjoiY29udGFpbiJ9LCJyb3RhdGUiOm51bGx9fQ==",
     "category": "Femenino",
     "fragrance": {
-      "family": "Ámbar Floral",
+      "family": "Ámbar-Floral",
       "notes": {
         "top": [
           "Ciruela",
@@ -73,7 +73,7 @@
     "image": "https://d1b50uin55dq3m.cloudfront.net/eyJidWNrZXQiOiJ3YTEweC52MiIsImtleSI6ImUzNDcyMGY1LTkyYTUtNGMxOC05Njc0LTMyY2I0MmY2ZGJlOS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEwODAsImhlaWdodCI6MTA4MCwiZml0IjoiY29udGFpbiJ9LCJyb3RhdGUiOm51bGx9fQ==",
     "category": "Femenino",
     "fragrance": {
-      "family": "Ámbar Floral",
+      "family": "Ámbar-Floral",
       "notes": {
         "top": [
           "Ciruela",
@@ -104,7 +104,7 @@
     "image": "https://lmd.com.co/cdn/shop/files/Perfume_Haya_Lattafa.webp?v=1727221065",
     "category": "Femenino",
     "fragrance": {
-      "family": "Floral Frutal",
+      "family": "Floral-Frutal",
       "notes": {
         "top": [
           "Champaña",
@@ -129,6 +129,35 @@
     "Des": "Haya de Lattafa Perfumes es una fragancia de la familia olfativa para Mujeres. Esta fragrancia es nueva. Haya se lanzó en 2022. Las Notas de Salida son champaña, fresa, rosa, naranja tangerina y naranja sanguina; las Notas de Corazón son gardenia, jazmín y orquídea de vainilla; las Notas de Fondo son ámbar, sándalo y castaña."
   },
   {
+    "id": 5,
+    "title": "El mundo según Arthur Penhaligon's 100 ML",
+    "title2": "El mundo según Arthur Penhaligon's",
+    "price": 240000,
+    "oldPrice": 32,
+    "image": "https://d1b50uin55dq3m.cloudfront.net/eyJidWNrZXQiOiJ3YTEweC52MiIsImtleSI6ImQwMDUzZWY1LTQ5YWYtNGViOS1hYzQwLTQ3OWIxNTY3NTllMC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEwODAsImhlaWdodCI6MTA4MCwiZml0IjoiY29udGFpbiJ9LCJyb3RhdGUiOm51bGx9fQ==",
+    "category": "Femenino",
+    "fragrance": {
+      "family": "Ámbar-Amaderado",
+      "notes": {
+        "top": [
+          "Vainilla",
+          "Incienso",
+          "Pomelo"
+        ],
+        "middle": [
+          "Ambreta (malva almizclera)",
+          "Salvia"
+        ],
+        "base": [
+          "Incienso",
+          "Haba tonka"
+        ]
+      }
+    },
+    "link": "product-details.html?id=5",
+    "Des": "El mundo según Arthur de Penhaligon's es una fragancia ámbar especiada para mujeres y hombres. El mundo según Arthur se lanzó en 2021. Las Notas de Salida son vainilla, incienso y pomelo; las Notas de Corazón son ambreta (malva almizclera) y salvia; las Notas de Fondo son incienso y haba tonka."
+  },
+  {
     "id": 6,
     "title": "Layton de Parfums de Marly 125 ML",
     "title2": "Layton de Parfums de Marly",
@@ -137,7 +166,7 @@
     "image": "https://d1b50uin55dq3m.cloudfront.net/eyJidWNrZXQiOiJ3YTEweC52MiIsImtleSI6IjNhY2FhZjBlLTg0MWMtNDZmOC05YWNiLTJmNTVkOTBmYTFlYS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6ImNvdmVyIn0sInJvdGF0ZSI6bnVsbH19",
     "category": "Femenino",
     "fragrance": {
-      "family": "Ámbar Floral",
+      "family": "Ámbar-Floral",
       "notes": {
         "top": [
           "Manzana",
@@ -171,7 +200,7 @@
     "image": "https://d1b50uin55dq3m.cloudfront.net/eyJidWNrZXQiOiJ3YTEweC52MiIsImtleSI6ImIzMWEyNDNhLTUwNzktNGM1Yy05NDQ2LWJiNjlmZTk5NTAzNS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEwODAsImhlaWdodCI6MTA4MCwiZml0IjoiY29udGFpbiJ9LCJyb3RhdGUiOm51bGx9fQ==",
     "category": "Femenino",
     "fragrance": {
-      "family": "Floral Frutal",
+      "family": "Floral-Frutal",
       "notes": {
         "top": [
           "Bergamota",
@@ -201,7 +230,7 @@
     "image": "https://d1b50uin55dq3m.cloudfront.net/eyJidWNrZXQiOiJ3YTEweC52MiIsImtleSI6IjZkNWM0NTliLWJkODMtNDM2YS1hYTU1LWE3OTM3NmJkOGE2Ny5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6ImNvdmVyIn0sInJvdGF0ZSI6bnVsbH19",
     "category": "Femenino",
     "fragrance": {
-      "family": "Floral Frutal",
+      "family": "Floral-Frutal",
       "notes": {
         "top": [
           "Jengibre",
@@ -231,7 +260,7 @@
     "image": "https://d1b50uin55dq3m.cloudfront.net/eyJidWNrZXQiOiJ3YTEweC52MiIsImtleSI6ImFmNjFjYzg2LTUyYjctNDc2My05MTBmLTJkNjAyNzczYzM1My5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6ImNvdmVyIn0sInJvdGF0ZSI6bnVsbH19",
     "category": "Femenino",
     "fragrance": {
-      "family": "Floral Frutal",
+      "family": "Floral-Frutal",
       "notes": {
         "top": [
           "Rosa",
@@ -261,7 +290,7 @@
     "image": "https://d1b50uin55dq3m.cloudfront.net/eyJidWNrZXQiOiJ3YTEweC52MiIsImtleSI6IjVjYzZjMmU5LTlkZmQtNGY2Mi05YjBiLWMyNjQ1YWEyZTViOC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6ImNvdmVyIn0sInJvdGF0ZSI6bnVsbH19",
     "category": "Femenino",
     "fragrance": {
-      "family": "Floral Frutal",
+      "family": "Floral-Frutal",
       "notes": {
         "top": [
           "Rosa",
@@ -291,7 +320,7 @@
     "image": "https://d1b50uin55dq3m.cloudfront.net/eyJidWNrZXQiOiJ3YTEweC52MiIsImtleSI6ImY5NmRmZWUzLWE4MTAtNDFkYi05ZDY2LTg2ZDY1NGYzOTNhNi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6ImNvdmVyIn0sInJvdGF0ZSI6bnVsbH19",
     "category": "Femenino",
     "fragrance": {
-      "family": "Floral Frutal",
+      "family": "Floral-Frutal",
       "notes": {
         "top": [
           "Rosa",
@@ -321,7 +350,7 @@
     "image": "https://d1b50uin55dq3m.cloudfront.net/eyJidWNrZXQiOiJ3YTEweC52MiIsImtleSI6IjRjZDQxNjhhLTJlYTgtNGNmYy04MDdiLTc0NTRiZmMzMzU5OS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6ImNvdmVyIn0sInJvdGF0ZSI6bnVsbH19",
     "category": "Femenino",
     "fragrance": {
-      "family": "Floral Frutal",
+      "family": "Floral-Frutal",
       "notes": {
         "top": [
           "Flor de azahar del naranjo",
@@ -356,7 +385,7 @@
     "image": "https://d1b50uin55dq3m.cloudfront.net/eyJidWNrZXQiOiJ3YTEweC52MiIsImtleSI6ImFmM2JhM2Y1LTk2MjMtNGNhYi1hM2FmLTRkODE0Zjc0YzUyYi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6ImNvdmVyIn0sInJvdGF0ZSI6bnVsbH19",
     "category": "Femenino",
     "fragrance": {
-      "family": "Oriental Floral",
+      "family": "Oriental-Floral",
       "notes": {
         "top": [
           "Rosa",
@@ -386,7 +415,7 @@
     "image": "https://d1b50uin55dq3m.cloudfront.net/eyJidWNrZXQiOiJ3YTEweC52MiIsImtleSI6ImY5OGIyNmQyLTFkN2MtNDkyYS1iODdlLWQ3YTAyYWUwNTUwYS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6ImNvdmVyIn0sInJvdGF0ZSI6bnVsbH19",
     "category": "Femenino",
     "fragrance": {
-      "family": "Oriental Floral",
+      "family": "Oriental-Floral",
       "notes": {
         "top": [
           "Almendra",
@@ -427,7 +456,7 @@
     "image": "https://d1b50uin55dq3m.cloudfront.net/eyJidWNrZXQiOiJ3YTEweC52MiIsImtleSI6ImE0NWEyNzU1LWRjNGUtNDA1Ny1iZTdiLWU1YmY4Mzk0NjNlNy5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6ImNvdmVyIn0sInJvdGF0ZSI6bnVsbH19",
     "category": "Femenino",
     "fragrance": {
-      "family": "Ámbar Amaderado",
+      "family": "Ámbar-Amaderado",
       "notes": {
         "top": [
           "Maracuyá (fruta de la pasión)",
@@ -492,7 +521,7 @@
     "image": "https://d1b50uin55dq3m.cloudfront.net/eyJidWNrZXQiOiJ3YTEweC52MiIsImtleSI6IjhiMGY1OWI5LWJkYmMtNDk0Ni1iOTc1LTQ1ODI3ZjVkZDg5Ny5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6ImNvdmVyIn0sInJvdGF0ZSI6bnVsbH19",
     "category": "Femenino",
     "fragrance": {
-      "family": "Oriental Floral",
+      "family": "Oriental-Floral",
       "notes": {
         "top": [
           "Almendra",
@@ -533,7 +562,7 @@
     "image": "https://dcdn-us.mitiendanube.com/stores/002/455/293/products/cahe1801-ead20a24654813191c16653708271740-1024-1024.jpg",
     "category": "Femenino",
     "fragrance": {
-      "family": "Oriental Floral",
+      "family": "Oriental-Floral",
       "notes": {
         "top": [
           "Almendra",
@@ -647,7 +676,7 @@
     "image": "https://d1b50uin55dq3m.cloudfront.net/eyJidWNrZXQiOiJ3YTEweC52MiIsImtleSI6IjM2ZWFlMDJmLWFiZWUtNGIwMS04MzhhLTY1NjIzYmEzOWE3Ny5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6ImNvdmVyIn0sInJvdGF0ZSI6bnVsbH19",
     "category": "Femenino",
     "fragrance": {
-      "family": "Floral Frutal",
+      "family": "Floral-Frutal",
       "notes": {
         "top": [
           "Fresa",
@@ -736,7 +765,7 @@
     "image": "https://d1b50uin55dq3m.cloudfront.net/eyJidWNrZXQiOiJ3YTEweC52MiIsImtleSI6ImNiYjM1ZTVmLWRiOTYtNGIyOC05Y2Y3LWZmMzJmYmQwNGVhOC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjUwMCwiaGVpZ2h0Ijo1MDAsImZpdCI6ImNvdmVyIn0sInJvdGF0ZSI6bnVsbH19",
     "category": "Femenino",
     "fragrance": {
-      "family": "Ámbar Floral",
+      "family": "Ámbar-Floral",
       "notes": {
         "top": [
           "Jazmín sambac (sampaguita)"
@@ -760,7 +789,7 @@
     "image": "https://d1b50uin55dq3m.cloudfront.net/eyJidWNrZXQiOiJ3YTEweC52MiIsImtleSI6ImQxZTViM2IwLWRhMGMtNDc4Yy1hOGY1LTNiZjFmMTAxMTdiYS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjUwMCwiaGVpZ2h0Ijo1MDAsImZpdCI6ImNvdmVyIn0sInJvdGF0ZSI6bnVsbH19",
     "category": "Femenino",
     "fragrance": {
-      "family": "Floral Frutal",
+      "family": "Floral-Frutal",
       "notes": {
         "top": [
           "Bergamota",
@@ -788,7 +817,7 @@
     "image": "https://d1b50uin55dq3m.cloudfront.net/eyJidWNrZXQiOiJ3YTEweC52MiIsImtleSI6ImI5OTdjYWU4LWRiM2ItNDcwNC04Y2JmLWMzMzg4OWZmNjM2NC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjUwMCwiaGVpZ2h0Ijo1MDAsImZpdCI6ImNvdmVyIn0sInJvdGF0ZSI6bnVsbH19",
     "category": "Femenino",
     "fragrance": {
-      "family": "Oriental Floral",
+      "family": "Oriental-Floral",
       "notes": {
         "top": [
           "Mandarina",
@@ -819,7 +848,7 @@
     "image": "https://d1b50uin55dq3m.cloudfront.net/eyJidWNrZXQiOiJ3YTEweC52MiIsImtleSI6IjRjNzBkZGMwLTYxNWEtNDE1MC04NTQ2LWEwZWE5NzFmNDlhMi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjUwMCwiaGVpZ2h0Ijo1MDAsImZpdCI6ImNvdmVyIn0sInJvdGF0ZSI6bnVsbH19",
     "category": "Femenino",
     "fragrance": {
-      "family": "Floral Frutal Gourmand",
+      "family": "Floral-Frutal-Gourmand",
       "notes": {
         "top": [
           "Lavanda",
@@ -849,7 +878,7 @@
     "image": "https://d1b50uin55dq3m.cloudfront.net/eyJidWNrZXQiOiJ3YTEweC52MiIsImtleSI6IjBhYWE3Y2M5LTA1YWEtNGQ1MS1iZjhkLWE5YWQzY2E3MTRlMS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjUwMCwiaGVpZ2h0Ijo1MDAsImZpdCI6ImNvdmVyIn0sInJvdGF0ZSI6bnVsbH19",
     "category": "Femenino",
     "fragrance": {
-      "family": "Floral Frutal Gourmand",
+      "family": "Floral-Frutal-Gourmand",
       "notes": {
         "top": [
           "Mora",
@@ -878,7 +907,7 @@
     "image": "https://d1b50uin55dq3m.cloudfront.net/eyJidWNrZXQiOiJ3YTEweC52MiIsImtleSI6IjU5Mzg2MDgyLTQ4NzAtNDVkZi04ZDRjLTQ3MTFjYzAyNjU1OC5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjUwMCwiaGVpZ2h0Ijo1MDAsImZpdCI6ImNvdmVyIn0sInJvdGF0ZSI6bnVsbH19",
     "category": "Femenino",
     "fragrance": {
-      "family": "Floral Frutal",
+      "family": "Floral-Frutal",
       "notes": {
         "top": [
           "Pera",
@@ -904,7 +933,7 @@
     "image": "https://d1b50uin55dq3m.cloudfront.net/eyJidWNrZXQiOiJ3YTEweC52MiIsImtleSI6IjVkN2U2YzgxLWI3YzMtNGE5My1iMDg2LTgzMmJkYzE5MzAwNS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjUwMCwiaGVpZ2h0Ijo1MDAsImZpdCI6ImNvdmVyIn0sInJvdGF0ZSI6bnVsbH19",
     "category": "Femenino",
     "fragrance": {
-      "family": "Ámbar Floral",
+      "family": "Ámbar-Floral",
       "notes": {
         "top": [
           "Jazmín",
@@ -955,7 +984,7 @@
     "image": "https://d1b50uin55dq3m.cloudfront.net/eyJidWNrZXQiOiJ3YTEweC52MiIsImtleSI6ImFlYzdkMTgwLWM1MmUtNGQ3YS1iN2I5LWQyM2ZmMzBiYWYwZC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjUwMCwiaGVpZ2h0Ijo1MDAsImZpdCI6ImNvdmVyIn0sInJvdGF0ZSI6bnVsbH19",
     "category": "Femenino",
     "fragrance": {
-      "family": "Ámbar Floral",
+      "family": "Ámbar-Floral",
       "notes": {
         "top": [
           "Pera",
@@ -987,7 +1016,7 @@
     "image": "https://d1b50uin55dq3m.cloudfront.net/eyJidWNrZXQiOiJ3YTEweC52MiIsImtleSI6IjE1ZDYzZmU2LTcxOGUtNGFiYi1iM2M5LTdkNjM3YzI3ZjAxYi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjUwMCwiaGVpZ2h0Ijo1MDAsImZpdCI6ImNvdmVyIn0sInJvdGF0ZSI6bnVsbH19",
     "category": "Femenino",
     "fragrance": {
-      "family": "Floral Frutal",
+      "family": "Floral-Frutal",
       "notes": {
         "top": [
           "Flor de tamarindo",
@@ -1038,7 +1067,7 @@
     "image": "https://d1b50uin55dq3m.cloudfront.net/eyJidWNrZXQiOiJ3YTEweC52MiIsImtleSI6IjhlZTFjM2I0LTViY2QtNDQ4ZC1hMDY3LTVhNTc3NjViZjhhYy5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjUwMCwiaGVpZ2h0Ijo1MDAsImZpdCI6ImNvdmVyIn0sInJvdGF0ZSI6bnVsbH19",
     "category": "Femenino",
     "fragrance": {
-      "family": "Floral Frutal",
+      "family": "Floral-Frutal",
       "notes": {
         "top": [
           "Piña",
@@ -1070,7 +1099,7 @@
     "image": "https://d1b50uin55dq3m.cloudfront.net/eyJidWNrZXQiOiJ3YTEweC52MiIsImtleSI6Ijg0ZDY5M2UwLTZmNzAtNDIyMy1iZDZkLTAzZmQ4ZjA2NTQyNi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjUwMCwiaGVpZ2h0Ijo1MDAsImZpdCI6ImNvdmVyIn0sInJvdGF0ZSI6bnVsbH19",
     "category": "Femenino",
     "fragrance": {
-      "family": "Ámbar Amaderada",
+      "family": "Ámbar-Amaderado",
       "notes": {
         "top": [
           "hojas de violeta",
@@ -1104,7 +1133,7 @@
     "image": "https://d1b50uin55dq3m.cloudfront.net/eyJidWNrZXQiOiJ3YTEweC52MiIsImtleSI6ImYzZjgyYWZjLWY2NjgtNDJiZi04MmZkLTY5MWNjOTEyNTMxNC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjUwMCwiaGVpZ2h0Ijo1MDAsImZpdCI6ImNvdmVyIn0sInJvdGF0ZSI6bnVsbH19",
     "category": "Femenino",
     "fragrance": {
-      "family": "Floral Frutal",
+      "family": "Floral-Frutal",
       "notes": {
         "top": [
           "yuzu",
@@ -1132,7 +1161,7 @@
     "image": "https://d1b50uin55dq3m.cloudfront.net/eyJidWNrZXQiOiJ3YTEweC52MiIsImtleSI6ImExNmU1YmQ4LTU4MzgtNDcwYi1hYjIzLTM0MWZkM2RmNTA4NC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjUwMCwiaGVpZ2h0Ijo1MDAsImZpdCI6ImNvdmVyIn0sInJvdGF0ZSI6bnVsbH19",
     "category": "Femenino",
     "fragrance": {
-      "family": "Floral Frutal",
+      "family": "Floral-Frutal",
       "notes": {
         "top": [
           "durazno (melocotón)",
@@ -1164,7 +1193,7 @@
     "image": "https://d1b50uin55dq3m.cloudfront.net/eyJidWNrZXQiOiJ3YTEweC52MiIsImtleSI6IjIzNGY2ODMxLTIwM2YtNDllZS05MmE0LTQ4OTc4NjhlY2RiOC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjUwMCwiaGVpZ2h0Ijo1MDAsImZpdCI6ImNvdmVyIn0sInJvdGF0ZSI6bnVsbH19",
     "category": "Femenino",
     "fragrance": {
-      "family": "Floral Acuática",
+      "family": "Floral-Acuática",
       "notes": {
         "top": [
           "bambú",
@@ -1193,7 +1222,7 @@
     "image": "https://d1b50uin55dq3m.cloudfront.net/eyJidWNrZXQiOiJ3YTEweC52MiIsImtleSI6ImIzMDIzNjY1LTg3NWEtNGZhMC05MTQ1LWE5NWI3M2RjNGQxNi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjUwMCwiaGVpZ2h0Ijo1MDAsImZpdCI6ImNvdmVyIn0sInJvdGF0ZSI6bnVsbH19",
     "category": "Femenino",
     "fragrance": {
-      "family": "Floral Frutal",
+      "family": "Floral-Frutal",
       "notes": {
         "top": [
           "durazno blanco (melocotón blanco)",
@@ -1250,7 +1279,7 @@
     "image": "https://d1b50uin55dq3m.cloudfront.net/eyJidWNrZXQiOiJ3YTEweC52MiIsImtleSI6IjBhZjNhMWJkLWI4OTUtNGJiYi1hNzFmLTlkYzc3YjFjNGUzYi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjUwMCwiaGVpZ2h0Ijo1MDAsImZpdCI6ImNvdmVyIn0sInJvdGF0ZSI6bnVsbH19",
     "category": "Femenino",
     "fragrance": {
-      "family": "Floral Acuática",
+      "family": "Floral-Acuática",
       "notes": {
         "top": [
           "mandarina",
@@ -1279,7 +1308,7 @@
     "image": "https://d1b50uin55dq3m.cloudfront.net/eyJidWNrZXQiOiJ3YTEweC52MiIsImtleSI6IjY4ZWM3MzdlLTdjODAtNDczOC1hY2M2LWJmNGFjY2JlNzYxMS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjUwMCwiaGVpZ2h0Ijo1MDAsImZpdCI6ImNvdmVyIn0sInJvdGF0ZSI6bnVsbH19",
     "category": "Femenino",
     "fragrance": {
-      "family": "Cítrica Aromática",
+      "family": "Cítrico-Aromático",
       "notes": {
         "top": [
           "limón",
@@ -1364,7 +1393,7 @@
     "image": "https://d1b50uin55dq3m.cloudfront.net/eyJidWNrZXQiOiJ3YTEweC52MiIsImtleSI6ImE3NDkyNGY2LTM0Y2QtNDUyZC05OGM4LWIwNGViYTA2YWQ0Ny5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjUwMCwiaGVpZ2h0Ijo1MDAsImZpdCI6ImNvdmVyIn0sInJvdGF0ZSI6bnVsbH19",
     "category": "Femenino",
     "fragrance": {
-      "family": "Oriental Floral",
+      "family": "Oriental-Floral",
       "notes": {
         "top": [
           "flor de azahar del naranjo",
@@ -1402,7 +1431,7 @@
     "image": "https://d1b50uin55dq3m.cloudfront.net/eyJidWNrZXQiOiJ3YTEweC52MiIsImtleSI6IjRkZDJiYzY1LTUzYzMtNDRkOC05NWU4LWU5YmViZmU0MjljZi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjUwMCwiaGVpZ2h0Ijo1MDAsImZpdCI6ImNvdmVyIn0sInJvdGF0ZSI6bnVsbH19",
     "category": "Femenino",
     "fragrance": {
-      "family": "Floral Frutal",
+      "family": "Floral-Frutal",
       "notes": {
         "top": [
           "naranja",
@@ -1435,7 +1464,7 @@
     "image": "https://d1b50uin55dq3m.cloudfront.net/eyJidWNrZXQiOiJ3YTEweC52MiIsImtleSI6IjUwMTlkZDVlLWQyMWQtNGEyMC05NzcyLWYzMzIxZmMyODZjYi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjUwMCwiaGVpZ2h0Ijo1MDAsImZpdCI6ImNvdmVyIn0sInJvdGF0ZSI6bnVsbH19",
     "category": "Femenino",
     "fragrance": {
-      "family": "Oriental Floral",
+      "family": "Oriental-Floral",
       "notes": {
         "top": [
           "naranja",
@@ -1492,7 +1521,7 @@
     "image": "https://d1b50uin55dq3m.cloudfront.net/eyJidWNrZXQiOiJ3YTEweC52MiIsImtleSI6IjdiOTI0ZWI0LTQxZmQtNGEyMi04ZTAzLTk2ZmZmN2I0YThmYy5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjUwMCwiaGVpZ2h0Ijo1MDAsImZpdCI6ImNvdmVyIn0sInJvdGF0ZSI6bnVsbH19",
     "category": "Femenino",
     "fragrance": {
-      "family": "Amaderada Aromática",
+      "family": "Amaderado-Aromático",
       "notes": {
         "top": [
           "bayas de enebro",
@@ -1527,7 +1556,7 @@
     "image": "https://d1b50uin55dq3m.cloudfront.net/eyJidWNrZXQiOiJ3YTEweC52MiIsImtleSI6Ijg0N2Y4ODc3LTE4ZjQtNDlhNi1hNDMwLTBiOWE0NmMxMDYyNy5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjUwMCwiaGVpZ2h0Ijo1MDAsImZpdCI6ImNvdmVyIn0sInJvdGF0ZSI6bnVsbH19",
     "category": "Femenino",
     "fragrance": {
-      "family": "Floral Frutal",
+      "family": "Floral-Frutal",
       "notes": {
         "top": [
           "pomelo",
@@ -1559,7 +1588,7 @@
     "image": "https://d1b50uin55dq3m.cloudfront.net/eyJidWNrZXQiOiJ3YTEweC52MiIsImtleSI6IjJiMzM4YjFhLTRmODEtNGYxNS1iY2U5LTM0MjRiZjkxZDA2Ny5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjUwMCwiaGVpZ2h0Ijo1MDAsImZpdCI6ImNvdmVyIn0sInJvdGF0ZSI6bnVsbH19",
     "category": "Femenino",
     "fragrance": {
-      "family": "Floral Frutal",
+      "family": "Floral-Frutal",
       "notes": {
         "top": [
           "mandarina",
@@ -3644,7 +3673,7 @@
     "image": "https://attoperfumes.com.co/cdn/shop/products/jeanpaullemale.jpg?v=1649719656",
     "category": "Masculino",
     "fragrance": {
-      "family": "Oriental Fougère",
+      "family": "Oriental-Fougère",
       "notes": {
         "top": [
           "Lavanda",
@@ -3885,7 +3914,7 @@
     "image": "https://d1b50uin55dq3m.cloudfront.net/eyJidWNrZXQiOiJ3YTEweC52MiIsImtleSI6ImIyZDY5ZjQ2LTczMDktNDMyYS1hMTRjLWQwZTQyNDI1MGMyZS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjUwMCwiaGVpZ2h0Ijo1MDAsImZpdCI6ImNvdmVyIn0sInJvdGF0ZSI6bnVsbH19",
     "category": "Masculino",
     "fragrance": {
-      "family": "Amaderado Aromático",
+      "family": "Amaderado-Aromático",
       "notes": {
         "top": [
           "Limón",
@@ -5435,7 +5464,7 @@
     "image": "https://d1b50uin55dq3m.cloudfront.net/eyJidWNrZXQiOiJ3YTEweC52MiIsImtleSI6IjFkYTViMGRkLWMzMWYtNDgwZC1iZTViLTAwMTU0MzE2NWE4OS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjUwMCwiaGVpZ2h0Ijo1MDAsImZpdCI6ImNvdmVyIn0sInJvdGF0ZSI6bnVsbH19",
     "category": "Masculino",
     "fragrance": {
-      "family": "Ambarado Amaderado",
+      "family": "Ámbar-Amaderado",
       "notes": {
         "top": [
           "Piña",
@@ -5553,23 +5582,5 @@
     "fragrance": "",
     "link": "product-details.html?id=406",
     "Des": "Las Notas de Salida son limón (lima ácida), piña, bergamota, grosellas negras y manzana; las Notas de Corazón son abedul, jazmín y rosa; las Notas de Fondo son almizcle, ámbar gris, pachulí y vainilla."
-  },
-  {
-    "title": "YUM YUM",
-    "title2": "YUM YUM",
-    "price": 120000,
-    "image": "https://i.pinimg.com/originals/ee/e4/04/eee404201f08cf0d3869509f5d64cc74.jpg",
-    "category": "Femenino",
-    "fragrance": {
-      "family": "",
-      "notes": {
-        "top": [],
-        "middle": [],
-        "base": []
-      }
-    },
-    "Des": "",
-    "id": 407,
-    "link": "product-details.html?id=407"
   }
 ]
