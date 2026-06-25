@@ -129,35 +129,6 @@
     "Des": "Haya de Lattafa Perfumes es una fragancia de la familia olfativa para Mujeres. Esta fragrancia es nueva. Haya se lanzó en 2022. Las Notas de Salida son champaña, fresa, rosa, naranja tangerina y naranja sanguina; las Notas de Corazón son gardenia, jazmín y orquídea de vainilla; las Notas de Fondo son ámbar, sándalo y castaña."
   },
   {
-    "id": 5,
-    "title": "El mundo según Arthur Penhaligon's 100 ML",
-    "title2": "El mundo según Arthur Penhaligon's",
-    "price": 240000,
-    "oldPrice": 32,
-    "image": "https://d1b50uin55dq3m.cloudfront.net/eyJidWNrZXQiOiJ3YTEweC52MiIsImtleSI6ImQwMDUzZWY1LTQ5YWYtNGViOS1hYzQwLTQ3OWIxNTY3NTllMC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEwODAsImhlaWdodCI6MTA4MCwiZml0IjoiY29udGFpbiJ9LCJyb3RhdGUiOm51bGx9fQ==",
-    "category": "Femenino",
-    "fragrance": {
-      "family": "Ámbar amaderado",
-      "notes": {
-        "top": [
-          "Vainilla",
-          "Incienso",
-          "Pomelo"
-        ],
-        "middle": [
-          "Ambreta (malva almizclera)",
-          "Salvia"
-        ],
-        "base": [
-          "Incienso",
-          "Haba tonka"
-        ]
-      }
-    },
-    "link": "product-details.html?id=5",
-    "Des": "El mundo según Arthur de Penhaligon's es una fragancia ámbar especiada para mujeres y hombres. El mundo según Arthur se lanzó en 2021. Las Notas de Salida son vainilla, incienso y pomelo; las Notas de Corazón son ambreta (malva almizclera) y salvia; las Notas de Fondo son incienso y haba tonka."
-  },
-  {
     "id": 6,
     "title": "Layton de Parfums de Marly 125 ML",
     "title2": "Layton de Parfums de Marly",
@@ -5587,7 +5558,7 @@
     "title": "YUM YUM",
     "title2": "YUM YUM",
     "price": 120000,
-    "image": "",
+    "image": "https://i.pinimg.com/originals/ee/e4/04/eee404201f08cf0d3869509f5d64cc74.jpg",
     "category": "Femenino",
     "fragrance": {
       "family": "",
