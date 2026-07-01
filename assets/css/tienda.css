@@ -123,7 +123,7 @@ select.filtro{font-family:inherit;font-size:14px;padding:12px 16px;border:1px so
 select.filtro:focus{outline:none;border-color:var(--oro)}
 
 /* ---------- Grilla de productos ---------- */
-.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(244px,1fr));gap:18px 30px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:18px 30px}
 .row-scroll{display:grid;grid-auto-flow:column;grid-auto-columns:minmax(230px,1fr);gap:22px;overflow-x:auto;padding-bottom:14px;scroll-snap-type:x mandatory}
 .row-scroll .item{scroll-snap-align:start}
 .item{display:flex;flex-direction:column;opacity:0;transform:translateY(28px);transition:opacity .6s ease,transform .6s ease}
@@ -235,3 +235,79 @@ footer.site .copy{border-top:1px solid rgba(255,255,255,.12);margin-top:36px;pad
 
 @media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.item{opacity:1;transform:none}}
 @media(max-width:520px){.grid{grid-template-columns:1fr 1fr;gap:14px 16px}.item .nombre{font-size:15px;min-height:38px}}
+
+
+.aromas-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(140px,1fr));
+    gap:1rem;
+}
+
+.aroma-card{
+    background:#fff;
+    border:1px solid #eee;
+    border-radius:16px;
+    padding:1.5rem;
+    text-align:center;
+    text-decoration:none;
+    color:inherit;
+
+    display:flex;
+    flex-direction:column;
+    gap:.5rem;
+
+    transition:.3s;
+}
+
+.aroma-card:hover{
+    transform:translateY(-4px);
+    box-shadow:0 10px 20px rgba(0,0,0,.08);
+}
+
+.aroma-card{
+    font-size:2rem;
+}
+
+.aroma-card span{
+    font-size:.95rem;
+    font-weight:600;
+}
+
+
+.carousel-wrapper{
+    position:relative;
+}
+
+.carousel-btn{
+    position:absolute;
+    top:50%;
+    transform:translateY(-50%);
+    z-index:10;
+
+    width:42px;
+    height:42px;
+
+    border:none;
+    border-radius:50%;
+
+    background:white;
+    box-shadow:0 2px 10px rgba(0,0,0,.15);
+
+    cursor:pointer;
+}
+
+.prev{
+    left:-10px;
+}
+
+.next{
+    right:-10px;
+}
+
+.row-scroll{
+    scrollbar-width:none;
+}
+
+.row-scroll::-webkit-scrollbar{
+    display:none;
+}

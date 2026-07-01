@@ -257,3 +257,26 @@
   }
   if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',init);else init();
 })();
+
+const container =
+    document.getElementById('bestsellers');
+
+document.querySelector('.next')
+.addEventListener('click',()=>{
+
+    container.scrollBy({
+        left:350,
+        behavior:'smooth'
+    });
+
+});
+
+document.querySelector('.prev')
+.addEventListener('click',()=>{
+
+    container.scrollBy({
+        left:-350,
+        behavior:'smooth'
+    });
+
+});
