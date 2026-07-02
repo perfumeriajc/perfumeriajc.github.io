@@ -4,6 +4,7 @@
     "title": "Purr Katy Perry 100 ML",
     "title2": "Purr Katy Perry",
     "price": 90000,
+    "usar": ["dia", "noche", "verano", "primavera"],
     "image": "https://d1b50uin55dq3m.cloudfront.net/eyJidWNrZXQiOiJ3YTEweC52MiIsImtleSI6IjAyN2Q3ZTM0LTI3ODAtNDA5MC1iNDllLWI4YjQ0Nzg2NDYxOS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEwODAsImhlaWdodCI6MTA4MCwiZml0IjoiY29udGFpbiJ9LCJyb3RhdGUiOm51bGx9fQ==",
     "category": "Femenino",
     "fragrance": {
@@ -38,6 +39,7 @@
     "title": "Decadence Marc Jacobs 100 ML",
     "title2": "Decadence Marc Jacobs",
     "price": 120000,
+    "usar": ["noche", "otono", "invierno"],
     "image": "https://d1b50uin55dq3m.cloudfront.net/eyJidWNrZXQiOiJ3YTEweC52MiIsImtleSI6ImZlMTQxNGM2LWE5YzctNDU0NS05ODk0LWYxZTYwYTI0YmYzMS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEwODAsImhlaWdodCI6MTA4MCwiZml0IjoiY29udGFpbiJ9LCJyb3RhdGUiOm51bGx9fQ==",
     "category": "Femenino",
     "fragrance": {
@@ -68,6 +70,7 @@
     "title": "Olympea Legend Paco Rabanne 80 ML",
     "title2": "Olympea Legend Paco Rabanne",
     "price": 96000,
+    "usar": ["noche","otono","invierno"],
     "image": "https://d1b50uin55dq3m.cloudfront.net/eyJidWNrZXQiOiJ3YTEweC52MiIsImtleSI6ImUzNDcyMGY1LTkyYTUtNGMxOC05Njc0LTMyY2I0MmY2ZGJlOS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEwODAsImhlaWdodCI6MTA4MCwiZml0IjoiY29udGFpbiJ9LCJyb3RhdGUiOm51bGx9fQ==",
     "category": "Femenino",
     "fragrance": {
@@ -98,6 +101,7 @@
     "title": "Haya Lattfa 100 ML",
     "title2": "Haya Lattfa",
     "price": 180000,
+    "usar": ["dia", "verano", "primavera"],
     "image": "https://lmd.com.co/cdn/shop/files/Perfume_Haya_Lattafa.webp?v=1727221065",
     "category": "Femenino",
     "fragrance": {
@@ -130,6 +134,7 @@
     "title": "Layton de Parfums de Marly 125 ML",
     "title2": "Layton de Parfums de Marly",
     "price": 140000,
+    "usar": ["noche", "otono", "invierno"],
     "image": "https://d1b50uin55dq3m.cloudfront.net/eyJidWNrZXQiOiJ3YTEweC52MiIsImtleSI6IjNhY2FhZjBlLTg0MWMtNDZmOC05YWNiLTJmNTVkOTBmYTFlYS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6ImNvdmVyIn0sInJvdGF0ZSI6bnVsbH19",
     "category": "Femenino",
     "fragrance": {
@@ -161,9 +166,10 @@
   },
   {
     "id": 6,
-    "title": "212 HEROES FOR HER 80 ML DAMA",
-    "title2": "212 HEROES FOR HER 80 ML DAMA",
+    "title": "212 HEROES FOR HER 80 ML",
+    "title2": "212 HEROES FOR HER",
     "price": 100000,
+    "usar": ["dia", "verano", "primavera"],
     "image": "https://d1b50uin55dq3m.cloudfront.net/eyJidWNrZXQiOiJ3YTEweC52MiIsImtleSI6IjZkNWM0NTliLWJkODMtNDM2YS1hYTU1LWE3OTM3NmJkOGE2Ny5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6ImNvdmVyIn0sInJvdGF0ZSI6bnVsbH19",
     "category": "Femenino",
     "fragrance": {
@@ -191,9 +197,10 @@
   },
   {
     "id": 7,
-    "title": "212 VIP 80 ML CAROLINA HERRERA DAMA",
-    "title2": "212 VIP 80 ML CAROLINA HERRERA DAMA",
+    "title": "212 VIP CAROLINA HERRERA 80 ML",
+    "title2": "212 VIP CAROLINA HERRERA",
     "price": 94000,
+    "usar": ["noche", "otono", "invierno"],
     "image": "https://d1b50uin55dq3m.cloudfront.net/eyJidWNrZXQiOiJ3YTEweC52MiIsImtleSI6ImFmNjFjYzg2LTUyYjctNDc2My05MTBmLTJkNjAyNzczYzM1My5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6ImNvdmVyIn0sInJvdGF0ZSI6bnVsbH19",
     "category": "Femenino",
     "fragrance": {
@@ -221,9 +228,10 @@
   },
   {
     "id": 8,
-    "title": "212 VIP ROSE RED 80 ML CAROLINA HERRERA DAMA",
-    "title2": "212 VIP ROSE RED 80 ML CAROLINA HERRERA DAMA",
+    "title": "212 VIP ROSE RED CAROLINA HERRERA 80 ML",
+    "title2": "212 VIP ROSE RED CAROLINA HERRERA",
     "price": 90000,
+    "usar": ["dia", "noche", "primavera"],
     "image": "https://d1b50uin55dq3m.cloudfront.net/eyJidWNrZXQiOiJ3YTEweC52MiIsImtleSI6IjVjYzZjMmU5LTlkZmQtNGY2Mi05YjBiLWMyNjQ1YWEyZTViOC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6ImNvdmVyIn0sInJvdGF0ZSI6bnVsbH19",
     "category": "Femenino",
     "fragrance": {
@@ -251,9 +259,10 @@
   },
   {
     "id": 9,
-    "title": "212 VIP WINS 80 ML CAROLINA HERRERA MUJER",
-    "title2": "212 VIP WINS 80 ML CAROLINA HERRERA MUJER",
+    "title": "212 VIP WINS CAROLINA HERRERA 80 ML",
+    "title2": "212 VIP WINS CAROLINA HERRERA",
     "price": 94000,
+    "usar": ["dia", "noche", "primavera", "otono"],
     "image": "https://d1b50uin55dq3m.cloudfront.net/eyJidWNrZXQiOiJ3YTEweC52MiIsImtleSI6ImY5NmRmZWUzLWE4MTAtNDFkYi05ZDY2LTg2ZDY1NGYzOTNhNi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6ImNvdmVyIn0sInJvdGF0ZSI6bnVsbH19",
     "category": "Femenino",
     "fragrance": {
@@ -281,9 +290,10 @@
   },
   {
     "id": 10,
-    "title": "212 WOMEN CAROLINA HERRERA 100 ML DAMA",
-    "title2": "212 WOMEN CAROLINA HERRERA 100 ML DAMA",
+    "title": "212 WOMEN CAROLINA HERRERA 100 ML",
+    "title2": "212 WOMEN CAROLINA HERRERA",
     "price": 94000,
+    "usar": ["dia","primavera","verano"],
     "image": "https://d1b50uin55dq3m.cloudfront.net/eyJidWNrZXQiOiJ3YTEweC52MiIsImtleSI6IjRjZDQxNjhhLTJlYTgtNGNmYy04MDdiLTc0NTRiZmMzMzU5OS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6ImNvdmVyIn0sInJvdGF0ZSI6bnVsbH19",
     "category": "Femenino",
     "fragrance": {
@@ -316,9 +326,10 @@
   },
   {
     "id": 11,
-    "title": "212 SEXY 100 ML CAROLINA HERRERA DAMA",
-    "title2": "212 SEXY 100 ML CAROLINA HERRERA DAMA",
+    "title": "212 SEXY CAROLINA HERRERA 100 ML",
+    "title2": "212 SEXY CAROLINA HERRERA",
     "price": 94000,
+    "usar": [ "noche", "primavera", "verano"],
     "image": "https://d1b50uin55dq3m.cloudfront.net/eyJidWNrZXQiOiJ3YTEweC52MiIsImtleSI6ImFmM2JhM2Y1LTk2MjMtNGNhYi1hM2FmLTRkODE0Zjc0YzUyYi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6ImNvdmVyIn0sInJvdGF0ZSI6bnVsbH19",
     "category": "Femenino",
     "fragrance": {
@@ -983,11 +994,30 @@
     "image": "https://d1b50uin55dq3m.cloudfront.net/eyJidWNrZXQiOiJ3YTEweC52MiIsImtleSI6IjBmZmQ2YzVhLWM4NDMtNGI2ZS1iZTdiLTczM2IzMzgzYzljNy5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjUwMCwiaGVpZ2h0Ijo1MDAsImZpdCI6ImNvdmVyIn0sInJvdGF0ZSI6bnVsbH19",
     "category": "Femenino",
     "fragrance": {
-      "family": "",
+      "family": "Cítrico-Aromático",
       "notes": {
-        "top": [],
-        "middle": [],
-        "base": []
+        "top": [
+          "Limón de Amalfi",
+          "Bergamota",
+          "Naranja",
+          "Mandarina"
+        ],
+        "middle": [
+          "Petit grain",
+          "Romero",
+          "Neroli",
+          "Clavel",
+          "Rosa"
+        ],
+        "base": [
+          "Clavo de olor",
+          "Vetiver",
+          "Mirto",
+          "Cedro",
+          "Almizcle",
+          "Ámbar blanco",
+          "Sándalo"
+        ]
       }
     },
     "link": "product-details.html?id=32",
@@ -1001,11 +1031,30 @@
     "image": "https://d1b50uin55dq3m.cloudfront.net/eyJidWNrZXQiOiJ3YTEweC52MiIsImtleSI6IjI2OWUzMzc5LTg1MDQtNDE4NS05OThmLWYyZmJiYjkxNTdkMS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjUwMCwiaGVpZ2h0Ijo1MDAsImZpdCI6ImNvdmVyIn0sInJvdGF0ZSI6bnVsbH19",
     "category": "Femenino",
     "fragrance": {
-      "family": "",
+      "family": "Cítrico-Aromático",
       "notes": {
-        "top": [],
-        "middle": [],
-        "base": []
+        "top": [
+          "Limón de Amalfi",
+          "Bergamota",
+          "Naranja",
+          "Mandarina"
+        ],
+        "middle": [
+          "Petit grain",
+          "Romero",
+          "Neroli",
+          "Clavel",
+          "Rosa"
+        ],
+        "base": [
+          "Clavo de olor",
+          "Vetiver",
+          "Mirto",
+          "Cedro",
+          "Almizcle",
+          "Ámbar blanco",
+          "Sándalo"
+        ]
       }
     },
     "link": "product-details.html?id=33",
@@ -1019,11 +1068,24 @@
     "image": "https://d1b50uin55dq3m.cloudfront.net/eyJidWNrZXQiOiJ3YTEweC52MiIsImtleSI6IjRkOWFhMjkwLWIwNWEtNDVkYy1iZmYyLWM2MDRiYzg0MWM2Yy5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjUwMCwiaGVpZ2h0Ijo1MDAsImZpdCI6ImNvdmVyIn0sInJvdGF0ZSI6bnVsbH19",
     "category": "Femenino",
     "fragrance": {
-      "family": "",
+      "family": "Floral-Frutal",
       "notes": {
-        "top": [],
-        "middle": [],
-        "base": []
+        "top": [
+          "Mandarina",
+          "Pera",
+          "Gardenia"
+        ],
+        "middle": [
+          "Madreselva",
+          "Lirio de los valles",
+          "Flor de azahar"
+        ],
+        "base": [
+          "Vainilla",
+          "Almizcle",
+          "Ámbar",
+          "Sándalo"
+        ]
       }
     },
     "link": "product-details.html?id=34",
@@ -1037,11 +1099,23 @@
     "image": "https://d1b50uin55dq3m.cloudfront.net/eyJidWNrZXQiOiJ3YTEweC52MiIsImtleSI6ImZhYzNlMmQ3LWI2ODQtNDc3Ny04YTRlLWFjNzIzN2I3ZDc3MC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjUwMCwiaGVpZ2h0Ijo1MDAsImZpdCI6ImNvdmVyIn0sInJvdGF0ZSI6bnVsbH19",
     "category": "Femenino",
     "fragrance": {
-      "family": "",
+      "family": "Floral",
       "notes": {
-        "top": [],
-        "middle": [],
-        "base": []
+        "top": [
+          "Lirio de los valles"
+        ],
+        "middle": [
+          "Peonía",
+          "Iris",
+          "Rosa"
+        ],
+        "base": [
+          "Almizcle",
+          "Vainilla",
+          "Benjuí",
+          "Haba tonka",
+          "Sándalo"
+        ]
       }
     },
     "link": "product-details.html?id=35",
@@ -1055,11 +1129,32 @@
     "image": "https://d1b50uin55dq3m.cloudfront.net/eyJidWNrZXQiOiJ3YTEweC52MiIsImtleSI6ImFhODFlODVlLTdjZGQtNDc1My1iNjc0LTgzZTIyZTEyZjYxOC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjUwMCwiaGVpZ2h0Ijo1MDAsImZpdCI6ImNvdmVyIn0sInJvdGF0ZSI6bnVsbH19",
     "category": "Femenino",
     "fragrance": {
-      "family": "",
+      "family": "Floral-Frutal",
       "notes": {
-        "top": [],
-        "middle": [],
-        "base": []
+        "top": [
+          "Fresa",
+          "Frambuesa",
+          "Pera",
+          "Naranja",
+          "Mandarina",
+          "Bergamota",
+          "Calone"
+        ],
+        "middle": [
+          "Peonía",
+          "Jazmín sambac",
+          "Jazmín chino",
+          "Datura",
+          "Flor de azahar"
+        ],
+        "base": [
+          "Pachulí",
+          "Almizcle blanco",
+          "Vainilla",
+          "Ambroxan",
+          "Musgo",
+          "Cedro"
+        ]
       }
     },
     "link": "product-details.html?id=36",
@@ -1073,11 +1168,21 @@
     "image": "https://d1b50uin55dq3m.cloudfront.net/eyJidWNrZXQiOiJ3YTEweC52MiIsImtleSI6IjIwZTdkNmE4LTFmODQtNGJhZC1hNjJiLThmMjAzMTA3MDVjMi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjUwMCwiaGVpZ2h0Ijo1MDAsImZpdCI6ImNvdmVyIn0sInJvdGF0ZSI6bnVsbH19",
     "category": "Femenino",
     "fragrance": {
-      "family": "",
+      "family": "Amaderado-Aromático",
       "notes": {
-        "top": [],
-        "middle": [],
-        "base": []
+        "top": [
+          "Bergamota",
+          "Mandarina"
+        ],
+        "middle": [
+          "Jazmín",
+          "Rosa"
+        ],
+        "base": [
+          "Sándalo",
+          "Oud",
+          "Almizcle"
+        ]
       }
     },
     "link": "product-details.html?id=37",
@@ -1086,12 +1191,12 @@
   {
     "id": 38,
     "title": "MOSCHINO FRESH COUTURE 100 ML PARA MUJER",
-    "title2": "MOSCHINO FRESH COUTURE 100 ML PARA MUJER",
+    "title2": "MOSCHINO FRESH COUTURE",
     "price": 100000,
     "image": "https://d1b50uin55dq3m.cloudfront.net/eyJidWNrZXQiOiJ3YTEweC52MiIsImtleSI6IjllN2YzMjEzLTYxMTQtNGI0My1iMTQxLTQwNzEwMGI3OWZjNy5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjUwMCwiaGVpZ2h0Ijo1MDAsImZpdCI6ImNvdmVyIn0sInJvdGF0ZSI6bnVsbH19",
     "category": "Femenino",
     "fragrance": {
-      "family": "",
+      "family": "Floral-Frutal",
       "notes": {
         "top": [],
         "middle": [],
@@ -2939,9 +3044,10 @@
   },
   {
     "id": 141,
-    "title": "212 SEXY 100 ML CAROLINA HERRERA CABALLERO",
-    "title2": "212 SEXY 100 ML CAROLINA HERRERA CABALLERO",
+    "title": "212 SEXY 100 ML CAROLINA HERRERA",
+    "title2": "212 SEXY 100 ML CAROLINA HERRERA",
     "price": 100000,
+    "usar": ["noche", "invierno"],
     "image": "https://d1b50uin55dq3m.cloudfront.net/eyJidWNrZXQiOiJ3YTEweC52MiIsImtleSI6IjdmNDRjZjcwLWEwNjctNDYyNS1iMGU5LTI0YzE3YWFiM2I3NC5qcGVnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo1MDAsImhlaWdodCI6NTAwLCJmaXQiOiJjb3ZlciJ9LCJyb3RhdGUiOm51bGx9fQ==",
     "category": "Masculino",
     "fragrance": {

@@ -10,13 +10,30 @@
   const FAM=['assets/data/families.json','https://perfumeriajc.github.io/assets/data/families.json'];
   const PER_PAGE=24;
 
+  /* ---------- Mapa aroma → familias ---------- */
+  const AROMA_MAP={
+    'Floral':'floral',
+    'Floral-Frutal':'dulce',
+    'Floral-Frutal-Gourmand':'dulce',
+    'Floral-Acuática':'fresco',
+    'Oriental':'oriental',
+    'Oriental-Floral':'oriental',
+    'Oriental-Fougère':'oriental',
+    'Ámbar':'oriental',
+    'Ámbar-Floral':'floral',
+    'Ámbar-Amaderado':'amaderado',
+    'Amaderado-Aromático':'amaderado',
+    'Cítrico-Aromático':'citrico'
+  };
+  const aromaDe=p=>AROMA_MAP[fam(p)]||'';
+
   const $=s=>document.querySelector(s);
   const num=v=>Number(String(v==null?'':v).replace(/[^\d.-]/g,''))||0;
   const pesos=n=>'$'+num(n).toLocaleString('es-CO');
 
   let PRODUCTOS=[], BESTSELLERS=[], FAMILIES=[], FAMMAP={};
   let carrito=cargarCarrito();
-  let estado={cat:document.body.dataset.cat||'',q:'',fam:'',page:1};
+let estado={cat:document.body.dataset.cat||'',q:'',fam:'',aroma:new URLSearchParams(location.search).get('aroma')||'',page:1};
 
   /* ---------- Carrito en el navegador (persistente) ---------- */
   function cargarCarrito(){try{return JSON.parse(localStorage.getItem('dg_carrito'))||[];}catch(e){return [];}}
@@ -104,12 +121,32 @@
     document.body.appendChild(drawer);
   }
 
+  /* ---------- Iconos "cuándo usarlo" ---------- */
+  const USO_ICONOS={
+    invierno:['fa-snowflake','Invierno'],
+    primavera:['fa-seedling','Primavera'],
+    verano:['fa-umbrella-beach','Verano'],
+    otono:['fa-leaf','Otoño'],
+    dia:['fa-sun','Día'],
+    noche:['fa-moon','Noche']
+  };
+  function iconosUso(p){
+    const arr=Array.isArray(p.usar)?p.usar:[];
+    if(!arr.length)return '';
+    const items=arr.map(k=>{
+      const key=String(k).toLowerCase().replace(/ó/g,'o').replace(/í/g,'i').replace(/ñ/g,'n');
+      const cfg=USO_ICONOS[key];
+      return cfg?`<i class="fa-solid ${cfg[0]}" title="${cfg[1]}"></i>`:'';
+    }).filter(Boolean).join('');
+    return items?`<div class="uso-badges">${items}</div>`:'';
+  }
+
   /* ---------- Render de productos ---------- */
   function tarjeta(p){
     const d=enCarrito(p.id);
     const link=p.link||('product-details.html?id='+p.id);
     return `<article class="item ${d?'added':''}">
-      <div class="foto"><a href="${link}"><img src="${p.image||''}" alt="${p.title||''}" loading="lazy"></a></div>
+      <div class="foto"><a href="${link}"><img src="${p.image||''}" alt="${p.title||''}" loading="lazy"></a>${iconosUso(p)}</div>
       <div class="meta"><div class="eyebrow">${etiqueta(p)}</div>
       <h3 class="nombre"><a href="${link}">${p.title||''}</a></h3>
       <div class="precio">${pesos(p.price)}</div>
@@ -123,12 +160,13 @@
   /* ---------- Página: catálogo ---------- */
   function listaFiltrada(){
     return PRODUCTOS.filter(p=>(!estado.cat||p.category===estado.cat)
+      &&(!estado.aroma||aromaDe(p)===estado.aroma)
       &&(!estado.fam||fam(p)===estado.fam)
       &&(p.title||'').toLowerCase().includes(estado.q.toLowerCase()));
   }
   function montarFiltroFamilia(){
     const bar=document.querySelector('.bar');if(!bar||document.getElementById('filtroFamilia'))return;
-    const presentes=new Set(PRODUCTOS.filter(p=>!estado.cat||p.category===estado.cat).map(p=>fam(p)).filter(Boolean));
+    const presentes=new Set(PRODUCTOS.filter(p=>(!estado.cat||p.category===estado.cat)&&(!estado.aroma||aromaDe(p)===estado.aroma)).map(p=>fam(p)).filter(Boolean));
     if(!presentes.size)return;
     const sel=document.createElement('select');sel.id='filtroFamilia';sel.className='filtro';
     let html='<option value="">Todas las familias</option>';
@@ -251,7 +289,10 @@
     FAMMAP={};FAMILIES.forEach(f=>FAMMAP[f.id]=f.name);
     refrescarCarrito();
     const pg=document.body.dataset.page;
-    if(pg==='catalogo'){montarFiltroFamilia();pintarCatalogo();}
+    if(pg==='catalogo'){
+      if(estado.aroma){document.querySelectorAll('.tabs a').forEach(function(a){var base=a.getAttribute('href').split('?')[0];a.setAttribute('href',base+'?aroma='+estado.aroma);});}
+      montarFiltroFamilia();pintarCatalogo();
+    }
     else if(pg==='home')pintarIndex();
     else if(pg==='producto')pintarDetalle();
   }
